@@ -1,0 +1,12 @@
+name: Smart Mirror • Laptop
+icon: 🪞
+description: Step into the board webcam for automatic NPU style tips, with a laptop preview and speech.
+
+bricks:
+  - arduino:object_detection:
+      model: yolox-qnn-object-detection
+  - arduino:vlm:
+      model: genie:qwen2_5_vl_7b_instruct
+  - arduino:tts:
+      model: pipertts_en
+  - arduino:web_ui

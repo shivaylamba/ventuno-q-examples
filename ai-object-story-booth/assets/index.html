@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI Object Story Booth</title><link rel="stylesheet" href="style.css?v=1.0.0"></head>
+<body>
+  <section id="welcome" class="welcome" aria-label="Welcome to Object Story Booth">
+    <div class="welcome-top"><span>ARDUINO · VENTUNO Q</span><span>THE OBJECT STORY BOOTH</span></div>
+    <div class="welcome-center">
+      <div class="universe" aria-hidden="true"><div class="orbit"></div><span class="spark one">✦</span><span class="spark two">✳</span><span class="spark three">·</span><svg viewBox="0 0 160 160" class="cup"><path d="M40 55h65v50c0 18-65 18-65 0Z"/><path d="M105 66h13c24 0 24 31 0 31h-13M58 35c-12-10 12-10 0-20M83 35c-12-10 12-10 0-20"/></svg></div>
+      <p class="eyebrow">A LITTLE IMAGINATION. A REAL OBJECT.</p><h1>Every object<br>has a <em>story.</em></h1>
+      <p class="welcome-copy">Bring something ordinary.<br>We’ll make it a little extraordinary.</p>
+      <button id="enter">Open the story booth <span aria-hidden="true">↗</span></button>
+      <p id="welcome-status" class="micro" role="status">Connecting to your board…</p>
+    </div>
+    <div class="welcome-bottom"><span>TURN · PRESS · DISCOVER</span><span>YOUR IMAGINATION STARTS HERE</span></div>
+  </section>
+  <div id="app" class="app" inert aria-hidden="true">
+    <header><div class="brand"><span class="brand-mark" aria-hidden="true">✦</span><span>OBJECT<br>STORY BOOTH</span></div><div class="header-actions"><span id="connection" class="connection" role="status">Connecting…</span><button id="fullscreen" class="quiet">Full screen</button></div></header>
+    <main>
+      <section class="camera-section" aria-label="Object camera">
+        <div class="section-heading"><span class="eyebrow">01 / YOUR EVERYDAY HERO</span><span id="preview-label" class="micro">BOARD WEBCAM</span></div>
+        <div class="preview"><img id="camera" alt="Live webcam on VENTUNO Q"><img id="photo" alt="Object captured for this story" hidden><div class="camera-guide" aria-hidden="true"><i></i><i></i><i></i><i></i></div><div id="camera-empty" class="camera-empty">✦<p>The board camera is getting ready.</p></div><div id="countdown" class="countdown" hidden>3</div><div id="capture-flash" class="capture-flash" hidden></div></div>
+        <p class="framing">Hold one object close enough to see. A mug, toy or shoe is a great start.</p>
+        <div class="hardware"><span id="knob-status">○ Knob</span><span id="buzzer-status">○ Buzzer</span><button id="preview-retry" class="text-button" hidden>Reconnect preview</button></div>
+        <div class="physical-guide"><span class="dial-icon" aria-hidden="true">◉</span><div><strong>Turn to choose. Press to capture.</strong><p>Your Modulino Knob is the storyteller’s dial.</p></div></div>
+      </section>
+      <section class="story-section" aria-label="Your object story">
+        <p class="eyebrow">02 / CHOOSE YOUR STORYTELLER</p>
+        <div class="modes" role="group" aria-label="Storytelling mode">
+          <button class="mode selected" data-mode="detective" aria-pressed="true"><span aria-hidden="true">◎</span><strong>Detective</strong><small>A tiny mystery</small></button>
+          <button class="mode" data-mode="alien" aria-pressed="false"><span aria-hidden="true">✳</span><strong>Alien Scientist</strong><small>From elsewhere</small></button>
+          <button class="mode" data-mode="fairytale" aria-pressed="false"><span aria-hidden="true">✦</span><strong>Fairy Tale</strong><small>Everyday magic</small></button>
+        </div>
+        <div class="story-card" id="story-card" aria-busy="false"><p id="story-label" class="eyebrow">THE ADVENTURE AWAITS</p><div id="story-idle"><h2>Small object.<br>Big <em>imagination.</em></h2><p>Choose a voice, hold up your object,<br>and press the knob to begin.</p></div><div id="story-progress" hidden><div class="thinking-star" aria-hidden="true">✦</div><h2 id="progress-title">Hold your object steady.</h2><p id="progress-copy">Your story is about to begin.</p></div><div id="story-result" hidden><p id="story" role="status"></p><div class="result-tools"><button id="replay" class="quiet" disabled>▶ Hear it again</button><span id="timing" class="micro"></span></div><p id="audio-status" class="micro" role="status"></p></div></div>
+        <p id="message" class="message" role="status"></p>
+        <div class="actions"><button id="capture" disabled>Tell its story <span aria-hidden="true">↗</span></button><label><input id="speech" type="checkbox" checked> Speak the story</label></div>
+        <p id="visit-status" class="micro">Or press the knob. You’ll have three seconds to get ready.</p>
+      </section>
+    </main>
+    <footer><span>MADE OF EVERYDAY THINGS & A LITTLE WONDER</span><span>Stories created on VENTUNO Q · Speech on your laptop</span></footer>
+  </div>
+  <script src="app.js?v=1.0.1"></script>
+</body></html>

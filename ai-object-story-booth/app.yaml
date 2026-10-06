@@ -1,0 +1,9 @@
+name: AI Object Story Booth
+icon: 📚
+description: Show an object, turn the Modulino Knob, and press for a story told by local AI.
+bricks:
+  - arduino:vlm:
+      model: genie:qwen2_5_vl_7b_instruct
+  - arduino:tts:
+      model: pipertts_en
+  - arduino:web_ui

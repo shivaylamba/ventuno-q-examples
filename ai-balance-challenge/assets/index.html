@@ -1,0 +1,52 @@
+<!doctype html>
+<!-- SPDX-License-Identifier: MPL-2.0 -->
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AI Balance Challenge</title><link rel="stylesheet" href="fonts/fonts.css"><link rel="stylesheet" href="style.css?v=1.0.0"></head>
+<body>
+<section id="welcome" class="welcome" aria-label="Welcome to the dragon hatchery">
+  <div class="welcome-copy"><p class="eyebrow">ARDUINO · VENTUNO Q / MOTION ARCADE</p><div class="little-egg">✦</div><h1>Steady hands.<br><em>Tiny dragon.</em></h1><p>Five seconds of balance.<br>A little creature with a lot to say.</p><button id="enter" class="primary" disabled>Enter the hatchery <span>↗</span></button><p id="welcome-status" class="fine" role="status">Connecting to your board…</p><small>HOLD · BALANCE · HATCH</small></div>
+</section>
+<div id="app" inert aria-hidden="true">
+<header><a class="brand" href="#"><span>✦</span> THE DRAGON HATCHERY</a><div><span id="connection" role="status">Connecting…</span><button id="fullscreen" class="quiet">Full screen</button></div></header>
+<main>
+<section class="play-column" aria-label="Motion game">
+  <div class="panel-label"><span>01 / A LITTLE LIFE IN YOUR HANDS</span><span id="round-label">READY TO HATCH</span></div>
+  <div id="stage" class="stage">
+    <div class="stars" aria-hidden="true">✧ <span>✦</span> · <b>✧</b> ·</div><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+    <div class="egg-shadow"></div>
+    <div id="egg-wrap" class="egg-wrap">
+      <svg id="egg" viewBox="0 0 240 280" role="img" aria-label="Dragon egg responding to the Movement module">
+        <defs><linearGradient id="shell" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#cef7c8"/><stop offset=".45" stop-color="#93d8aa"/><stop offset="1" stop-color="#4b987c"/></linearGradient><radialGradient id="shine"><stop stop-color="#fff" stop-opacity=".65"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient></defs>
+        <path d="M120 18C83 18 34 116 34 181c0 52 34 79 86 79s86-27 86-79C206 116 157 18 120 18Z" fill="url(#shell)" stroke="#bff4d0" stroke-width="2"/>
+        <ellipse cx="88" cy="108" rx="28" ry="53" fill="url(#shine)" transform="rotate(22 88 108)"/>
+        <g fill="none" stroke="#397b65" stroke-opacity=".45" stroke-width="2"><path d="m120 53 18 27-16 17 22 24-23 20 21 29-27 30 21 22"/><path d="m78 155 16 14-15 23 17 17"/><path d="m156 189 21 16-19 18"/></g>
+        <g fill="#e4ffdc" opacity=".55"><ellipse cx="72" cy="125" rx="6" ry="8"/><ellipse cx="160" cy="147" rx="5" ry="7"/><ellipse cx="67" cy="207" rx="8" ry="6"/></g>
+      </svg>
+      <svg id="dragon" viewBox="0 0 240 280" hidden role="img" aria-label="Your newly hatched baby dragon">
+        <path d="m81 122-44-37 9 67 34 18m80-48 43-37-8 67-34 18" fill="#6bc29a" stroke="#9ee5b6" stroke-width="3"/>
+        <ellipse cx="121" cy="168" rx="57" ry="69" fill="#91dba8"/><ellipse cx="121" cy="102" rx="56" ry="50" fill="#b9efbf"/>
+        <path d="m83 66 6-34 24 26m34 8-6-34-24 26" fill="#efd69c"/>
+        <ellipse cx="101" cy="102" rx="6" ry="10" fill="#142d23"/><ellipse cx="144" cy="102" rx="6" ry="10" fill="#142d23"/><path d="M111 121q12 12 23-1" fill="none" stroke="#366a4d" stroke-width="3" stroke-linecap="round"/>
+        <ellipse cx="122" cy="181" rx="29" ry="39" fill="#dff4c1"/><path d="M59 220q-1 36 57 37m68-37q1 36-57 37" fill="#88cea0" stroke="#b5eabb" stroke-width="3"/>
+        <path d="M35 244 69 223 88 240 108 225 130 241 151 227 175 240 204 222 209 257H36Z" fill="#d2eed1"/>
+      </svg>
+    </div>
+    <div id="stage-badge" class="stage-badge">Move the module. Meet your egg.</div>
+    <div class="hold-track"><div id="hold-fill"></div></div>
+    <div class="hold-label"><span id="progress-label">FIVE SECONDS TO A LITTLE WONDER</span><strong id="held">0.0 / 5.0s</strong></div>
+  </div>
+  <div class="sensor-row"><span id="movement-status">○ Movement</span><span id="knob-status">○ Knob</span><span id="buzzer-status">○ Buzzer</span></div>
+  <div class="metrics"><div><span>TILT FROM START</span><strong id="angle">—</strong></div><div><span>ROTATION</span><strong id="gyro">—</strong></div><div><span>BEST HOLD</span><strong id="best">0.0s</strong></div></div>
+  <p class="controller-help"><span>◉</span> Turn the Knob to choose difficulty. Press it to start.</p>
+</section>
+<section class="control-column" aria-label="Challenge controls and AI narrator">
+  <p class="eyebrow">02 / HOW STEADY ARE YOUR HANDS?</p>
+  <div class="difficulty" role="group" aria-label="Difficulty"><button data-difficulty="easy" aria-pressed="true"><strong>Easy</strong><span>A gentle start</span></button><button data-difficulty="normal" aria-pressed="false"><strong>Normal</strong><span>A careful carry</span></button><button data-difficulty="hard" aria-pressed="false"><strong>Hard</strong><span>Dragon keeper</span></button></div>
+  <article id="challenge-card" class="challenge-card"><p id="phase-label" class="eyebrow">THE CHALLENGE</p><h2 id="phase-title">A tiny egg.<br><em>A steady hand.</em></h2><p id="instruction">Rest the Movement module flat, then press Start. Hold still for calibration, then keep it steady for five seconds.</p><div id="score-row" hidden><strong id="score"></strong><span id="result-detail"></span></div><p id="time-left" class="fine"></p></article>
+  <div class="actions"><button id="start" class="primary" disabled>Start a round <span>↗</span></button><button id="cancel" class="quiet" hidden>Cancel round</button></div><p id="message" role="status"></p>
+  <article class="ai-card"><div class="ai-heading"><span>✦ YOUR LOCAL AI NARRATOR</span><span id="ai-phase">WAKING UP</span></div><p id="mission">A little dragon is dreaming of its first adventure.</p><p id="reaction" hidden></p><div class="voice-row"><button id="replay" class="quiet" disabled>▶ Hear it again</button><label><input id="speech" type="checkbox" checked> Speak the adventure</label></div><p id="audio-status" class="fine" role="status"></p><p id="ai-note" class="fine">The game responds immediately. AI adds its imagination between rounds.</p></article>
+  <p class="fine bottom-note">Each round sets a new starting position. A wobble restarts the five-second hold. You have 25 seconds to hatch the egg.</p>
+</section>
+</main>
+<footer><span>SMALL MOVEMENTS. BIG PERSONALITY.</span><span>Motion & AI on VENTUNO Q · Speech on your laptop</span></footer>
+</div><script src="app.js?v=1.0.1"></script>
+</body></html>

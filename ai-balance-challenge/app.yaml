@@ -1,0 +1,9 @@
+name: AI Balance Challenge
+icon: 🥚
+description: Keep a dragon egg steady with Modulino Movement, with local AI missions and narration.
+bricks:
+  - arduino:vlm:
+      model: genie:qwen2_5_vl_7b_instruct
+  - arduino:tts:
+      model: pipertts_en
+  - arduino:web_ui
