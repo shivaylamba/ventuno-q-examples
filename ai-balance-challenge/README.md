@@ -6,7 +6,9 @@ baby dragon, and hear playful narration generated locally from your round result
 ## Hardware
 
 - VENTUNO Q, powered and connected to the laptop over USB-C data.
-- Modulino Movement connected to the MCU Qwiic chain; standard address `0x6a`.
+- Modulino Movement connected to the VENTUNO Q's MCU Qwiic connector; default
+  address `0x6a`
+  (the sketch also supports `0x6b` when its address jumper has been changed).
 - Modulino Knob (`0x3a` or `0x3b`) for difficulty and starting a round, and
   Modulino Buzzer (`0x1e`) for warning chirps and a victory tune.
 - Laptop display and speakers. No USB speaker, camera, or Thermo is needed.

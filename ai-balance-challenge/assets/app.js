@@ -52,7 +52,7 @@ async function poll(){
   try{const response=await fetch('/api/status',{cache:'no-store',signal:AbortSignal.timeout(2500)});if(!response.ok)throw new Error();const state=await response.json();if(state.app_id!=='ai-balance-challenge')throw new Error();latest=state;connected=true;
     $('connection').textContent='● VENTUNO Q · connected';$('connection').classList.add('online');$('enter').disabled=false;
     for(const key of ['movement','knob','buzzer']){const name=key[0].toUpperCase()+key.slice(1);$(key+'-status').textContent=(state.hardware[key]?'● ':'○ ')+name+(state.hardware[key]?' connected':' unavailable');$(key+'-status').classList.toggle('connected',state.hardware[key]);}
-    $('welcome-status').textContent=state.game.sensor_ready?'Your Movement module is ready. Let’s hatch a dragon.':'Waiting for Modulino Movement. Check the Qwiic chain.';
+    $('welcome-status').textContent=state.game.sensor_ready?'Your Movement module is ready. Let’s hatch a dragon.':state.hardware.movement?'Movement found; waiting for fresh sensor samples. Keep it connected and level.':'Waiting for Modulino Movement. Check its Qwiic connection to the MCU.';
     renderGame(state.game);
     if(firstStatus){firstStatus=false;handled=audioItem()?.audio_id||null;}
     renderAI(state.ai);

@@ -28,7 +28,7 @@ No headings, markdown or stage directions.""",temperature=.75,max_tokens=90,time
 tts=TextToSpeech(speaker=BrowserAudio())
 game=BalanceGame()
 state_lock=Lock();bridge_lock=Lock()
-hardware={"bridge":False,"movement":False,"knob":False,"buzzer":False,"sequence":0,"age_ms":None}
+hardware={"bridge":False,"movement":False,"sensor_ready":False,"knob":False,"buzzer":False,"sequence":0,"age_ms":None}
 ai={"phase":"warming","mission":None,"reaction":None,"error":None}
 audio={}
 tasks=Queue(maxsize=1)
@@ -111,8 +111,8 @@ def controller_loop():
             now=time.monotonic()
             with state_lock:
                 game.tick(int(sequence),age,accel,gyro,bool(movement_ok and sequence>0),now)
-                hardware.update(bridge=True,movement=game.sensor_ready,knob=bool(knob_ok),buzzer=bool(buzzer_ok),
-                                sequence=int(sequence),age_ms=round(age))
+                hardware.update(bridge=True,movement=bool(movement_ok),sensor_ready=game.sensor_ready,
+                                knob=bool(knob_ok),buzzer=bool(buzzer_ok),sequence=int(sequence),age_ms=round(age))
                 if knob_ok and previous_position is not None:
                     game.difficulty_index=(game.difficulty_index+knob_delta(position,previous_position))%len(DIFFICULTIES)
                 completion=game.completion;game.completion=None
@@ -134,7 +134,7 @@ def controller_loop():
             if str(error)!=last_error:logger.warning(f"Movement controller unavailable: {error}");last_error=str(error)
             with state_lock:
                 game.tick(0,1000,(0,0,0),(0,0,0),False,time.monotonic())
-                hardware.update(bridge=False,movement=False,knob=False,buzzer=False)
+                hardware.update(bridge=False,movement=False,sensor_ready=False,knob=False,buzzer=False)
                 completion=game.completion;game.completion=None
             if completion:enqueue_reaction(completion)
             previous_position=previous_presses=None;scheduled=[]
