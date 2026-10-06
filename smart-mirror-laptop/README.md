@@ -19,10 +19,10 @@ https://docs.arduino.cc/tutorials/ventuno-q/smart-mirror/
 4. Leave **Automatic scan** enabled. Stand in view and hold your pose for about
    three seconds. The mirror starts a three-second countdown, shows Arduino's
    scanning animation, and automatically generates and speaks the style tip.
-5. It gives one tip per visit. Step completely out of view for at least four seconds
-   to prepare it for the next visitor. The welcome screen returns automatically;
-   the next visitor's arrival opens the camera and starts the scan. It detects
-   presence, not a person's identity. Detection waits until speech finishes.
+5. The result returns to the welcome screen after ten seconds, even if the
+   visitor stays in view. For another automatic scan, leave the camera view empty
+   for four seconds before the next visitor enters. It detects presence, not a
+   person's identity. Detection waits until speech finishes.
 6. Select **Hear it again** to replay. **Scan my outfit** remains available for a
    manual retry; disable Automatic scan for button-only operation. Uncheck
    **Speak my tip** to mute playback. Full screen is optional.
@@ -31,6 +31,10 @@ The initial Enter the mirror click displays the board camera and unlocks browser
 audio; visitors need no scan-button click afterward. **Welcome screen** in the
 header reopens the intro while keeping presence detection active. The intro fits
 landscape and portrait displays and skips the original footprint screen.
+The twenty-second reset clears the displayed tip, audio and captured preview,
+then rearms automatic detection. The same person can trigger another scan without
+leaving the frame; the next scan starts after the result reset and a fresh stable
+presence check.
 Keep this page active and the laptop awake for automatic operation.
 
 The Windows launcher uses Arduino's bundled ADB and selects the single connected device.
@@ -70,8 +74,9 @@ ID; use the ID reported by `arduino-app-cli app list`, or start the app in App L
   welcome returns after a visitor leaves. No footprint step is used.
 - A lightweight person detector adds automatic arrival, countdown, scanning and
   result states. Arduino's supplied scanning GIF is retained. Confidence must be
-  at least 55% on several checks over 2.5 seconds to start a scan. Four seconds
-  without a person rearms the mirror; momentary misses do not cause repeated tips.
+  at least 55% on several checks over 2.5 seconds to start each scan. Detection
+  pauses while a result is displayed and rearms at the 20-second reset, even if
+  the same person remains in view; momentary misses reset the stability timer.
 - The board captures the USB webcam and serves an MJPEG preview. Person detection
   reads the current frame directly on the board. The browser submits the exact
   preview snapshot after the countdown for outfit analysis (maximum edge 960 px).

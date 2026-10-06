@@ -8,6 +8,7 @@ const welcome = $('welcome-screen');
 const appSurface = document.querySelector('.app');
 let stream = null, cameraStarting = false, boardReady = false, boardBusy = false;
 let scanning = false, audioContext = null, audioBuffer = null, audioSource = null;
+let resultResetTimer = null;
 let snapshotURL = null;
 let presencePending = false, cameraGeneration = 0;
 let presenceGate = new PresenceGate();
@@ -21,6 +22,20 @@ function showWelcome() {
     ? 'Step into view. Your mirror will welcome you automatically.'
     : 'A little style inspiration, just for you.';
   $('welcome-start').focus({preventScroll:true});
+}
+function clearResultReset() {
+  if (resultResetTimer !== null) { clearTimeout(resultResetTimer); resultResetTimer = null; }
+}
+function resetToWelcome() {
+  clearResultReset(); stopAudio(); audioBuffer = null;
+  presenceGate.rearm();
+  $('result').hidden = true; $('idle').hidden = false; $('tip').textContent = '';
+  $('timing').textContent = ''; $('audio-status').textContent = ''; message();
+  showLive(); updateControls(); showWelcome();
+}
+function scheduleResultReset() {
+  clearResultReset();
+  resultResetTimer = setTimeout(resetToWelcome, 20000);
 }
 function enterMirror() {
   welcome.hidden = true; appSurface.inert = false; appSurface.removeAttribute('aria-hidden');
@@ -70,6 +85,7 @@ function showLive() {
   if (snapshotURL) { URL.revokeObjectURL(snapshotURL); snapshotURL = null; }
 }
 function stopCamera() {
+  clearResultReset();
   cameraGeneration++; presenceGate = new PresenceGate();
   stream = null; video.removeAttribute('src');
   $('presence-status').textContent = 'Enable the camera preview to begin';
@@ -119,6 +135,7 @@ async function capture(maxEdge = 960) {
 }
 async function scan(automatic = false) {
   if ($('scan').disabled) return;
+  clearResultReset();
   presenceGate.consume();
   scanning = true; audioBuffer = null; stopAudio(); $('audio-status').textContent = ''; message(); showLive(); updateControls();
   $('idle').hidden = true; $('result').hidden = true; $('analyzing').hidden = false;
@@ -160,13 +177,15 @@ async function scan(automatic = false) {
       }
     }
     if (data.audio_error) message(data.audio_error);
+    scheduleResultReset();
   } catch (error) {
+    presenceGate.rearm();
     $('analyzing').hidden = true; $('idle').hidden = false;
     message(error.name === 'TimeoutError' ? 'This scan took too long. Wait for the board to finish, then try again.' : error.message === 'Failed to fetch' ? 'The board connection was interrupted. Reconnect USB and run the laptop launcher again.' : error.message);
     showLive();
   } finally {
     clearInterval(timer); $('countdown').hidden = true; $('scan-overlay').hidden = true; scanning = false;
-    $('presence-status').textContent = $('automatic').checked ? 'Step out of view before the next automatic scan' : 'Automatic scan is off';
+    $('presence-status').textContent = $('automatic').checked ? 'Watching for the next automatic scan' : 'Automatic scan is off';
     showLive();
     $('tip-card').setAttribute('aria-busy','false'); $('scan').innerHTML = 'Scan my outfit <span aria-hidden="true">↗</span>';
     await checkBoard(); updateControls();
@@ -183,14 +202,10 @@ async function checkPresence() {
     if (!response.ok) throw new Error(data.detail || 'Person detection is unavailable. You can still use Scan my outfit.');
     if (data.busy) { presenceGate.clearCandidate(); return; }
     const phase = presenceGate.update(data.person, Date.now());
-    if (phase === 'rearmed') {
-      $('result').hidden = true; $('idle').hidden = false;
-      $('tip').textContent = ''; audioBuffer = null; $('audio-status').textContent = ''; message(); showLive(); updateControls();
-      showWelcome();
-    }
     $('presence-status').textContent = {
-      waiting:'Waiting for someone to step into view', rearmed:'Ready for the next visitor',
-      holding:'Someone is in view · hold your pose', served:'Step out of view before the next automatic scan',
+      waiting:'Waiting for someone to step into view',
+      holding:'Someone is in view · hold your pose',
+      blocked:'Your next automatic scan will start when this tip clears',
       ready:'Welcome! Starting your scan…',
     }[phase];
     if (!welcome.hidden && phase === 'holding') $('welcome-hint').textContent = 'Welcome. Hold your pose for a moment.';
@@ -207,7 +222,7 @@ $('welcome-start').addEventListener('click',async()=>{
   enterMirror();
   if (!stream) await startCamera();
 });
-$('show-welcome').addEventListener('click',()=>{stopAudio();showWelcome();});
+$('show-welcome').addEventListener('click',resetToWelcome);
 $('toggle-camera').addEventListener('click',()=>{stopCamera();message();});
 $('scan').addEventListener('click',()=>scan(false));
 $('replay').addEventListener('click',()=>playTip().catch(()=>message('Audio playback could not start. Check your laptop audio output.')));
