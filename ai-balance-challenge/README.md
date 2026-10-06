@@ -78,7 +78,9 @@ Board folder: `/home/arduino/ArduinoApps/ai-balance-challenge`. Start one of the
 mirror, booth, or balance applications at a time; they share port 7000 and the MCU.
 
 - **Movement unavailable:** check the Qwiic chain and the board MCU connector.
-  The sketch checks the bus every two seconds. Stop and Run again if needed.
+  The sketch checks the bus every two seconds. `/api/diagnostics` lists the
+  addresses seen on the MCU Qwiic bus; expect `0x6a` for Movement. Stop and Run
+  again if needed.
 - **Calibration restarts:** hold still or rest the module flat on a table until
   the two-second progress bar completes. Movement during calibration starts it over.
 - **Connection lost:** an active round ends without a win. Reconnect, then start
@@ -86,7 +88,7 @@ mirror, booth, or balance applications at a time; they share port 7000 and the M
 - **Silent laptop:** select Enter the hatchery or Hear it again and check volume.
   Physical Knob presses cannot unlock browser audio on their own.
 - **Controller unavailable:** ensure App Lab uploaded this project's sketch. Its
-  Bridge methods are `balance_status` and `balance_tone`.
+  Bridge methods are `balance_status`, `balance_scan` and `balance_tone`.
 
 ## Verified on this VENTUNO Q (6 October 2026)
 

@@ -147,6 +147,12 @@ def status():
                 "ai":{"phase":ai["phase"],"mission":dict(ai["mission"]) if ai["mission"] else None,
                       "reaction":dict(ai["reaction"]) if ai["reaction"] else None,"error":ai["error"]}}
 
+def diagnostics():
+    with bridge_lock:
+        addresses=Bridge.call("balance_scan",timeout=3)
+    if not isinstance(addresses,list):raise HTTPException(503,"The MCU returned an invalid I2C scan.")
+    return {"qwiic_addresses":[f"0x{int(address):02x}" for address in addresses]}
+
 class DifficultyRequest(BaseModel):difficulty:str
 def set_difficulty(request:DifficultyRequest):
     identifiers=[d["id"] for d in DIFFICULTIES]
@@ -172,6 +178,7 @@ def on_tick():
     time.sleep(.01)
 
 ui.expose_api("GET","/api/status",status)
+ui.expose_api("GET","/api/diagnostics",diagnostics)
 ui.expose_api("POST","/api/start",start_round)
 ui.expose_api("POST","/api/cancel",cancel_round)
 ui.expose_api("POST","/api/difficulty",set_difficulty)

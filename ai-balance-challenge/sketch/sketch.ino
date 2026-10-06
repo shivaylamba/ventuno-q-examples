@@ -50,6 +50,15 @@ std::vector<float> balanceStatus() {
           buzzerReady?1.0f:0.0f,movementReady?1.0f:0.0f};
 }
 
+std::vector<float> balanceScan() {
+  std::vector<float> addresses;
+  for (uint8_t address=0x08;address<0x78;address++) {
+    Wire1.beginTransmission(address);
+    if (Wire1.endTransmission()==0) addresses.push_back((float)address);
+  }
+  return addresses;
+}
+
 bool balanceTone(int frequency,int duration) {
   if (!buzzerReady) return false;
   buzzer.tone(constrain(frequency,100,3000),constrain(duration,10,250));
@@ -61,6 +70,7 @@ void setup() {
   probeModules();
   Bridge.begin();
   Bridge.provide_safe("balance_status",balanceStatus);
+  Bridge.provide_safe("balance_scan",balanceScan);
   Bridge.provide_safe("balance_tone",balanceTone);
   if (buzzerReady) buzzer.tone(880,100);
 }
