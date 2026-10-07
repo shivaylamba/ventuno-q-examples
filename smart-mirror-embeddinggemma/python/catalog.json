@@ -1,0 +1,15 @@
+[
+  {"id":"linen-midi","title":"Natural linen midi dress","category":"dress","description":"A warm neutral linen midi dress with a relaxed, breathable silhouette for daytime wear.","icon":"✦","tone":"sand"},
+  {"id":"navy-wrap","title":"Navy wrap dress","category":"dress","description":"A polished deep navy wrap dress with a defined waist and a versatile occasion-ready shape.","icon":"⌁","tone":"navy"},
+  {"id":"floral-maxi","title":"Soft floral maxi dress","category":"dress","description":"A flowing floral maxi dress in a light fabric with a romantic print and easy movement.","icon":"✿","tone":"rose"},
+  {"id":"black-midi","title":"Black A-line midi dress","category":"dress","description":"A classic black A-line midi dress with a clean, minimal silhouette for day or evening.","icon":"✦","tone":"ink"},
+  {"id":"blue-shirt","title":"Blue cotton shirt dress","category":"dress","description":"A crisp light-blue cotton shirt dress with buttons, a collar and a relaxed smart-casual feel.","icon":"▤","tone":"blue"},
+  {"id":"green-fit-flare","title":"Sage fit-and-flare dress","category":"dress","description":"A soft sage-green fit-and-flare dress with a fitted bodice and a playful skirt.","icon":"✿","tone":"olive"},
+  {"id":"red-cocktail","title":"Red occasion cocktail dress","category":"dress","description":"A vibrant red cocktail dress with a tailored shape for celebrations and evening events.","icon":"✦","tone":"rose"},
+  {"id":"cream-knit","title":"Cream ribbed knit dress","category":"dress","description":"A cream rib-knit dress with a comfortable close fit and understated modern styling.","icon":"≋","tone":"sand"},
+  {"id":"striped-sundress","title":"Navy striped sundress","category":"dress","description":"A breezy navy-and-white striped sundress with a relaxed silhouette for sunny weather.","icon":"≋","tone":"navy"},
+  {"id":"lavender-midi","title":"Lavender pleated midi dress","category":"dress","description":"A light lavender midi dress with graceful pleats and a soft, dressy movement.","icon":"✿","tone":"lavender"},
+  {"id":"chocolate-slip","title":"Chocolate satin slip dress","category":"dress","description":"A rich chocolate-brown satin slip dress with a fluid drape and simple evening elegance.","icon":"⌁","tone":"leather"},
+  {"id":"yellow-wrap","title":"Yellow floral wrap dress","category":"dress","description":"A cheerful yellow floral wrap dress with a flattering waist and relaxed summer styling.","icon":"✿","tone":"yellow"},
+  {"id":"charcoal-sheath","title":"Charcoal tailored sheath dress","category":"dress","description":"A charcoal sheath dress with a neat tailored profile for professional or formal settings.","icon":"▤","tone":"ink"}
+]

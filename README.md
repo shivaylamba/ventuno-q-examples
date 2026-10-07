@@ -1,11 +1,12 @@
 # VENTUNO Q Examples
 
-Three interactive Arduino App Lab applications for VENTUNO Q, using local AI and
+Four interactive Arduino App Lab applications for VENTUNO Q, using local AI and
 a laptop display/speakers. Model weights are **not included** in this repository.
 
 | App | Interaction | Hardware beyond VENTUNO Q |
 | --- | --- | --- |
 | [Smart Mirror](smart-mirror-laptop/) | Automatically detects a visitor and gives an outfit style tip | USB webcam |
+| [Smart Mirror · EmbeddingGemma 2](smart-mirror-embeddinggemma/) | Keeps the same Qwen style tip and adds local similar-dress retrieval | USB webcam; 485 MB generic LiteRT-LM model download |
 | [AI Object Story Booth](ai-object-story-booth/) | Show an object, choose a storyteller and hear its fictional adventure | USB webcam, Modulino Knob and Buzzer |
 | [AI Balance Challenge](ai-balance-challenge/) | Tilt a dragon egg and hold it steady for five seconds to hatch it | Modulino Movement; Knob and Buzzer optional |
 
@@ -26,9 +27,10 @@ version with Arduino's animated intro, automatic scanning and laptop speech.
    ```
 
 3. Import the chosen ZIP from `dist/` into App Lab. Import the other ZIPs too if
-   you want all three apps listed in My Apps.
+   you want all four apps listed in My Apps.
 4. Install the models declared in that app's `app.yaml` through App Lab's model
-   setup. The model files remain on the board, outside this repository.
+   setup. For Smart Mirror · EmbeddingGemma 2, also follow its README to install
+   the separate EmbeddingGemma 2 LiteRT-LM model file. Model weights remain outside this repository.
 5. Connect the required hardware and select **Run** in that application's App Lab
    entry. App Lab compiles and uploads the MCU sketch for the Modulino games.
 6. Open the app's Web UI. Click its welcome button once to unlock laptop speech.
@@ -55,11 +57,14 @@ plays in the laptop browser. The Buzzer supplies tones, not spoken narration.
 
 ## Where AI runs
 
-All three apps reuse `genie:qwen2_5_vl_7b_instruct` (Qwen 2.5-VL-7B) and
+The interactive demos use `genie:qwen2_5_vl_7b_instruct` (Qwen 2.5-VL-7B) and
 `pipertts_en` (Piper English) on VENTUNO Q through its existing Qualcomm runners.
 The Smart Mirror also declares `yolox-qnn-object-detection` for person detection.
 
 - **Mirror:** Qwen examines a board-camera image and writes a style tip.
+- **Mirror · EmbeddingGemma 2:** Qwen still examines the image and writes the same
+  style tip; then EmbeddingGemma 2 embeds the image and Qwen's description to find
+  three similar clothing styles in a local catalog while Piper prepares speech.
 - **Booth:** Qwen examines a fresh object image and writes a short fictional story.
 - **Balance:** Qwen receives the game's original egg illustration and measured
   round facts to write a mission and reaction. Motion sensing and scoring do not

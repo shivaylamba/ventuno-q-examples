@@ -1,0 +1,66 @@
+<!--
+SPDX-FileCopyrightText: Copyright (C) ARDUINO SRL (http://www.arduino.cc)
+SPDX-License-Identifier: MPL-2.0
+Adapted for laptop display and webcam capture.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smart Mirror · EmbeddingGemma 2</title>
+  <link rel="stylesheet" href="style.css?v=2.0.0">
+  <script src="presence-gate.js?v=1.2.1" defer></script>
+  <script src="app.js?v=1.4.1" defer></script>
+</head>
+<body class="welcome-open">
+  <section id="welcome-screen" class="welcome-screen" aria-label="Welcome to Smart Mirror">
+    <div class="welcome-top"><span>ARDUINO</span><span id="welcome-connection" role="status">Connecting to your mirror…</span><span>VENTUNO Q</span></div>
+    <div class="welcome-center">
+      <div class="welcome-emblem"><video src="img/ai_bubble.webm" autoplay loop muted playsinline aria-hidden="true"></video><img src="img/logo_arduino.gif" alt="Arduino"></div>
+      <h1 class="welcome-title">SMART MIRROR</h1>
+      <p class="welcome-tagline">Your look. A fresh perspective.</p>
+      <p id="welcome-hint" class="welcome-hint">A little style inspiration, just for you.</p>
+      <button id="welcome-start" class="welcome-start" disabled>Enter the mirror <span aria-hidden="true">↗</span></button>
+      <img class="welcome-arrow" src="img/button.gif" alt="" aria-hidden="true">
+    </div>
+    <div class="welcome-bottom"><span>STEP INTO VIEW</span><span>A MOMENT FOR YOURSELF</span></div>
+  </section>
+  <div class="app" inert aria-hidden="true">
+    <header>
+      <a class="brand" href="/"><img src="img/logo_arduino.gif" alt="Arduino"><span>SMART MIRROR · EMBEDDINGGEMMA 2</span></a>
+      <div class="header-actions"><span id="connection" class="connection" role="status">Connecting to your mirror…</span><button id="show-welcome" class="quiet">Welcome screen</button><button id="fullscreen" class="quiet">Full screen</button></div>
+    </header>
+    <main>
+      <section class="mirror" aria-label="Camera preview">
+        <div class="preview">
+          <img id="camera" alt="Live webcam on VENTUNO Q">
+          <img id="snapshot" alt="Your captured outfit" hidden>
+          <div id="camera-placeholder" class="placeholder"><span class="mirror-symbol">◉</span><h2>Step into the mirror</h2><p>Preview the webcam connected to your VENTUNO Q.</p><button id="enable-camera">Enable camera</button></div>
+          <div id="countdown" class="countdown" hidden aria-live="assertive"></div>
+          <div id="scan-overlay" class="scan-overlay" hidden aria-hidden="true"><div class="scan-sweep"></div><span>Finding your style</span></div>
+          <span id="preview-label" class="preview-label" hidden>LIVE PREVIEW</span>
+        </div>
+        <div class="camera-tools"><label for="camera-select">Camera</label><select id="camera-select" disabled><option>VENTUNO Q USB webcam</option></select><button id="toggle-camera" class="quiet" disabled>Pause preview</button></div>
+        <p class="framing">Keep your outfit in view. Take a step back to show more of your look.</p>
+      </section>
+      <section class="stylist" aria-label="Your style tip">
+        <p class="eyebrow">A LITTLE STYLE INSPIRATION</p>
+        <h1>Your look.<br><span>A fresh perspective.</span></h1>
+        <p class="intro">Step into view. Your mirror takes it from here.</p>
+        <div class="presence-tools"><label class="speech"><input id="automatic" type="checkbox" checked> Automatic scan</label><span id="presence-status" role="status">Enable the camera to begin</span></div>
+        <div id="tip-card" class="tip-card" aria-live="polite" aria-busy="false">
+          <div id="idle"><p class="tip-label">READY WHEN YOU ARE</p><div class="welcome-orbit" aria-hidden="true">◉</div><p class="idle-copy">Stand in view and hold your pose. Your mirror will start automatically.</p></div>
+          <div id="analyzing" hidden><img class="scan-animation" src="img/scanning1.gif" alt="" aria-hidden="true"><p class="tip-label">LOOKING AT YOUR OUTFIT</p><p id="scan-status">Your mirror is finding a style tip…</p><p class="small">The first scan may take a little longer.</p></div>
+          <div id="result" hidden><div class="result-emblem" aria-hidden="true"><video src="img/ai_bubble.webm" autoplay loop muted playsinline></video><img src="img/logo_arduino.gif" alt=""></div><p class="tip-label">YOUR STYLE TIP</p><p id="tip"></p><div class="result-tools"><button id="replay" class="quiet" disabled>▶ Hear it again</button><span id="timing" class="small"></span></div><p id="audio-status" class="small" role="status"></p></div>
+          <section id="recommendations-panel" class="recommendations-panel" hidden aria-label="Similar clothing suggestions"><div class="recommendation-heading"><div><p class="tip-label">SIMILAR STYLE SUGGESTIONS</p><p class="recommendation-copy">Qwen describes your outfit; EmbeddingGemma matches similar clothing.</p></div><span class="edge-badge">ON-DEVICE MATCH</span></div><div id="recommendations" class="recommendation-grid"></div><p id="retrieval-note" class="small" role="status"></p></section>
+        </div>
+        <p id="message" role="status"></p>
+        <div class="scan-actions"><button id="scan" disabled>Scan my outfit <span aria-hidden="true">↗</span></button><label class="speech"><input id="speech" type="checkbox" checked> Speak my tip</label></div>
+        <p class="privacy">Camera capture, outfit advice, product matching and person detection run on VENTUNO Q. Your laptop displays the preview and plays speech. Snapshots are not saved.</p>
+      </section>
+    </main>
+    <footer><span>SMART MIRROR • EMBEDDINGGEMMA 2</span><span>Camera → style tip → local product matching</span></footer>
+  </div>
+</body>
+</html>

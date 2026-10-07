@@ -19,6 +19,9 @@ model_downloads/
 *.hdf5
 *.npz
 *.npy
+*.litertlm
+smart-mirror-embeddinggemma/data/amazon-catalog.json
+smart-mirror-embeddinggemma/data/embedding-vectors.json
 *.tar
 *.tar.gz
 *.tgz

@@ -1,14 +1,14 @@
-"""Create three App Lab import archives from source, without model files."""
+"""Create App Lab import archives from source, without model files."""
 from pathlib import Path
 import zipfile
 
 ROOT = Path(__file__).resolve().parent.parent
-APPS = ('smart-mirror-laptop', 'ai-object-story-booth', 'ai-balance-challenge')
+APPS = ('smart-mirror-laptop', 'smart-mirror-embeddinggemma', 'ai-object-story-booth', 'ai-balance-challenge')
 BLOCKED = {'.bin', '.onnx', '.ort', '.pt', '.pth', '.ckpt', '.safetensors', '.gguf',
            '.ggml', '.tflite', '.pb', '.dlc', '.qnn', '.h5', '.hdf5', '.npz', '.npy',
            '.zip', '.tar', '.tgz', '.wav', '.log', '.elf', '.hex', '.pem', '.key'}
 SKIP = {'__pycache__', '.cache', '.venv', 'venv', 'node_modules', 'build',
-        'models', 'model-cache', 'model_downloads', 'captures', 'recordings'}
+        'models', 'model-cache', 'model_downloads', 'captures', 'recordings', 'data'}
 
 def package():
     destination = ROOT / 'dist'

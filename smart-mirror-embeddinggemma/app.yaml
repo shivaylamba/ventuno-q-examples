@@ -1,0 +1,12 @@
+name: Smart Mirror • EmbeddingGemma 2
+icon: 🪞
+description: A Smart Mirror clone with on-device outfit tips and EmbeddingGemma 2 product matching.
+
+bricks:
+  - arduino:object_detection:
+      model: yolox-qnn-object-detection
+  - arduino:vlm:
+      model: genie:qwen2_5_vl_7b_instruct
+  - arduino:tts:
+      model: pipertts_en
+  - arduino:web_ui
