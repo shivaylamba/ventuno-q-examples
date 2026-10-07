@@ -13,7 +13,7 @@ The initial Qwen scan remains the main wait. EmbeddingGemma does not speed up Qw
 
 ## Model setup on VENTUNO Q
 
-Model weights are excluded from the repository. This project uses the generic 485 MB `.litertlm` model from the [EmbeddingGemma 2 LiteRT-LM repository](https://huggingface.co/litert-community/embeddinggemma-2-740m-litert-lm):
+Model weights are excluded from the repository. CPU mode uses the generic 485 MB `.litertlm` model from the [EmbeddingGemma 2 LiteRT-LM repository](https://huggingface.co/litert-community/embeddinggemma-2-740m-litert-lm):
 
 ```text
 data/models/embeddinggemma-2-740m.litertlm
@@ -21,7 +21,19 @@ data/models/embeddinggemma-2-740m.litertlm
 
 Download that exact generic file from Hugging Face and place it at the path above in this app's directory on VENTUNO Q. App Lab installs `litert-lm-api` from `python/requirements.txt`. On the Linux runtime currently exercised with App Lab, the generic artifact initializes on the **CPU/XNNPACK** backend. A text embedding and a synthetic-image embedding both returned 768-dimensional vectors in about four seconds including model initialization.
 
-The QCS8275-specific artifact is not the configured model. The current `litert-lm-api` `Backend.NPU()` path reported that NPU support is only available for Intel OpenVINO on Windows; the QCS8275 model also needs a Qualcomm LiteRT dispatch library that is not present in the base App Lab container. Therefore this project makes no claim that EmbeddingGemma runs on the VENTUNO Q NPU. The separate YOLOX and Qwen runners continue to use the board's Qualcomm-accelerated runtimes.
+The model card separately reports the 740M model running on the VENTUNO Q NPU (13.6 ms text and 135 ms text-plus-vision, averaged over five iterations). This confirms the hardware/model combination is supported; it does not mean this App Lab project is currently using the NPU.
+
+For an NPU attempt, put the QCS8275-specific artifact at:
+
+```text
+data/models/embeddinggemma-2-740m_Qualcomm_QCS8275.litertlm
+```
+
+and set `EMBEDDING_BACKEND=NPU`. The app then selects this board-specific artifact automatically. `EMBEDDINGGEMMA_MODEL_PATH` can override the selected path. The backend is reported as NPU only after LiteRT-LM initializes it successfully; a requested-but-uninitialized backend is reported as such and does not silently fall back to CPU.
+
+**The current App Lab Python runtime is CPU-only for this embedding path.** Its `litert-lm-api==0.18.0` wheel does not provide a usable Qualcomm NPU backend in this Linux container, and the main app container lacks LiteRT's Qualcomm dispatch library and the QAIRT runtime files. Setting `EMBEDDING_BACKEND=NPU` by itself will therefore fail initialization. Google's documented Qualcomm NPU deployment requires a built LiteRT-LM runtime/dispatch library plus the matching QAIRT libraries, model, and `LD_LIBRARY_PATH`/`ADSP_LIBRARY_PATH` configuration; these components have not been integrated into the App Lab app image yet. YOLOX presence detection and Qwen continue to use their separate board-accelerated runners.
+
+Consequently, the running demo still performs these dress embeddings on CPU. The model-card NPU latency is a benchmark reference, not a measurement of this app. The generic CPU model and working app remain available while the native Qualcomm runtime is prepared.
 
 ## Amazon dress catalog
 

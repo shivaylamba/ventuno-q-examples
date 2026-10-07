@@ -42,10 +42,13 @@ inference_lock = Lock()
 frame_lock = Lock()
 current_frame: bytes | None = None
 APP_ROOT = Path(__file__).resolve().parents[1]
-MODEL_PATH = Path(os.environ.get(
-    "EMBEDDINGGEMMA_MODEL_PATH",
-    str(APP_ROOT / "data" / "models" / "embeddinggemma-2-740m.litertlm"),
-))
+REQUESTED_EMBEDDING_BACKEND = os.environ.get("EMBEDDING_BACKEND", "CPU").strip().upper()
+MODEL_OVERRIDE = os.environ.get("EMBEDDINGGEMMA_MODEL_PATH", "").strip()
+MODEL_PATH = Path(MODEL_OVERRIDE) if MODEL_OVERRIDE else APP_ROOT / "data" / "models" / (
+    "embeddinggemma-2-740m_Qualcomm_QCS8275.litertlm"
+    if REQUESTED_EMBEDDING_BACKEND == "NPU"
+    else "embeddinggemma-2-740m.litertlm"
+)
 SAMPLE_CATALOG_PATH = Path(__file__).with_name("catalog.json")
 AMAZON_CATALOG_PATH = APP_ROOT / "data" / "amazon-catalog.json"
 VECTOR_CACHE_PATH = APP_ROOT / "data" / "embedding-vectors.json"
@@ -172,7 +175,7 @@ def get_embedding_engine():
     with embedding_lock:
         if embedding_engine is not None:
             return embedding_engine
-        requested_backend = os.environ.get("EMBEDDING_BACKEND", "CPU").strip().upper()
+        requested_backend = REQUESTED_EMBEDDING_BACKEND
         if requested_backend == "NPU":
             dispatch_dir = os.environ.get("LITERT_DISPATCH_LIB_DIR", "").strip()
             if not dispatch_dir:
@@ -335,8 +338,12 @@ def status():
         "processing": "VENTUNO Q", "version": "1.2.0",
         "camera_source": "VENTUNO Q USB webcam", "camera_ready": current_frame is not None,
         "embedding_model": "EmbeddingGemma 2 740M",
-        "embedding_ready": MODEL_PATH.is_file() and EmbeddingEngine is not None,
-        "embedding_backend": embedding_backend or (os.environ.get("EMBEDDING_BACKEND", "CPU").upper() + " / LiteRT-LM (not initialized)" if MODEL_PATH.is_file() else "Model file required"),
+        "embedding_ready": embedding_engine is not None,
+        "embedding_model_available": MODEL_PATH.is_file() and EmbeddingEngine is not None,
+        "embedding_backend": embedding_backend or (
+            REQUESTED_EMBEDDING_BACKEND + " requested · not initialized" if MODEL_PATH.is_file()
+            else "Model file required: " + MODEL_PATH.name
+        ),
         "catalog_items": len(catalog),
         "catalog_source": catalog_source,
         "catalog_index_ready": product_vectors is not None,
