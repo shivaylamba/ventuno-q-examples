@@ -6,7 +6,7 @@ a laptop display/speakers. Model weights are **not included** in this repository
 | App | Interaction | Hardware beyond VENTUNO Q |
 | --- | --- | --- |
 | [Smart Mirror](smart-mirror-laptop/) | Automatically detects a visitor and gives an outfit style tip | USB webcam |
-| [Smart Mirror · EmbeddingGemma 2](smart-mirror-embeddinggemma/) | Keeps the same Qwen style tip and adds local similar-dress retrieval | USB webcam; 485 MB generic LiteRT-LM model download |
+| [Smart Mirror · EmbeddingGemma 2](smart-mirror-embeddinggemma/) | Keeps the same Qwen style tip and recommends visually similar dresses with real product photos | USB webcam; 485 MB generic LiteRT-LM model download; internet access for catalog photos |
 | [AI Object Story Booth](ai-object-story-booth/) | Show an object, choose a storyteller and hear its fictional adventure | USB webcam, Modulino Knob and Buzzer |
 | [AI Balance Challenge](ai-balance-challenge/) | Tilt a dragon egg and hold it steady for five seconds to hatch it | Modulino Movement; Knob and Buzzer optional |
 

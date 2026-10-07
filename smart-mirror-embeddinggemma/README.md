@@ -1,6 +1,6 @@
 # Smart Mirror · EmbeddingGemma 2
 
-A separate App Lab project based on **Smart Mirror · Laptop**. It keeps the Arduino-inspired welcome screen, live board-camera preview, automatic presence scan, spoken Qwen style tip, and 20-second reset. After Qwen describes the outfit, EmbeddingGemma runs alongside speech synthesis and ranks similar dresses from a local catalog.
+A separate App Lab project based on **Smart Mirror · Laptop**. It keeps the Arduino-inspired welcome screen, live board-camera preview, automatic presence scan, spoken Qwen style tip, and 20-second reset. After Qwen describes the outfit, EmbeddingGemma runs alongside speech synthesis and ranks similar dresses from a catalog with real product photos and product pages.
 
 ## What runs where
 
@@ -35,29 +35,26 @@ and set `EMBEDDING_BACKEND=NPU`. The app then selects this board-specific artifa
 
 Consequently, the running demo still performs these dress embeddings on CPU. The model-card NPU latency is a benchmark reference, not a measurement of this app. The generic CPU model and working app remain available while the native Qualcomm runtime is prepared.
 
-## Amazon dress catalog
+## Dress catalog and real product photos
 
-`python/catalog.json` is a 13-style illustrative fallback, not Amazon inventory. It contains no retailer images, verified product listings, or prices; fallback cards use local artwork and search links.
+The current catalog contains **151 real dress products** from the [Livostyle Women's Fashion Catalog open dataset](https://github.com/arturayupov/womens-fashion-catalog-open-data), snapshot `2026-09-27`. Each recommendation is matched from its product description and displays the catalog photo, product type, snapshot price, and product page link. Photos load from Livostyle's Shopify CDN at 480-pixel width; the repository contains catalog metadata and image links, not image files. The laptop browser needs internet access to show photos.
 
-The included `tools/import_amazon_catalog.py` uses Amazon's official Creators API to collect 100 real dress listings with their primary image URLs and detail-page links. It writes `smart-mirror-embeddinggemma/data/amazon-catalog.json`, which the app reads instead of the fallback when it is valid and contains at least 100 items. Amazon data is treated as temporary and the app falls back after 23 hours. Do not scrape Amazon product pages or commit the generated catalog.
+We checked Amazon Berkeley Objects before choosing this source; its current snapshot had only four records classified under dress categories, too few for useful recommendations. The Livostyle snapshot had 151 records in its exact Dresses category. This provides enough real products for the demo, but they are from Livostyle, not Amazon.
 
-Amazon Creators API access requires an accepted Associates account and qualified sales. If you have access, set these variables in a PowerShell session and run the importer from the repository root. Credentials are read from the environment and are never written into the catalog:
+The dataset repository declares MIT licensing. Product pages show current availability; snapshot prices can change. The catalog retains the source attribution and license link. To refresh it from the dataset's latest weekly snapshot, run from the repository root:
 
 ```powershell
-$env:AMAZON_CREATORS_CLIENT_ID = "..."
-$env:AMAZON_CREATORS_CLIENT_SECRET = "..."
-$env:AMAZON_PARTNER_TAG = "..."
-$env:AMAZON_MARKETPLACE = "www.amazon.in"
-python tools/import_amazon_catalog.py
+python tools/import_livostyle_dresses.py
+python tools/package_apps.py
 ```
 
-Choose the marketplace where your Associates account is registered; replace `www.amazon.in` if yours is elsewhere. The catalog must be copied to this app's `data/amazon-catalog.json` on the board and the app restarted. Refer to [Amazon's Creators API onboarding](https://affiliate-program.amazon.com/creatorsapi/docs/en-us/onboarding/register-for-creators-api), [SearchItems API](https://affiliate-program.amazon.com/creatorsapi/docs/en-us/api-reference/operations/search-items), and [image resource rules](https://affiliate-program.amazon.com/creatorsapi/docs/en-us/api-reference/resources/images).
+Then update/reimport `dist/smart-mirror-embeddinggemma.zip` in App Lab and restart the app. The first run after a catalog refresh rebuilds the local EmbeddingGemma text index; later runs reuse its cache.
 
 ## App Lab
 
 The project folder is `smart-mirror-embeddinggemma`, with an app ID separate from `smart-mirror-laptop`. The original Smart Mirror project remains unchanged. Import this project's ZIP from `dist/` or run it directly from its App Lab entry. Only one mirror app can run at a time because both use the same camera and web port.
 
-The browser UI is available at `http://localhost:7000` when the board is connected over USB and the app is running. Model weights and the temporary Amazon catalog are not included in this repository or in the source ZIP.
+The browser UI is available at `http://localhost:7000` when the board is connected over USB and the app is running. Model weights and generated embedding indexes are not included in this repository or in the source ZIP.
 
 ## License
 

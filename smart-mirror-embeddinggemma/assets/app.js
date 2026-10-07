@@ -91,25 +91,33 @@ function renderRecommendations(items = [], retrievalError = null, elapsed = null
   grid.replaceChildren();
   panel.hidden = false;
   const liveAmazonCatalog = catalogSource.includes('Amazon Creators API');
+  const livostyleCatalog = catalogSource.includes('Livostyle');
   $('retrieval-note').textContent = retrievalError
     ? `Dress matching is unavailable: ${retrievalError}`
     : `On-device vector search · ${elapsed ?? 0}s · ${catalogSource} (${catalogCount} items)` +
-      (liveAmazonCatalog ? ' · current price and availability on Amazon' : ' · illustrative styles; Amazon search links');
+      (liveAmazonCatalog ? ' · current price and availability on Amazon'
+        : livostyleCatalog ? ' · product photos and listings open at Livostyle; prices and stock may change'
+          : ' · illustrative styles; Amazon search links');
   for (const item of items) {
     const card = document.createElement('article');
     card.className = `recommendation-card tone-${item.tone || 'ink'}`;
     const artwork = document.createElement('div'); artwork.className = 'recommendation-art';
+    const icon = document.createElement('span'); icon.textContent = item.icon || '✦'; icon.setAttribute('aria-hidden','true'); artwork.append(icon);
     if (item.image_url) {
       const image = document.createElement('img'); image.src = item.image_url; image.alt = item.title; image.loading = 'lazy';
       image.referrerPolicy = 'no-referrer'; image.onerror = () => { image.remove(); };
       artwork.append(image);
-    } else {
-      const icon = document.createElement('span'); icon.textContent = item.icon || '✦'; icon.setAttribute('aria-hidden','true'); artwork.append(icon);
     }
     const category = document.createElement('p'); category.className = 'recommendation-category'; category.textContent = item.category;
     const title = document.createElement('h3'); title.textContent = item.title;
-    const link = document.createElement('a'); link.href = item.url; link.target = '_blank'; link.rel = 'noopener noreferrer'; link.textContent = liveAmazonCatalog ? 'View Amazon listing ↗' : 'Search Amazon ↗';
-    card.append(artwork, category, title, link); grid.append(card);
+    const link = document.createElement('a'); link.href = item.url; link.target = '_blank'; link.rel = 'noopener noreferrer'; link.textContent = liveAmazonCatalog ? 'View Amazon listing ↗' : livostyleCatalog ? 'View product ↗' : 'Search Amazon ↗';
+    card.append(artwork, category, title);
+    if (Number.isFinite(Number(item.price_usd))) {
+      const price = document.createElement('p'); price.className = 'recommendation-price';
+      price.textContent = new Intl.NumberFormat('en-US', {style:'currency',currency:'USD'}).format(Number(item.price_usd));
+      card.append(price);
+    }
+    card.append(link); grid.append(card);
   }
 }
 function stopCamera() {

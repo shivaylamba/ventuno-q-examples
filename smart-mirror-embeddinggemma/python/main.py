@@ -53,7 +53,10 @@ SAMPLE_CATALOG_PATH = Path(__file__).with_name("catalog.json")
 AMAZON_CATALOG_PATH = APP_ROOT / "data" / "amazon-catalog.json"
 VECTOR_CACHE_PATH = APP_ROOT / "data" / "embedding-vectors.json"
 AMAZON_SEARCH_BASE = os.environ.get("AMAZON_SEARCH_BASE", "https://www.amazon.com/s?k=")
-sample_catalog = json.loads(SAMPLE_CATALOG_PATH.read_text(encoding="utf-8"))
+catalog_file = json.loads(SAMPLE_CATALOG_PATH.read_text(encoding="utf-8"))
+sample_catalog = catalog_file["products"] if isinstance(catalog_file, dict) else catalog_file
+sample_catalog_source = catalog_file.get("source", "Sample catalog") if isinstance(catalog_file, dict) else "Sample catalog"
+sample_catalog_date = catalog_file.get("snapshot_date") if isinstance(catalog_file, dict) else None
 
 
 def load_catalog():
@@ -69,7 +72,12 @@ def load_catalog():
         amazon_catalog_stale = True
     except (OSError, ValueError, KeyError, TypeError):
         pass
-    return sample_catalog, "Sample catalog" + (" · refresh Amazon data" if amazon_catalog_stale else ""), None
+    source = sample_catalog_source
+    if sample_catalog_date:
+        source += f" · {sample_catalog_date} snapshot"
+    if amazon_catalog_stale:
+        source += " · Amazon feed expired"
+    return sample_catalog, source, None
 
 
 catalog, catalog_source, catalog_expires_at = load_catalog()
@@ -263,6 +271,7 @@ def recommend(frame: bytes, tip: str) -> list[dict]:
             "id": item["id"], "title": item["title"], "category": item["category"].title(),
             "icon": item.get("icon", "✦"), "tone": item.get("tone", "ink"), "score": round(score, 4),
             "image_url": item.get("image_url"),
+            "price_usd": item.get("price_usd"),
             "url": item.get("url") or (AMAZON_SEARCH_BASE + quote_plus(item["title"])),
         })
         if len(recommendations) == 3:

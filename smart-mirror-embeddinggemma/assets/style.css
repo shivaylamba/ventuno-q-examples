@@ -61,6 +61,7 @@ h1.welcome-title{border:1px solid #d9e2df;color:white;font-family:'Open Sans',sa
 .tone-yellow .recommendation-art{background:linear-gradient(135deg,#81663a,#e8ca70)}
 .recommendation-category{margin:.75rem 0 .2rem;color:#74d8c3;text-transform:uppercase;font-size:.67rem;letter-spacing:.12em}
 .recommendation-card h3{margin:0 0 .8rem;color:#f0f4f0;font-size:1rem;line-height:1.3}
+.recommendation-price{margin:-.4rem 0 .75rem;color:#cfdfdc;font-size:.9rem;font-weight:600}
 .recommendation-card a{display:inline-block;color:#7fe0cb;font-size:.85rem;text-decoration:none}
 .recommendation-card a:hover{text-decoration:underline}
 #retrieval-note{margin:.8rem 0 0;color:#aec5c2}

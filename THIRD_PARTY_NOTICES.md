@@ -11,6 +11,12 @@
   full license text is in `licenses/Socket.IO-MIT.txt`.
 - **Open Sans and Roboto Mono:** SIL Open Font License 1.1. Each app retains the
   supplied license text beside its fonts in `assets/fonts/`.
+- **Livostyle Women's Fashion Catalog — Open Data:** the Smart Mirror's curated
+  dress metadata snapshot is declared MIT-licensed by its dataset repository.
+  Product photos are referenced from Livostyle's Shopify CDN and are not bundled
+  in this repository. Attribution: Livostyle / Arcada LLC. The catalog retains
+  the dataset and license links in `smart-mirror-embeddinggemma/python/catalog.json`.
+  Reference: https://github.com/arturayupov/womens-fashion-catalog-open-data
 - **Models:** no model weights are distributed here. Qwen, Piper and YOLOX model
   packages and their terms are supplied separately through App Lab. Including a
   model identifier in `app.yaml` does not relicense that model.
