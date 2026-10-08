@@ -1,0 +1,4 @@
+id: embeddinggemma_npu
+name: EmbeddingGemma NPU Worker
+description: Runs text and image EmbeddingGemma inference on VENTUNO Q's Qualcomm NPU.
+category: ai

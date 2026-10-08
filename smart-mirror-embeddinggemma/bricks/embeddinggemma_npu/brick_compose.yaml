@@ -1,0 +1,44 @@
+services:
+  embedding-npu-worker:
+    image: ghcr.io/arduino/app-bricks/python-apps-base:0.12.0
+    entrypoint: ["/app/.cache/.venv/bin/python"]
+    command: ["/app/python/embedding_npu_worker.py"]
+    restart: unless-stopped
+    user: "1000:1000"
+    group_add: ["125", "989"]
+    devices:
+      - "/dev/fastrpc-cdsp:/dev/fastrpc-cdsp"
+      - "/dev/dma_heap/system:/dev/dma_heap/system"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - type: bind
+        source: /home/arduino/ArduinoApps/smart-mirror-embeddinggemma
+        target: /app
+        read_only: true
+      - type: bind
+        source: /usr/share/qcom
+        target: /usr/share/qcom
+        read_only: true
+      - type: bind
+        source: /sys/firmware/devicetree/base/model
+        target: /run/device-model
+        read_only: true
+    environment:
+      APP_ROOT: /app
+      PORT: "7010"
+      LITERT_DISPATCH_LIB_DIR: /app/runtime/npu/lib
+      LD_LIBRARY_PATH: /app/runtime/npu/lib:/usr/lib
+      ADSP_LIBRARY_PATH: /app/runtime/npu/lib:/app/runtime/npu/dsp
+    expose: ["7010"]
+    healthcheck:
+      test:
+        - CMD
+        - /app/.cache/.venv/bin/python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:7010/health', timeout=5)"
+      interval: 10s
+      timeout: 10s
+      retries: 12

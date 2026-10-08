@@ -3,6 +3,7 @@ icon: 🪞
 description: A Smart Mirror clone with on-device outfit tips and EmbeddingGemma 2 product matching.
 
 bricks:
+  - embeddinggemma_npu: {}
   - arduino:object_detection:
       model: yolox-qnn-object-detection
   - arduino:vlm:

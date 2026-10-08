@@ -104,7 +104,11 @@ function renderRecommendations(items = [], retrievalError = null, elapsed = null
     const artwork = document.createElement('div'); artwork.className = 'recommendation-art';
     const icon = document.createElement('span'); icon.textContent = item.icon || '✦'; icon.setAttribute('aria-hidden','true'); artwork.append(icon);
     if (item.image_url) {
-      const image = document.createElement('img'); image.src = item.image_url; image.alt = item.title; image.loading = 'lazy';
+      const image = document.createElement('img');
+      image.src = item.image_url.startsWith('/assets/')
+        ? `/api/catalog/${encodeURIComponent(item.id)}/image`
+        : item.image_url;
+      image.alt = item.title; image.loading = 'lazy';
       image.referrerPolicy = 'no-referrer'; image.onerror = () => { image.remove(); };
       artwork.append(image);
     }

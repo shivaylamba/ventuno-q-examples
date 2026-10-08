@@ -1,0 +1,4009 @@
+{
+  "source": "Fashion Product Images Small (Myntra-sourced catalog dataset)",
+  "source_url": "https://www.kaggle.com/datasets/paramaggarwal/fashion-product-images-small",
+  "license": "MIT (as declared on Kaggle dataset page; confirm source-image terms before redistribution)",
+  "snapshot_date": "2026-10-08",
+  "selection": "200 men and 200 women; randomized with near-even representation across article types per audience",
+  "products": [
+    {
+      "id": "myntra-men-24502",
+      "title": "Pacific Gold Men Brown Leather Belt",
+      "category": "Belts",
+      "description": "Men, Apparel Topwear Belts, Brown, Fall, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-24502.jpg",
+      "url": "https://www.myntra.com/search?query=Pacific+Gold+Men+Brown+Leather+Belt",
+      "source_product_id": "24502"
+    },
+    {
+      "id": "myntra-men-31732",
+      "title": "Reid & Taylor Men Brown Blazer",
+      "category": "Blazers",
+      "description": "Men, Apparel Topwear Blazers, Brown, Summer, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-31732.jpg",
+      "url": "https://www.myntra.com/search?query=Reid+%26+Taylor+Men+Brown+Blazer",
+      "source_product_id": "31732"
+    },
+    {
+      "id": "myntra-men-43010",
+      "title": "Probase Red Printed Boxers",
+      "category": "Boxers",
+      "description": "Men, Apparel Innerwear Boxers, Red, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-43010.jpg",
+      "url": "https://www.myntra.com/search?query=Probase+Red+Printed+Boxers",
+      "source_product_id": "43010"
+    },
+    {
+      "id": "myntra-men-50463",
+      "title": "Chromozome Men Navy Blue Brief",
+      "category": "Briefs",
+      "description": "Men, Apparel Innerwear Briefs, Navy Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-50463.jpg",
+      "url": "https://www.myntra.com/search?query=Chromozome+Men+Navy+Blue+Brief",
+      "source_product_id": "50463"
+    },
+    {
+      "id": "myntra-men-25451",
+      "title": "Nike Men Prowl White Casual Shoes",
+      "category": "Casual Shoes",
+      "description": "Men, Footwear Shoes Casual Shoes, White, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-25451.jpg",
+      "url": "https://www.myntra.com/search?query=Nike+Men+Prowl+White+Casual+Shoes",
+      "source_product_id": "25451"
+    },
+    {
+      "id": "myntra-men-30733",
+      "title": "Fabindia Men Off White Churidar",
+      "category": "Churidar",
+      "description": "Men, Apparel Bottomwear Churidar, Off White, Summer, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-30733.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Men+Off+White+Churidar",
+      "source_product_id": "30733"
+    },
+    {
+      "id": "myntra-men-15392",
+      "title": "FILA Men Cage Navy Blue Slippers",
+      "category": "Flip Flops",
+      "description": "Men, Footwear Flip Flops Flip Flops, Navy Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-15392.jpg",
+      "url": "https://www.myntra.com/search?query=FILA+Men+Cage+Navy+Blue+Slippers",
+      "source_product_id": "15392"
+    },
+    {
+      "id": "myntra-men-8063",
+      "title": "Red Tape Men's Formal Leather Black Shoe",
+      "category": "Formal Shoes",
+      "description": "Men, Footwear Shoes Formal Shoes, Black, Winter, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-8063.jpg",
+      "url": "https://www.myntra.com/search?query=Red+Tape+Men%27s+Formal+Leather+Black+Shoe",
+      "source_product_id": "8063"
+    },
+    {
+      "id": "myntra-men-2633",
+      "title": "Carlton London Men Black Leather Casual Shoes.",
+      "category": "Heels",
+      "description": "Men, Footwear Shoes Heels, Black, Summer, Smart Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-2633.jpg",
+      "url": "https://www.myntra.com/search?query=Carlton+London+Men+Black+Leather+Casual+Shoes.",
+      "source_product_id": "2633"
+    },
+    {
+      "id": "myntra-men-25366",
+      "title": "Levis Men Green Innerwear T-shirt",
+      "category": "Innerwear Vests",
+      "description": "Men, Apparel Innerwear Innerwear Vests, Green, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-25366.jpg",
+      "url": "https://www.myntra.com/search?query=Levis+Men+Green+Innerwear+T-shirt",
+      "source_product_id": "25366"
+    },
+    {
+      "id": "myntra-men-59121",
+      "title": "Just Natural Men Black Jacket",
+      "category": "Jackets",
+      "description": "Men, Apparel Topwear Jackets, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-59121.jpg",
+      "url": "https://www.myntra.com/search?query=Just+Natural+Men+Black+Jacket",
+      "source_product_id": "59121"
+    },
+    {
+      "id": "myntra-men-46896",
+      "title": "Locomotive Men Blue Jeans",
+      "category": "Jeans",
+      "description": "Men, Apparel Bottomwear Jeans, Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-46896.jpg",
+      "url": "https://www.myntra.com/search?query=Locomotive+Men+Blue+Jeans",
+      "source_product_id": "46896"
+    },
+    {
+      "id": "myntra-men-56701",
+      "title": "Fabindia Men Striped White Kurta",
+      "category": "Kurtas",
+      "description": "Men, Apparel Topwear Kurtas, White, Summer, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-56701.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Men+Striped+White+Kurta",
+      "source_product_id": "56701"
+    },
+    {
+      "id": "myntra-men-30776",
+      "title": "Fabindia Men Maroon Ajrak Printed Kurti",
+      "category": "Kurtis",
+      "description": "Men, Apparel Topwear Kurtis, Maroon, Summer, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-30776.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Men+Maroon+Ajrak+Printed+Kurti",
+      "source_product_id": "30776"
+    },
+    {
+      "id": "myntra-men-49952",
+      "title": "Hanes Men Grey Knitted Lounge Pants",
+      "category": "Lounge Pants",
+      "description": "Men, Apparel Loungewear and Nightwear Lounge Pants, Grey, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-49952.jpg",
+      "url": "https://www.myntra.com/search?query=Hanes+Men+Grey+Knitted+Lounge+Pants",
+      "source_product_id": "49952"
+    },
+    {
+      "id": "myntra-men-13621",
+      "title": "Hanes Men Knitted Grey Shorts",
+      "category": "Lounge Shorts",
+      "description": "Men, Apparel Loungewear and Nightwear Lounge Shorts, Grey, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-13621.jpg",
+      "url": "https://www.myntra.com/search?query=Hanes+Men+Knitted+Grey+Shorts",
+      "source_product_id": "13621"
+    },
+    {
+      "id": "myntra-men-30738",
+      "title": "Fabindia Men Navy Blue Bhagalpur Nehru Jacket",
+      "category": "Nehru Jackets",
+      "description": "Men, Apparel Topwear Nehru Jackets, Navy Blue, Summer, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-30738.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Men+Navy+Blue+Bhagalpur+Nehru+Jacket",
+      "source_product_id": "30738"
+    },
+    {
+      "id": "myntra-men-27384",
+      "title": "2go Active Gear USA Men Lounge Set",
+      "category": "Night suits",
+      "description": "Men, Apparel Loungewear and Nightwear Night suits, Grey, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-27384.jpg",
+      "url": "https://www.myntra.com/search?query=2go+Active+Gear+USA+Men+Lounge+Set",
+      "source_product_id": "27384"
+    },
+    {
+      "id": "myntra-men-59102",
+      "title": "Just Natural Men Black Rain Jacket",
+      "category": "Rain Jacket",
+      "description": "Men, Apparel Topwear Rain Jacket, Black, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-59102.jpg",
+      "url": "https://www.myntra.com/search?query=Just+Natural+Men+Black+Rain+Jacket",
+      "source_product_id": "59102"
+    },
+    {
+      "id": "myntra-men-51334",
+      "title": "Wildcraft Men Navy Blue Rain Trousers",
+      "category": "Rain Trousers",
+      "description": "Men, Apparel Bottomwear Rain Trousers, Navy Blue, Summer, NA",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-51334.jpg",
+      "url": "https://www.myntra.com/search?query=Wildcraft+Men+Navy+Blue+Rain+Trousers",
+      "source_product_id": "51334"
+    },
+    {
+      "id": "myntra-men-6407",
+      "title": "Lotto Men Cross Black Floater",
+      "category": "Sandals",
+      "description": "Men, Footwear Sandal Sandals, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-6407.jpg",
+      "url": "https://www.myntra.com/search?query=Lotto+Men+Cross+Black+Floater",
+      "source_product_id": "6407"
+    },
+    {
+      "id": "myntra-men-9449",
+      "title": "John Miller Men white stripe Blue Shirts",
+      "category": "Shirts",
+      "description": "Men, Apparel Topwear Shirts, Purple, Fall, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-9449.jpg",
+      "url": "https://www.myntra.com/search?query=John+Miller+Men+white+stripe+Blue+Shirts",
+      "source_product_id": "9449"
+    },
+    {
+      "id": "myntra-men-42114",
+      "title": "ADIDAS Men Navy Blue Shorts",
+      "category": "Shorts",
+      "description": "Men, Apparel Bottomwear Shorts, Navy Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-42114.jpg",
+      "url": "https://www.myntra.com/search?query=ADIDAS+Men+Navy+Blue+Shorts",
+      "source_product_id": "42114"
+    },
+    {
+      "id": "myntra-men-26692",
+      "title": "Puma Men Black Roque Sandals",
+      "category": "Sports Sandals",
+      "description": "Men, Footwear Sandal Sports Sandals, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-26692.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Men+Black+Roque+Sandals",
+      "source_product_id": "26692"
+    },
+    {
+      "id": "myntra-men-13919",
+      "title": "Nike Men T-Lite 9 SL White Sports Shoes",
+      "category": "Sports Shoes",
+      "description": "Men, Footwear Shoes Sports Shoes, White, Fall, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-13919.jpg",
+      "url": "https://www.myntra.com/search?query=Nike+Men+T-Lite+9+SL+White+Sports+Shoes",
+      "source_product_id": "13919"
+    },
+    {
+      "id": "myntra-men-25781",
+      "title": "Arrow Men Black Suspenders",
+      "category": "Suspenders",
+      "description": "Men, Apparel Topwear Suspenders, Black, Summer, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-25781.jpg",
+      "url": "https://www.myntra.com/search?query=Arrow+Men+Black+Suspenders",
+      "source_product_id": "25781"
+    },
+    {
+      "id": "myntra-men-19536",
+      "title": "United Colors of Benetton Men Solid Purple Sweater",
+      "category": "Sweaters",
+      "description": "Men, Apparel Topwear Sweaters, Purple, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-19536.jpg",
+      "url": "https://www.myntra.com/search?query=United+Colors+of+Benetton+Men+Solid+Purple+Sweater",
+      "source_product_id": "19536"
+    },
+    {
+      "id": "myntra-men-23539",
+      "title": "Classic Polo Men White Sweatshirt",
+      "category": "Sweatshirts",
+      "description": "Men, Apparel Topwear Sweatshirts, White, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-23539.jpg",
+      "url": "https://www.myntra.com/search?query=Classic+Polo+Men+White+Sweatshirt",
+      "source_product_id": "23539"
+    },
+    {
+      "id": "myntra-men-17931",
+      "title": "Nike Men Training Black Tights",
+      "category": "Tights",
+      "description": "Men, Apparel Bottomwear Tights, Black, Summer, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-17931.jpg",
+      "url": "https://www.myntra.com/search?query=Nike+Men+Training+Black+Tights",
+      "source_product_id": "17931"
+    },
+    {
+      "id": "myntra-men-6609",
+      "title": "Spykar Men's Stripes White Top",
+      "category": "Tops",
+      "description": "Men, Apparel Topwear Tops, White, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-6609.jpg",
+      "url": "https://www.myntra.com/search?query=Spykar+Men%27s+Stripes+White+Top",
+      "source_product_id": "6609"
+    },
+    {
+      "id": "myntra-men-17999",
+      "title": "Puma Men Grey Track Pants",
+      "category": "Track Pants",
+      "description": "Men, Apparel Bottomwear Track Pants, Grey, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-17999.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Men+Grey+Track+Pants",
+      "source_product_id": "17999"
+    },
+    {
+      "id": "myntra-men-58567",
+      "title": "Puma Men Navy Blue Tracksuit",
+      "category": "Tracksuits",
+      "description": "Men, Apparel Bottomwear Tracksuits, Navy Blue, Summer, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-58567.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Men+Navy+Blue+Tracksuit",
+      "source_product_id": "58567"
+    },
+    {
+      "id": "myntra-men-27609",
+      "title": "Scullers Men Black Trousers",
+      "category": "Trousers",
+      "description": "Men, Apparel Bottomwear Trousers, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-27609.jpg",
+      "url": "https://www.myntra.com/search?query=Scullers+Men+Black+Trousers",
+      "source_product_id": "27609"
+    },
+    {
+      "id": "myntra-men-32106",
+      "title": "Playboy Men Crocker Grey Trunks",
+      "category": "Trunk",
+      "description": "Men, Apparel Innerwear Trunk, Grey, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-32106.jpg",
+      "url": "https://www.myntra.com/search?query=Playboy+Men+Crocker+Grey+Trunks",
+      "source_product_id": "32106"
+    },
+    {
+      "id": "myntra-men-33285",
+      "title": "Arrow Sport Men Striped Blue Polo T-shirt",
+      "category": "Tshirts",
+      "description": "Men, Apparel Topwear Tshirts, Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-33285.jpg",
+      "url": "https://www.myntra.com/search?query=Arrow+Sport+Men+Striped+Blue+Polo+T-shirt",
+      "source_product_id": "33285"
+    },
+    {
+      "id": "myntra-men-40009",
+      "title": "Park Avenue Men Black & Green Frame Sunglasses",
+      "category": "Tunics",
+      "description": "Men, Apparel Topwear Tunics, Green, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-40009.jpg",
+      "url": "https://www.myntra.com/search?query=Park+Avenue+Men+Black+%26+Green+Frame+Sunglasses",
+      "source_product_id": "40009"
+    },
+    {
+      "id": "myntra-men-8583",
+      "title": "Scullers Men Dark Grey Waistcoat",
+      "category": "Waistcoat",
+      "description": "Men, Apparel Topwear Waistcoat, Grey, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-8583.jpg",
+      "url": "https://www.myntra.com/search?query=Scullers+Men+Dark+Grey+Waistcoat",
+      "source_product_id": "8583"
+    },
+    {
+      "id": "myntra-men-24501",
+      "title": "Pacific Gold Men Brown Leather Belt",
+      "category": "Belts",
+      "description": "Men, Apparel Topwear Belts, Brown, Fall, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-24501.jpg",
+      "url": "https://www.myntra.com/search?query=Pacific+Gold+Men+Brown+Leather+Belt",
+      "source_product_id": "24501"
+    },
+    {
+      "id": "myntra-men-31729",
+      "title": "Reid & Taylor Men Blue Blazer",
+      "category": "Blazers",
+      "description": "Men, Apparel Topwear Blazers, Blue, Summer, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-31729.jpg",
+      "url": "https://www.myntra.com/search?query=Reid+%26+Taylor+Men+Blue+Blazer",
+      "source_product_id": "31729"
+    },
+    {
+      "id": "myntra-men-53558",
+      "title": "Probase Navy Boxers",
+      "category": "Boxers",
+      "description": "Men, Apparel Innerwear Boxers, Navy Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-53558.jpg",
+      "url": "https://www.myntra.com/search?query=Probase+Navy+Boxers",
+      "source_product_id": "53558"
+    },
+    {
+      "id": "myntra-men-17854",
+      "title": "Levis Men Boxer Green Brief",
+      "category": "Briefs",
+      "description": "Men, Apparel Innerwear Briefs, Green, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-17854.jpg",
+      "url": "https://www.myntra.com/search?query=Levis+Men+Boxer+Green+Brief",
+      "source_product_id": "17854"
+    },
+    {
+      "id": "myntra-men-13118",
+      "title": "Numero Uno Men White Shoes",
+      "category": "Casual Shoes",
+      "description": "Men, Footwear Shoes Casual Shoes, White, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-13118.jpg",
+      "url": "https://www.myntra.com/search?query=Numero+Uno+Men+White+Shoes",
+      "source_product_id": "13118"
+    },
+    {
+      "id": "myntra-men-15084",
+      "title": "Mother Earth Men Solid White Churidar",
+      "category": "Churidar",
+      "description": "Men, Apparel Bottomwear Churidar, White, Fall, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-15084.jpg",
+      "url": "https://www.myntra.com/search?query=Mother+Earth+Men+Solid+White+Churidar",
+      "source_product_id": "15084"
+    },
+    {
+      "id": "myntra-men-40782",
+      "title": "Quiksilver Men Multi Coloured Flip Flops",
+      "category": "Flip Flops",
+      "description": "Men, Footwear Flip Flops Flip Flops, Multi, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-40782.jpg",
+      "url": "https://www.myntra.com/search?query=Quiksilver+Men+Multi+Coloured+Flip+Flops",
+      "source_product_id": "40782"
+    },
+    {
+      "id": "myntra-men-7233",
+      "title": "Rockport Men's Bvallee Brown Shoe",
+      "category": "Formal Shoes",
+      "description": "Men, Footwear Shoes Formal Shoes, Brown, Fall, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-7233.jpg",
+      "url": "https://www.myntra.com/search?query=Rockport+Men%27s+Bvallee+Brown+Shoe",
+      "source_product_id": "7233"
+    },
+    {
+      "id": "myntra-men-20289",
+      "title": "Crusoe Men Red and Black Innerwear Vest",
+      "category": "Innerwear Vests",
+      "description": "Men, Apparel Innerwear Innerwear Vests, Red, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-20289.jpg",
+      "url": "https://www.myntra.com/search?query=Crusoe+Men+Red+and+Black+Innerwear+Vest",
+      "source_product_id": "20289"
+    },
+    {
+      "id": "myntra-men-9768",
+      "title": "ADIDAS Men Adna Black Jackets",
+      "category": "Jackets",
+      "description": "Men, Apparel Topwear Jackets, Black, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-9768.jpg",
+      "url": "https://www.myntra.com/search?query=ADIDAS+Men+Adna+Black+Jackets",
+      "source_product_id": "9768"
+    },
+    {
+      "id": "myntra-men-44587",
+      "title": "Lee Men Blue Rack Jeans",
+      "category": "Jeans",
+      "description": "Men, Apparel Bottomwear Jeans, Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-44587.jpg",
+      "url": "https://www.myntra.com/search?query=Lee+Men+Blue+Rack+Jeans",
+      "source_product_id": "44587"
+    },
+    {
+      "id": "myntra-men-56696",
+      "title": "Fabindia Men Teal Kurta",
+      "category": "Kurtas",
+      "description": "Men, Apparel Topwear Kurtas, Teal, Summer, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-56696.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Men+Teal+Kurta",
+      "source_product_id": "56696"
+    },
+    {
+      "id": "myntra-men-15088",
+      "title": "Mother Earth Men Printed Black Kurtis",
+      "category": "Kurtis",
+      "description": "Men, Apparel Topwear Kurtis, Black, Fall, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-15088.jpg",
+      "url": "https://www.myntra.com/search?query=Mother+Earth+Men+Printed+Black+Kurtis",
+      "source_product_id": "15088"
+    },
+    {
+      "id": "myntra-men-50032",
+      "title": "Hanes Men Navy Blue Relaxed Sports Pants",
+      "category": "Lounge Pants",
+      "description": "Men, Apparel Loungewear and Nightwear Lounge Pants, Navy Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-50032.jpg",
+      "url": "https://www.myntra.com/search?query=Hanes+Men+Navy+Blue+Relaxed+Sports+Pants",
+      "source_product_id": "50032"
+    },
+    {
+      "id": "myntra-men-50657",
+      "title": "Chromozome Men Black Lounge Shorts",
+      "category": "Lounge Shorts",
+      "description": "Men, Apparel Loungewear and Nightwear Lounge Shorts, Black, Winter, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-50657.jpg",
+      "url": "https://www.myntra.com/search?query=Chromozome+Men+Black+Lounge+Shorts",
+      "source_product_id": "50657"
+    },
+    {
+      "id": "myntra-men-30741",
+      "title": "Fabindia Men Brown Silk Sleeveless Jacket",
+      "category": "Nehru Jackets",
+      "description": "Men, Apparel Topwear Nehru Jackets, Brown, Summer, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-30741.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Men+Brown+Silk+Sleeveless+Jacket",
+      "source_product_id": "30741"
+    },
+    {
+      "id": "myntra-men-36260",
+      "title": "SDL by Sweet Dreams Men Grey & Black Pyjama Set",
+      "category": "Night suits",
+      "description": "Men, Apparel Loungewear and Nightwear Night suits, Grey, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-36260.jpg",
+      "url": "https://www.myntra.com/search?query=SDL+by+Sweet+Dreams+Men+Grey+%26+Black+Pyjama+Set",
+      "source_product_id": "36260"
+    },
+    {
+      "id": "myntra-men-59104",
+      "title": "Just Natural Men Brown Rain Jacket",
+      "category": "Rain Jacket",
+      "description": "Men, Apparel Topwear Rain Jacket, Brown, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-59104.jpg",
+      "url": "https://www.myntra.com/search?query=Just+Natural+Men+Brown+Rain+Jacket",
+      "source_product_id": "59104"
+    },
+    {
+      "id": "myntra-men-51332",
+      "title": "Wildcraft Men Black Rain Trousers",
+      "category": "Rain Trousers",
+      "description": "Men, Apparel Bottomwear Rain Trousers, Black, Summer, NA",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-51332.jpg",
+      "url": "https://www.myntra.com/search?query=Wildcraft+Men+Black+Rain+Trousers",
+      "source_product_id": "51332"
+    },
+    {
+      "id": "myntra-men-41869",
+      "title": "Estd. 1977 Men Yellow & Brown Sandals",
+      "category": "Sandals",
+      "description": "Men, Footwear Sandal Sandals, Yellow, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-41869.jpg",
+      "url": "https://www.myntra.com/search?query=Estd.+1977+Men+Yellow+%26+Brown+Sandals",
+      "source_product_id": "41869"
+    },
+    {
+      "id": "myntra-men-9462",
+      "title": "John Miller Men White Check Shirt",
+      "category": "Shirts",
+      "description": "Men, Apparel Topwear Shirts, White, Fall, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-9462.jpg",
+      "url": "https://www.myntra.com/search?query=John+Miller+Men+White+Check+Shirt",
+      "source_product_id": "9462"
+    },
+    {
+      "id": "myntra-men-18868",
+      "title": "Puma Men Solid Navy Blue Knits Panel Shorts",
+      "category": "Shorts",
+      "description": "Men, Apparel Bottomwear Shorts, Navy Blue, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-18868.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Men+Solid+Navy+Blue+Knits+Panel+Shorts",
+      "source_product_id": "18868"
+    },
+    {
+      "id": "myntra-men-33832",
+      "title": "Puma Men Black Roque Sandals",
+      "category": "Sports Sandals",
+      "description": "Men, Footwear Sandal Sports Sandals, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-33832.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Men+Black+Roque+Sandals",
+      "source_product_id": "33832"
+    },
+    {
+      "id": "myntra-men-24421",
+      "title": "ADIDAS Men Astar Salvation 3 White Sports Shoes",
+      "category": "Sports Shoes",
+      "description": "Men, Footwear Shoes Sports Shoes, White, Summer, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-24421.jpg",
+      "url": "https://www.myntra.com/search?query=ADIDAS+Men+Astar+Salvation+3+White+Sports+Shoes",
+      "source_product_id": "24421"
+    },
+    {
+      "id": "myntra-men-25775",
+      "title": "Lino Perros Men Black Suspenders",
+      "category": "Suspenders",
+      "description": "Men, Apparel Topwear Suspenders, Black, Summer, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-25775.jpg",
+      "url": "https://www.myntra.com/search?query=Lino+Perros+Men+Black+Suspenders",
+      "source_product_id": "25775"
+    },
+    {
+      "id": "myntra-men-23067",
+      "title": "Arrow Men Brown Striped Sweater",
+      "category": "Sweaters",
+      "description": "Men, Apparel Topwear Sweaters, Brown, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-23067.jpg",
+      "url": "https://www.myntra.com/search?query=Arrow+Men+Brown+Striped+Sweater",
+      "source_product_id": "23067"
+    },
+    {
+      "id": "myntra-men-20194",
+      "title": "Wrangler Men Seattle Embro White Sweatshirt",
+      "category": "Sweatshirts",
+      "description": "Men, Apparel Topwear Sweatshirts, White, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-20194.jpg",
+      "url": "https://www.myntra.com/search?query=Wrangler+Men+Seattle+Embro+White+Sweatshirt",
+      "source_product_id": "20194"
+    },
+    {
+      "id": "myntra-men-7767",
+      "title": "Nike Men's As Vapor Wove Black Track Pants",
+      "category": "Track Pants",
+      "description": "Men, Apparel Bottomwear Track Pants, Black, Summer, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-7767.jpg",
+      "url": "https://www.myntra.com/search?query=Nike+Men%27s+As+Vapor+Wove+Black+Track+Pants",
+      "source_product_id": "7767"
+    },
+    {
+      "id": "myntra-men-12829",
+      "title": "Nike Men Stripe Navy Blue Tracksuits",
+      "category": "Tracksuits",
+      "description": "Men, Apparel Bottomwear Tracksuits, Navy Blue, Fall, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-12829.jpg",
+      "url": "https://www.myntra.com/search?query=Nike+Men+Stripe+Navy+Blue+Tracksuits",
+      "source_product_id": "12829"
+    },
+    {
+      "id": "myntra-men-46414",
+      "title": "ADIDAS Men Black Trousers",
+      "category": "Trousers",
+      "description": "Men, Apparel Bottomwear Trousers, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-46414.jpg",
+      "url": "https://www.myntra.com/search?query=ADIDAS+Men+Black+Trousers",
+      "source_product_id": "46414"
+    },
+    {
+      "id": "myntra-men-18376",
+      "title": "Under Colors of Benetton Men Black Boxer Trunks",
+      "category": "Trunk",
+      "description": "Men, Apparel Innerwear Trunk, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-18376.jpg",
+      "url": "https://www.myntra.com/search?query=Under+Colors+of+Benetton+Men+Black+Boxer+Trunks",
+      "source_product_id": "18376"
+    },
+    {
+      "id": "myntra-men-9554",
+      "title": "Nike Men As Sport Mascot Blue T-Shirts",
+      "category": "Tshirts",
+      "description": "Men, Apparel Topwear Tshirts, Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-9554.jpg",
+      "url": "https://www.myntra.com/search?query=Nike+Men+As+Sport+Mascot+Blue+T-Shirts",
+      "source_product_id": "9554"
+    },
+    {
+      "id": "myntra-men-8580",
+      "title": "Scullers Men  Grey Waistcoat",
+      "category": "Waistcoat",
+      "description": "Men, Apparel Topwear Waistcoat, Grey, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-8580.jpg",
+      "url": "https://www.myntra.com/search?query=Scullers+Men++Grey+Waistcoat",
+      "source_product_id": "8580"
+    },
+    {
+      "id": "myntra-men-24504",
+      "title": "Pacific Gold Men Brown Leather Belt",
+      "category": "Belts",
+      "description": "Men, Apparel Topwear Belts, Brown, Fall, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-24504.jpg",
+      "url": "https://www.myntra.com/search?query=Pacific+Gold+Men+Brown+Leather+Belt",
+      "source_product_id": "24504"
+    },
+    {
+      "id": "myntra-men-31733",
+      "title": "Reid & Taylor Men Charcoal Grey Blazer",
+      "category": "Blazers",
+      "description": "Men, Apparel Topwear Blazers, Black, Summer, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-31733.jpg",
+      "url": "https://www.myntra.com/search?query=Reid+%26+Taylor+Men+Charcoal+Grey+Blazer",
+      "source_product_id": "31733"
+    },
+    {
+      "id": "myntra-men-53345",
+      "title": "Smugglerz Men Orange Check Boxers",
+      "category": "Boxers",
+      "description": "Men, Apparel Innerwear Boxers, Orange, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-53345.jpg",
+      "url": "https://www.myntra.com/search?query=Smugglerz+Men+Orange+Check+Boxers",
+      "source_product_id": "53345"
+    },
+    {
+      "id": "myntra-men-50606",
+      "title": "Chromozome Men Black Brief",
+      "category": "Briefs",
+      "description": "Men, Apparel Innerwear Briefs, Black, Winter, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-50606.jpg",
+      "url": "https://www.myntra.com/search?query=Chromozome+Men+Black+Brief",
+      "source_product_id": "50606"
+    },
+    {
+      "id": "myntra-men-23849",
+      "title": "ADIDAS Men Black Anzo Breeze Casual Shoes",
+      "category": "Casual Shoes",
+      "description": "Men, Footwear Shoes Casual Shoes, Black, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-23849.jpg",
+      "url": "https://www.myntra.com/search?query=ADIDAS+Men+Black+Anzo+Breeze+Casual+Shoes",
+      "source_product_id": "23849"
+    },
+    {
+      "id": "myntra-men-15083",
+      "title": "Mother Earth Men Solid Black Churidar",
+      "category": "Churidar",
+      "description": "Men, Apparel Bottomwear Churidar, Black, Fall, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-15083.jpg",
+      "url": "https://www.myntra.com/search?query=Mother+Earth+Men+Solid+Black+Churidar",
+      "source_product_id": "15083"
+    },
+    {
+      "id": "myntra-men-6818",
+      "title": "Timberland Men's Grn Thng Red Flip Flop",
+      "category": "Flip Flops",
+      "description": "Men, Footwear Flip Flops Flip Flops, Red, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-6818.jpg",
+      "url": "https://www.myntra.com/search?query=Timberland+Men%27s+Grn+Thng+Red+Flip+Flop",
+      "source_product_id": "6818"
+    },
+    {
+      "id": "myntra-men-41475",
+      "title": "Carlton London Men Black Formal Shoes",
+      "category": "Formal Shoes",
+      "description": "Men, Footwear Shoes Formal Shoes, Black, Winter, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-41475.jpg",
+      "url": "https://www.myntra.com/search?query=Carlton+London+Men+Black+Formal+Shoes",
+      "source_product_id": "41475"
+    },
+    {
+      "id": "myntra-men-49976",
+      "title": "Hanes Men Red Innerwear Vest",
+      "category": "Innerwear Vests",
+      "description": "Men, Apparel Innerwear Innerwear Vests, Red, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-49976.jpg",
+      "url": "https://www.myntra.com/search?query=Hanes+Men+Red+Innerwear+Vest",
+      "source_product_id": "49976"
+    },
+    {
+      "id": "myntra-men-30611",
+      "title": "Nike Men Grey Jacket",
+      "category": "Jackets",
+      "description": "Men, Apparel Topwear Jackets, Grey, Summer, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-30611.jpg",
+      "url": "https://www.myntra.com/search?query=Nike+Men+Grey+Jacket",
+      "source_product_id": "30611"
+    },
+    {
+      "id": "myntra-men-30453",
+      "title": "Deni Yo Men White Jeans",
+      "category": "Jeans",
+      "description": "Men, Apparel Bottomwear Jeans, White, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-30453.jpg",
+      "url": "https://www.myntra.com/search?query=Deni+Yo+Men+White+Jeans",
+      "source_product_id": "30453"
+    },
+    {
+      "id": "myntra-men-56698",
+      "title": "Fabindia Men Blue Kurta",
+      "category": "Kurtas",
+      "description": "Men, Apparel Topwear Kurtas, Blue, Summer, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-56698.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Men+Blue+Kurta",
+      "source_product_id": "56698"
+    },
+    {
+      "id": "myntra-men-49953",
+      "title": "Hanes Men Grey Knitted Lounge Pants",
+      "category": "Lounge Pants",
+      "description": "Men, Apparel Loungewear and Nightwear Lounge Pants, Grey, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-49953.jpg",
+      "url": "https://www.myntra.com/search?query=Hanes+Men+Grey+Knitted+Lounge+Pants",
+      "source_product_id": "49953"
+    },
+    {
+      "id": "myntra-men-13632",
+      "title": "Hanes Men Red Knitted Athletic 3/4th Pants",
+      "category": "Lounge Shorts",
+      "description": "Men, Apparel Loungewear and Nightwear Lounge Shorts, Red, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-13632.jpg",
+      "url": "https://www.myntra.com/search?query=Hanes+Men+Red+Knitted+Athletic+3%2F4th+Pants",
+      "source_product_id": "13632"
+    },
+    {
+      "id": "myntra-men-30739",
+      "title": "Fabindia Men Reversible Blue Sleeveless Jacket",
+      "category": "Nehru Jackets",
+      "description": "Men, Apparel Topwear Nehru Jackets, Blue, Summer, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-30739.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Men+Reversible+Blue+Sleeveless+Jacket",
+      "source_product_id": "30739"
+    },
+    {
+      "id": "myntra-men-56253",
+      "title": "SDL by Sweet Dreams Men Red & Blue Pyjama Set",
+      "category": "Night suits",
+      "description": "Men, Apparel Loungewear and Nightwear Night suits, Red, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-56253.jpg",
+      "url": "https://www.myntra.com/search?query=SDL+by+Sweet+Dreams+Men+Red+%26+Blue+Pyjama+Set",
+      "source_product_id": "56253"
+    },
+    {
+      "id": "myntra-men-59103",
+      "title": "Just Natural Men Military Shade Rain Jacket",
+      "category": "Rain Jacket",
+      "description": "Men, Apparel Topwear Rain Jacket, Olive, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-59103.jpg",
+      "url": "https://www.myntra.com/search?query=Just+Natural+Men+Military+Shade+Rain+Jacket",
+      "source_product_id": "59103"
+    },
+    {
+      "id": "myntra-men-35664",
+      "title": "U.S. Polo Assn. Men Black Sandals",
+      "category": "Sandals",
+      "description": "Men, Footwear Sandal Sandals, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-35664.jpg",
+      "url": "https://www.myntra.com/search?query=U.S.+Polo+Assn.+Men+Black+Sandals",
+      "source_product_id": "35664"
+    },
+    {
+      "id": "myntra-men-48065",
+      "title": "French Connection Men Blue Shirt",
+      "category": "Shirts",
+      "description": "Men, Apparel Topwear Shirts, Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-48065.jpg",
+      "url": "https://www.myntra.com/search?query=French+Connection+Men+Blue+Shirt",
+      "source_product_id": "48065"
+    },
+    {
+      "id": "myntra-men-12671",
+      "title": "Probase Men Check Red Shorts",
+      "category": "Shorts",
+      "description": "Men, Apparel Bottomwear Shorts, Red, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-12671.jpg",
+      "url": "https://www.myntra.com/search?query=Probase+Men+Check+Red+Shorts",
+      "source_product_id": "12671"
+    },
+    {
+      "id": "myntra-men-39898",
+      "title": "ADIDAS Men Black Sandals",
+      "category": "Sports Sandals",
+      "description": "Men, Footwear Sandal Sports Sandals, Black, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-39898.jpg",
+      "url": "https://www.myntra.com/search?query=ADIDAS+Men+Black+Sandals",
+      "source_product_id": "39898"
+    },
+    {
+      "id": "myntra-men-36229",
+      "title": "Nike Men Air Max Courtballistec Blue & White Sports Shoes",
+      "category": "Sports Shoes",
+      "description": "Men, Footwear Shoes Sports Shoes, Blue, Summer, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-36229.jpg",
+      "url": "https://www.myntra.com/search?query=Nike+Men+Air+Max+Courtballistec+Blue+%26+White+Sports+Shoes",
+      "source_product_id": "36229"
+    },
+    {
+      "id": "myntra-men-25779",
+      "title": "Arrow Men Black Suspenders",
+      "category": "Suspenders",
+      "description": "Men, Apparel Topwear Suspenders, Black, Summer, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-25779.jpg",
+      "url": "https://www.myntra.com/search?query=Arrow+Men+Black+Suspenders",
+      "source_product_id": "25779"
+    },
+    {
+      "id": "myntra-men-19393",
+      "title": "ADIDAS Men Stripes Green Sweater",
+      "category": "Sweaters",
+      "description": "Men, Apparel Topwear Sweaters, Green, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-19393.jpg",
+      "url": "https://www.myntra.com/search?query=ADIDAS+Men+Stripes+Green+Sweater",
+      "source_product_id": "19393"
+    },
+    {
+      "id": "myntra-men-11276",
+      "title": "Nike Men Running Maroon Sweatshirt",
+      "category": "Sweatshirts",
+      "description": "Men, Apparel Topwear Sweatshirts, Maroon, Fall, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-11276.jpg",
+      "url": "https://www.myntra.com/search?query=Nike+Men+Running+Maroon+Sweatshirt",
+      "source_product_id": "11276"
+    },
+    {
+      "id": "myntra-men-28519",
+      "title": "Nike Men Breakline Black Track Pants",
+      "category": "Track Pants",
+      "description": "Men, Apparel Bottomwear Track Pants, Black, Summer, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-28519.jpg",
+      "url": "https://www.myntra.com/search?query=Nike+Men+Breakline+Black+Track+Pants",
+      "source_product_id": "28519"
+    },
+    {
+      "id": "myntra-men-14028",
+      "title": "Nike Men Solid Black Tracksuits",
+      "category": "Tracksuits",
+      "description": "Men, Apparel Bottomwear Tracksuits, Black, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-14028.jpg",
+      "url": "https://www.myntra.com/search?query=Nike+Men+Solid+Black+Tracksuits",
+      "source_product_id": "14028"
+    },
+    {
+      "id": "myntra-men-15683",
+      "title": "Highlander Men Classic Chinos Khaki Trousers",
+      "category": "Trousers",
+      "description": "Men, Apparel Bottomwear Trousers, Khaki, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-15683.jpg",
+      "url": "https://www.myntra.com/search?query=Highlander+Men+Classic+Chinos+Khaki+Trousers",
+      "source_product_id": "15683"
+    },
+    {
+      "id": "myntra-men-27959",
+      "title": "Jockey Sport Performance  Men White Trunks SP04",
+      "category": "Trunk",
+      "description": "Men, Apparel Innerwear Trunk, White, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-27959.jpg",
+      "url": "https://www.myntra.com/search?query=Jockey+Sport+Performance++Men+White+Trunks+SP04",
+      "source_product_id": "27959"
+    },
+    {
+      "id": "myntra-men-19786",
+      "title": "U.S. Polo Assn. Men Solid Navy Blue Tshirt",
+      "category": "Tshirts",
+      "description": "Men, Apparel Topwear Tshirts, Navy Blue, Winter, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-19786.jpg",
+      "url": "https://www.myntra.com/search?query=U.S.+Polo+Assn.+Men+Solid+Navy+Blue+Tshirt",
+      "source_product_id": "19786"
+    },
+    {
+      "id": "myntra-men-12462",
+      "title": "Basics Men Brown Checked Waistcoat",
+      "category": "Waistcoat",
+      "description": "Men, Apparel Topwear Waistcoat, Brown, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-12462.jpg",
+      "url": "https://www.myntra.com/search?query=Basics+Men+Brown+Checked+Waistcoat",
+      "source_product_id": "12462"
+    },
+    {
+      "id": "myntra-men-31743",
+      "title": "Reid & Taylor Men Semi Formal Olive Blazer",
+      "category": "Blazers",
+      "description": "Men, Apparel Topwear Blazers, Olive, Summer, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-31743.jpg",
+      "url": "https://www.myntra.com/search?query=Reid+%26+Taylor+Men+Semi+Formal+Olive+Blazer",
+      "source_product_id": "31743"
+    },
+    {
+      "id": "myntra-men-32073",
+      "title": "Playboy Men Red Boxers",
+      "category": "Boxers",
+      "description": "Men, Apparel Innerwear Boxers, Red, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-32073.jpg",
+      "url": "https://www.myntra.com/search?query=Playboy+Men+Red+Boxers",
+      "source_product_id": "32073"
+    },
+    {
+      "id": "myntra-men-50596",
+      "title": "Chromozome Men Blue Briefs",
+      "category": "Briefs",
+      "description": "Men, Apparel Innerwear Briefs, Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-50596.jpg",
+      "url": "https://www.myntra.com/search?query=Chromozome+Men+Blue+Briefs",
+      "source_product_id": "50596"
+    },
+    {
+      "id": "myntra-men-59935",
+      "title": "Vans Men Black Casual Shoes",
+      "category": "Casual Shoes",
+      "description": "Men, Footwear Shoes Casual Shoes, Black, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-59935.jpg",
+      "url": "https://www.myntra.com/search?query=Vans+Men+Black+Casual+Shoes",
+      "source_product_id": "59935"
+    },
+    {
+      "id": "myntra-men-30735",
+      "title": "Fabindia Men Beige Churidar",
+      "category": "Churidar",
+      "description": "Men, Apparel Bottomwear Churidar, Beige, Summer, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-30735.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Men+Beige+Churidar",
+      "source_product_id": "30735"
+    },
+    {
+      "id": "myntra-men-5635",
+      "title": "ADIDAS Men's Adi Liner Black Blue Flip Flop",
+      "category": "Flip Flops",
+      "description": "Men, Footwear Flip Flops Flip Flops, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-5635.jpg",
+      "url": "https://www.myntra.com/search?query=ADIDAS+Men%27s+Adi+Liner+Black+Blue+Flip+Flop",
+      "source_product_id": "5635"
+    },
+    {
+      "id": "myntra-men-2375",
+      "title": "Red Tape Men's Black Semi Formal Shoe",
+      "category": "Formal Shoes",
+      "description": "Men, Footwear Shoes Formal Shoes, Black, Winter, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-2375.jpg",
+      "url": "https://www.myntra.com/search?query=Red+Tape+Men%27s+Black+Semi+Formal+Shoe",
+      "source_product_id": "2375"
+    },
+    {
+      "id": "myntra-men-13618",
+      "title": "Hanes Men Black Muscle Duo Dry Cotton Stretch Muscle T-shirt",
+      "category": "Innerwear Vests",
+      "description": "Men, Apparel Innerwear Innerwear Vests, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-13618.jpg",
+      "url": "https://www.myntra.com/search?query=Hanes+Men+Black+Muscle+Duo+Dry+Cotton+Stretch+Muscle+T-shirt",
+      "source_product_id": "13618"
+    },
+    {
+      "id": "myntra-men-16719",
+      "title": "Fila Men Solid Black Jacket",
+      "category": "Jackets",
+      "description": "Men, Apparel Topwear Jackets, Black, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-16719.jpg",
+      "url": "https://www.myntra.com/search?query=Fila+Men+Solid+Black+Jacket",
+      "source_product_id": "16719"
+    },
+    {
+      "id": "myntra-men-44923",
+      "title": "Jack & Jones Men Blue Jeans",
+      "category": "Jeans",
+      "description": "Men, Apparel Bottomwear Jeans, Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-44923.jpg",
+      "url": "https://www.myntra.com/search?query=Jack+%26+Jones+Men+Blue+Jeans",
+      "source_product_id": "44923"
+    },
+    {
+      "id": "myntra-men-15085",
+      "title": "Mother Earth Men Black Printed Kurta",
+      "category": "Kurtas",
+      "description": "Men, Apparel Topwear Kurtas, Black, Fall, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-15085.jpg",
+      "url": "https://www.myntra.com/search?query=Mother+Earth+Men+Black+Printed+Kurta",
+      "source_product_id": "15085"
+    },
+    {
+      "id": "myntra-men-50666",
+      "title": "Chromozome Men Black Fashion Lounge Pants S-5145",
+      "category": "Lounge Pants",
+      "description": "Men, Apparel Loungewear and Nightwear Lounge Pants, Black, Summer, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-50666.jpg",
+      "url": "https://www.myntra.com/search?query=Chromozome+Men+Black+Fashion+Lounge+Pants+S-5145",
+      "source_product_id": "50666"
+    },
+    {
+      "id": "myntra-men-50654",
+      "title": "Chromozome Men Black Lounge Shorts",
+      "category": "Lounge Shorts",
+      "description": "Men, Apparel Loungewear and Nightwear Lounge Shorts, Black, Winter, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-50654.jpg",
+      "url": "https://www.myntra.com/search?query=Chromozome+Men+Black+Lounge+Shorts",
+      "source_product_id": "50654"
+    },
+    {
+      "id": "myntra-men-30742",
+      "title": "Fabindia Men Striped Blue Silk Sleeveless Jacket",
+      "category": "Nehru Jackets",
+      "description": "Men, Apparel Topwear Nehru Jackets, Blue, Summer, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-30742.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Men+Striped+Blue+Silk+Sleeveless+Jacket",
+      "source_product_id": "30742"
+    },
+    {
+      "id": "myntra-men-56244",
+      "title": "SDL by Sweet Dreams Men Navy Blue Pyjama Set",
+      "category": "Night suits",
+      "description": "Men, Apparel Loungewear and Nightwear Night suits, Navy Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-56244.jpg",
+      "url": "https://www.myntra.com/search?query=SDL+by+Sweet+Dreams+Men+Navy+Blue+Pyjama+Set",
+      "source_product_id": "56244"
+    },
+    {
+      "id": "myntra-men-58526",
+      "title": "Wildcraft Men Blue Rain Jacket",
+      "category": "Rain Jacket",
+      "description": "Men, Apparel Topwear Rain Jacket, Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-58526.jpg",
+      "url": "https://www.myntra.com/search?query=Wildcraft+Men+Blue+Rain+Jacket",
+      "source_product_id": "58526"
+    },
+    {
+      "id": "myntra-men-17961",
+      "title": "Puma Men Scuba Grey Slipper",
+      "category": "Sandals",
+      "description": "Men, Footwear Sandal Sandals, Grey, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-17961.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Men+Scuba+Grey+Slipper",
+      "source_product_id": "17961"
+    },
+    {
+      "id": "myntra-men-13321",
+      "title": "Gini and Jony Kids Boys Stripes Pink Shirts",
+      "category": "Shirts",
+      "description": "Men, Apparel Topwear Shirts, Pink, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-13321.jpg",
+      "url": "https://www.myntra.com/search?query=Gini+and+Jony+Kids+Boys+Stripes+Pink+Shirts",
+      "source_product_id": "13321"
+    },
+    {
+      "id": "myntra-men-7875",
+      "title": "Proline Men Black Comfort Fit Sports Shorts",
+      "category": "Shorts",
+      "description": "Men, Apparel Bottomwear Shorts, Black, Fall, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-7875.jpg",
+      "url": "https://www.myntra.com/search?query=Proline+Men+Black+Comfort+Fit+Sports+Shorts",
+      "source_product_id": "7875"
+    },
+    {
+      "id": "myntra-men-22361",
+      "title": "Reebok Men Navy Twist Sandals",
+      "category": "Sports Sandals",
+      "description": "Men, Footwear Sandal Sports Sandals, Navy Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-22361.jpg",
+      "url": "https://www.myntra.com/search?query=Reebok+Men+Navy+Twist+Sandals",
+      "source_product_id": "22361"
+    },
+    {
+      "id": "myntra-men-24722",
+      "title": "Skechers Men Masterson White Sports Shoes",
+      "category": "Sports Shoes",
+      "description": "Men, Footwear Shoes Sports Shoes, White, Fall, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-24722.jpg",
+      "url": "https://www.myntra.com/search?query=Skechers+Men+Masterson+White+Sports+Shoes",
+      "source_product_id": "24722"
+    },
+    {
+      "id": "myntra-men-25773",
+      "title": "Lino Perros Men Black & Red Suspenders",
+      "category": "Suspenders",
+      "description": "Men, Apparel Topwear Suspenders, Black, Summer, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-25773.jpg",
+      "url": "https://www.myntra.com/search?query=Lino+Perros+Men+Black+%26+Red+Suspenders",
+      "source_product_id": "25773"
+    },
+    {
+      "id": "myntra-men-13799",
+      "title": "Proline Purple Striped Sweater",
+      "category": "Sweaters",
+      "description": "Men, Apparel Topwear Sweaters, Purple, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-13799.jpg",
+      "url": "https://www.myntra.com/search?query=Proline+Purple+Striped+Sweater",
+      "source_product_id": "13799"
+    },
+    {
+      "id": "myntra-men-18865",
+      "title": "Puma Men Red Sports Heritage Sweatshirt",
+      "category": "Sweatshirts",
+      "description": "Men, Apparel Topwear Sweatshirts, Red, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-18865.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Men+Red+Sports+Heritage+Sweatshirt",
+      "source_product_id": "18865"
+    },
+    {
+      "id": "myntra-men-3921",
+      "title": "Urban Yoga Men's Bottom Black Track Pant",
+      "category": "Track Pants",
+      "description": "Men, Apparel Bottomwear Track Pants, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-3921.jpg",
+      "url": "https://www.myntra.com/search?query=Urban+Yoga+Men%27s+Bottom+Black+Track+Pant",
+      "source_product_id": "3921"
+    },
+    {
+      "id": "myntra-men-15463",
+      "title": "Puma Men Graphic Logo Blue Tracksuits",
+      "category": "Tracksuits",
+      "description": "Men, Apparel Bottomwear Tracksuits, Blue, Fall, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-15463.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Men+Graphic+Logo+Blue+Tracksuits",
+      "source_product_id": "15463"
+    },
+    {
+      "id": "myntra-men-8949",
+      "title": "Indigo Nation Men ID Printed Grey Trousers",
+      "category": "Trousers",
+      "description": "Men, Apparel Bottomwear Trousers, Grey, Fall, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-8949.jpg",
+      "url": "https://www.myntra.com/search?query=Indigo+Nation+Men+ID+Printed+Grey+Trousers",
+      "source_product_id": "8949"
+    },
+    {
+      "id": "myntra-men-50630",
+      "title": "Chromozome Men Charcoal Grey & Black Trunks",
+      "category": "Trunk",
+      "description": "Men, Apparel Innerwear Trunk, Charcoal, Winter, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-50630.jpg",
+      "url": "https://www.myntra.com/search?query=Chromozome+Men+Charcoal+Grey+%26+Black+Trunks",
+      "source_product_id": "50630"
+    },
+    {
+      "id": "myntra-men-3202",
+      "title": "Tantra Men's Who Are You Blue T-shirt",
+      "category": "Tshirts",
+      "description": "Men, Apparel Topwear Tshirts, Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-3202.jpg",
+      "url": "https://www.myntra.com/search?query=Tantra+Men%27s+Who+Are+You+Blue+T-shirt",
+      "source_product_id": "3202"
+    },
+    {
+      "id": "myntra-men-8581",
+      "title": "Scullers Men Black Waistcoat",
+      "category": "Waistcoat",
+      "description": "Men, Apparel Topwear Waistcoat, Black, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-8581.jpg",
+      "url": "https://www.myntra.com/search?query=Scullers+Men+Black+Waistcoat",
+      "source_product_id": "8581"
+    },
+    {
+      "id": "myntra-men-31742",
+      "title": "Reid & Taylor Men Semi Formal Black Blazer",
+      "category": "Blazers",
+      "description": "Men, Apparel Topwear Blazers, Black, Summer, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-31742.jpg",
+      "url": "https://www.myntra.com/search?query=Reid+%26+Taylor+Men+Semi+Formal+Black+Blazer",
+      "source_product_id": "31742"
+    },
+    {
+      "id": "myntra-men-51392",
+      "title": "Myntra White Printed Boxers",
+      "category": "Boxers",
+      "description": "Men, Apparel Innerwear Boxers, White, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-51392.jpg",
+      "url": "https://www.myntra.com/search?query=Myntra+White+Printed+Boxers",
+      "source_product_id": "51392"
+    },
+    {
+      "id": "myntra-men-15780",
+      "title": "Facit Men Mid- Rise BF Red Briefs",
+      "category": "Briefs",
+      "description": "Men, Apparel Innerwear Briefs, Red, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-15780.jpg",
+      "url": "https://www.myntra.com/search?query=Facit+Men+Mid-+Rise+BF+Red+Briefs",
+      "source_product_id": "15780"
+    },
+    {
+      "id": "myntra-men-40686",
+      "title": "Numero Uno Men Black Shoe",
+      "category": "Casual Shoes",
+      "description": "Men, Footwear Shoes Casual Shoes, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-40686.jpg",
+      "url": "https://www.myntra.com/search?query=Numero+Uno+Men+Black+Shoe",
+      "source_product_id": "40686"
+    },
+    {
+      "id": "myntra-men-30734",
+      "title": "Fabindia Men White Churidar",
+      "category": "Churidar",
+      "description": "Men, Apparel Bottomwear Churidar, White, Summer, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-30734.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Men+White+Churidar",
+      "source_product_id": "30734"
+    },
+    {
+      "id": "myntra-men-13975",
+      "title": "Puma Men Pop Art Black Flip Flops",
+      "category": "Flip Flops",
+      "description": "Men, Footwear Flip Flops Flip Flops, Black, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-13975.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Men+Pop+Art+Black+Flip+Flops",
+      "source_product_id": "13975"
+    },
+    {
+      "id": "myntra-men-45585",
+      "title": "Arrow Men Brown Formal Shoes",
+      "category": "Formal Shoes",
+      "description": "Men, Footwear Shoes Formal Shoes, Brown, Summer, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-45585.jpg",
+      "url": "https://www.myntra.com/search?query=Arrow+Men+Brown+Formal+Shoes",
+      "source_product_id": "45585"
+    },
+    {
+      "id": "myntra-men-49969",
+      "title": "Hanes Men Grey Innerwear Vest",
+      "category": "Innerwear Vests",
+      "description": "Men, Apparel Innerwear Innerwear Vests, Grey, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-49969.jpg",
+      "url": "https://www.myntra.com/search?query=Hanes+Men+Grey+Innerwear+Vest",
+      "source_product_id": "49969"
+    },
+    {
+      "id": "myntra-men-19336",
+      "title": "United Colors of Benetton Men Solid Grey Jacket",
+      "category": "Jackets",
+      "description": "Men, Apparel Topwear Jackets, Grey, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-19336.jpg",
+      "url": "https://www.myntra.com/search?query=United+Colors+of+Benetton+Men+Solid+Grey+Jacket",
+      "source_product_id": "19336"
+    },
+    {
+      "id": "myntra-men-14130",
+      "title": "Flying Machine Men Washed Black Jeans",
+      "category": "Jeans",
+      "description": "Men, Apparel Bottomwear Jeans, Black, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-14130.jpg",
+      "url": "https://www.myntra.com/search?query=Flying+Machine+Men+Washed+Black+Jeans",
+      "source_product_id": "14130"
+    },
+    {
+      "id": "myntra-men-30747",
+      "title": "Fabindia Men Striped Cream Cambric Kurta",
+      "category": "Kurtas",
+      "description": "Men, Apparel Topwear Kurtas, Cream, Summer, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-30747.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Men+Striped+Cream+Cambric+Kurta",
+      "source_product_id": "30747"
+    },
+    {
+      "id": "myntra-men-32266",
+      "title": "2go Active Gear USA Men Red Pele Track Pants",
+      "category": "Lounge Pants",
+      "description": "Men, Apparel Loungewear and Nightwear Lounge Pants, Navy Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-32266.jpg",
+      "url": "https://www.myntra.com/search?query=2go+Active+Gear+USA+Men+Red+Pele+Track+Pants",
+      "source_product_id": "32266"
+    },
+    {
+      "id": "myntra-men-50653",
+      "title": "Chromozome Men Navy Blue Lounge Shorts",
+      "category": "Lounge Shorts",
+      "description": "Men, Apparel Loungewear and Nightwear Lounge Shorts, Navy Blue, Winter, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-50653.jpg",
+      "url": "https://www.myntra.com/search?query=Chromozome+Men+Navy+Blue+Lounge+Shorts",
+      "source_product_id": "50653"
+    },
+    {
+      "id": "myntra-men-30740",
+      "title": "Fabindia Men Brown Silk Sleeveless Jacket",
+      "category": "Nehru Jackets",
+      "description": "Men, Apparel Topwear Nehru Jackets, Brown, Summer, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-30740.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Men+Brown+Silk+Sleeveless+Jacket",
+      "source_product_id": "30740"
+    },
+    {
+      "id": "myntra-men-56269",
+      "title": "SDL by Sweet Dreams Men Maroon Pyjama Set",
+      "category": "Night suits",
+      "description": "Men, Apparel Loungewear and Nightwear Night suits, Maroon, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-56269.jpg",
+      "url": "https://www.myntra.com/search?query=SDL+by+Sweet+Dreams+Men+Maroon+Pyjama+Set",
+      "source_product_id": "56269"
+    },
+    {
+      "id": "myntra-men-59105",
+      "title": "Just Natural Men Navy Blue Rain Jacket",
+      "category": "Rain Jacket",
+      "description": "Men, Apparel Topwear Rain Jacket, Blue, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-59105.jpg",
+      "url": "https://www.myntra.com/search?query=Just+Natural+Men+Navy+Blue+Rain+Jacket",
+      "source_product_id": "59105"
+    },
+    {
+      "id": "myntra-men-19133",
+      "title": "Lotto Men Hermes Grey Sandals",
+      "category": "Sandals",
+      "description": "Men, Footwear Sandal Sandals, Grey, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-19133.jpg",
+      "url": "https://www.myntra.com/search?query=Lotto+Men+Hermes+Grey+Sandals",
+      "source_product_id": "19133"
+    },
+    {
+      "id": "myntra-men-20142",
+      "title": "Wrangler Men Authentic Rope Navy Blue Shirt",
+      "category": "Shirts",
+      "description": "Men, Apparel Topwear Shirts, Navy Blue, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-20142.jpg",
+      "url": "https://www.myntra.com/search?query=Wrangler+Men+Authentic+Rope+Navy+Blue+Shirt",
+      "source_product_id": "20142"
+    },
+    {
+      "id": "myntra-men-31457",
+      "title": "Nike Men Running Black Shorts",
+      "category": "Shorts",
+      "description": "Men, Apparel Bottomwear Shorts, Black, Summer, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-31457.jpg",
+      "url": "https://www.myntra.com/search?query=Nike+Men+Running+Black+Shorts",
+      "source_product_id": "31457"
+    },
+    {
+      "id": "myntra-men-44572",
+      "title": "Coolers Men Black Sports Sandals",
+      "category": "Sports Sandals",
+      "description": "Men, Footwear Sandal Sports Sandals, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-44572.jpg",
+      "url": "https://www.myntra.com/search?query=Coolers+Men+Black+Sports+Sandals",
+      "source_product_id": "44572"
+    },
+    {
+      "id": "myntra-men-12699",
+      "title": "Nike Men Lunarglide Black Sports Shoes",
+      "category": "Sports Shoes",
+      "description": "Men, Footwear Shoes Sports Shoes, Black, Fall, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-12699.jpg",
+      "url": "https://www.myntra.com/search?query=Nike+Men+Lunarglide+Black+Sports+Shoes",
+      "source_product_id": "12699"
+    },
+    {
+      "id": "myntra-men-25761",
+      "title": "Lino Perros Men Black Suspenders",
+      "category": "Suspenders",
+      "description": "Men, Apparel Topwear Suspenders, Black, Summer, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-25761.jpg",
+      "url": "https://www.myntra.com/search?query=Lino+Perros+Men+Black+Suspenders",
+      "source_product_id": "25761"
+    },
+    {
+      "id": "myntra-men-18627",
+      "title": "Puma Men Striped Full Zip Red Sweaters",
+      "category": "Sweaters",
+      "description": "Men, Apparel Topwear Sweaters, Red, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-18627.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Men+Striped+Full+Zip+Red+Sweaters",
+      "source_product_id": "18627"
+    },
+    {
+      "id": "myntra-men-20203",
+      "title": "Wrangler Men Flock Print Black Sweatshirt",
+      "category": "Sweatshirts",
+      "description": "Men, Apparel Topwear Sweatshirts, Black, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-20203.jpg",
+      "url": "https://www.myntra.com/search?query=Wrangler+Men+Flock+Print+Black+Sweatshirt",
+      "source_product_id": "20203"
+    },
+    {
+      "id": "myntra-men-34202",
+      "title": "Proline Men Black Track Pants",
+      "category": "Track Pants",
+      "description": "Men, Apparel Bottomwear Track Pants, Black, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-34202.jpg",
+      "url": "https://www.myntra.com/search?query=Proline+Men+Black+Track+Pants",
+      "source_product_id": "34202"
+    },
+    {
+      "id": "myntra-men-29043",
+      "title": "ADIDAS Men Navy Blue Tracksuit",
+      "category": "Tracksuits",
+      "description": "Men, Apparel Bottomwear Tracksuits, Navy Blue, Summer, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-29043.jpg",
+      "url": "https://www.myntra.com/search?query=ADIDAS+Men+Navy+Blue+Tracksuit",
+      "source_product_id": "29043"
+    },
+    {
+      "id": "myntra-men-26809",
+      "title": "Arrow Men Charcoal Flat Front Trousers",
+      "category": "Trousers",
+      "description": "Men, Apparel Bottomwear Trousers, Charcoal, Summer, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-26809.jpg",
+      "url": "https://www.myntra.com/search?query=Arrow+Men+Charcoal+Flat+Front+Trousers",
+      "source_product_id": "26809"
+    },
+    {
+      "id": "myntra-men-28112",
+      "title": "Jockey COMFORT PLUS Men Zone Black Trunks 8015",
+      "category": "Trunk",
+      "description": "Men, Apparel Innerwear Trunk, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-28112.jpg",
+      "url": "https://www.myntra.com/search?query=Jockey+COMFORT+PLUS+Men+Zone+Black+Trunks+8015",
+      "source_product_id": "28112"
+    },
+    {
+      "id": "myntra-men-34363",
+      "title": "Myntra Men Blue Extreme-XXX-Diet T-shirt",
+      "category": "Tshirts",
+      "description": "Men, Apparel Topwear Tshirts, Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-34363.jpg",
+      "url": "https://www.myntra.com/search?query=Myntra+Men+Blue+Extreme-XXX-Diet+T-shirt",
+      "source_product_id": "34363"
+    },
+    {
+      "id": "myntra-men-13706",
+      "title": "Basics Men Red Checked Waistcoat",
+      "category": "Waistcoat",
+      "description": "Men, Apparel Topwear Waistcoat, Red, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-13706.jpg",
+      "url": "https://www.myntra.com/search?query=Basics+Men+Red+Checked+Waistcoat",
+      "source_product_id": "13706"
+    },
+    {
+      "id": "myntra-men-53556",
+      "title": "Probase Multicoloured Printed Boxers",
+      "category": "Boxers",
+      "description": "Men, Apparel Innerwear Boxers, Multi, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-53556.jpg",
+      "url": "https://www.myntra.com/search?query=Probase+Multicoloured+Printed+Boxers",
+      "source_product_id": "53556"
+    },
+    {
+      "id": "myntra-men-50613",
+      "title": "Chromozome Men Charcoal Melange Briefs",
+      "category": "Briefs",
+      "description": "Men, Apparel Innerwear Briefs, Charcoal, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-50613.jpg",
+      "url": "https://www.myntra.com/search?query=Chromozome+Men+Charcoal+Melange+Briefs",
+      "source_product_id": "50613"
+    },
+    {
+      "id": "myntra-men-11815",
+      "title": "Playboy Men Casual Black Casual Shoes",
+      "category": "Casual Shoes",
+      "description": "Men, Footwear Shoes Casual Shoes, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-11815.jpg",
+      "url": "https://www.myntra.com/search?query=Playboy+Men+Casual+Black+Casual+Shoes",
+      "source_product_id": "11815"
+    },
+    {
+      "id": "myntra-men-30736",
+      "title": "Fabindia Men White Churidar",
+      "category": "Churidar",
+      "description": "Men, Apparel Bottomwear Churidar, White, Summer, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-30736.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Men+White+Churidar",
+      "source_product_id": "30736"
+    },
+    {
+      "id": "myntra-men-23672",
+      "title": "Converse Men Rainbow Purple Flip Flop",
+      "category": "Flip Flops",
+      "description": "Men, Footwear Flip Flops Flip Flops, Purple, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-23672.jpg",
+      "url": "https://www.myntra.com/search?query=Converse+Men+Rainbow+Purple+Flip+Flop",
+      "source_product_id": "23672"
+    },
+    {
+      "id": "myntra-men-44941",
+      "title": "Franco Leone Men Formal Shoes",
+      "category": "Formal Shoes",
+      "description": "Men, Footwear Shoes Formal Shoes, Black, Summer, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-44941.jpg",
+      "url": "https://www.myntra.com/search?query=Franco+Leone+Men+Formal+Shoes",
+      "source_product_id": "44941"
+    },
+    {
+      "id": "myntra-men-50493",
+      "title": "Chromozome Men Maroon Innerwear Vest",
+      "category": "Innerwear Vests",
+      "description": "Men, Apparel Innerwear Innerwear Vests, Maroon, Winter, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-50493.jpg",
+      "url": "https://www.myntra.com/search?query=Chromozome+Men+Maroon+Innerwear+Vest",
+      "source_product_id": "50493"
+    },
+    {
+      "id": "myntra-men-22315",
+      "title": "Wildcraft Men Light Quilt Black Jacket",
+      "category": "Jackets",
+      "description": "Men, Apparel Topwear Jackets, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-22315.jpg",
+      "url": "https://www.myntra.com/search?query=Wildcraft+Men+Light+Quilt+Black+Jacket",
+      "source_product_id": "22315"
+    },
+    {
+      "id": "myntra-men-11339",
+      "title": "Lee Men Blue Chicago Fit Jeans",
+      "category": "Jeans",
+      "description": "Men, Apparel Bottomwear Jeans, Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-11339.jpg",
+      "url": "https://www.myntra.com/search?query=Lee+Men+Blue+Chicago+Fit+Jeans",
+      "source_product_id": "11339"
+    },
+    {
+      "id": "myntra-men-30743",
+      "title": "Fabindia Men Striped White Kurta",
+      "category": "Kurtas",
+      "description": "Men, Apparel Topwear Kurtas, White, Summer, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-30743.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Men+Striped+White+Kurta",
+      "source_product_id": "30743"
+    },
+    {
+      "id": "myntra-men-50034",
+      "title": "Hanes Men Grey Contrast piping Lounge Pants",
+      "category": "Lounge Pants",
+      "description": "Men, Apparel Loungewear and Nightwear Lounge Pants, Grey, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-50034.jpg",
+      "url": "https://www.myntra.com/search?query=Hanes+Men+Grey+Contrast+piping+Lounge+Pants",
+      "source_product_id": "50034"
+    },
+    {
+      "id": "myntra-men-50658",
+      "title": "Chromozome Men Charcoal Lounge Shorts",
+      "category": "Lounge Shorts",
+      "description": "Men, Apparel Loungewear and Nightwear Lounge Shorts, Charcoal, Winter, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-50658.jpg",
+      "url": "https://www.myntra.com/search?query=Chromozome+Men+Charcoal+Lounge+Shorts",
+      "source_product_id": "50658"
+    },
+    {
+      "id": "myntra-men-56247",
+      "title": "SDL by Sweet Dreams Men Grey & Blue Pyjama Set",
+      "category": "Night suits",
+      "description": "Men, Apparel Loungewear and Nightwear Night suits, Grey Melange, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-56247.jpg",
+      "url": "https://www.myntra.com/search?query=SDL+by+Sweet+Dreams+Men+Grey+%26+Blue+Pyjama+Set",
+      "source_product_id": "56247"
+    },
+    {
+      "id": "myntra-men-51331",
+      "title": "Wildcraft Men Black Rain Cheater'13",
+      "category": "Rain Jacket",
+      "description": "Men, Apparel Topwear Rain Jacket, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-51331.jpg",
+      "url": "https://www.myntra.com/search?query=Wildcraft+Men+Black+Rain+Cheater%2713",
+      "source_product_id": "51331"
+    },
+    {
+      "id": "myntra-men-47177",
+      "title": "Ganuchi Men Black Sandals",
+      "category": "Sandals",
+      "description": "Men, Footwear Sandal Sandals, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-47177.jpg",
+      "url": "https://www.myntra.com/search?query=Ganuchi+Men+Black+Sandals",
+      "source_product_id": "47177"
+    },
+    {
+      "id": "myntra-men-29369",
+      "title": "Genesis Men Check Lavender Shirt",
+      "category": "Shirts",
+      "description": "Men, Apparel Topwear Shirts, Lavender, Summer, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-29369.jpg",
+      "url": "https://www.myntra.com/search?query=Genesis+Men+Check+Lavender+Shirt",
+      "source_product_id": "29369"
+    },
+    {
+      "id": "myntra-men-32427",
+      "title": "ADIDAS Men Black 3/4 Length Pants",
+      "category": "Shorts",
+      "description": "Men, Apparel Bottomwear Shorts, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-32427.jpg",
+      "url": "https://www.myntra.com/search?query=ADIDAS+Men+Black+3%2F4+Length+Pants",
+      "source_product_id": "32427"
+    },
+    {
+      "id": "myntra-men-26625",
+      "title": "Puma Men Black Jiff II Ind Sports Sandals",
+      "category": "Sports Sandals",
+      "description": "Men, Footwear Sandal Sports Sandals, Black, Winter, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-26625.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Men+Black+Jiff+II+Ind+Sports+Sandals",
+      "source_product_id": "26625"
+    },
+    {
+      "id": "myntra-men-25417",
+      "title": "Nike Men Downshifter White Sports Shoes",
+      "category": "Sports Shoes",
+      "description": "Men, Footwear Shoes Sports Shoes, White, Summer, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-25417.jpg",
+      "url": "https://www.myntra.com/search?query=Nike+Men+Downshifter+White+Sports+Shoes",
+      "source_product_id": "25417"
+    },
+    {
+      "id": "myntra-men-25768",
+      "title": "Lino Perros Men Cream Suspenders",
+      "category": "Suspenders",
+      "description": "Men, Apparel Topwear Suspenders, Cream, Summer, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-25768.jpg",
+      "url": "https://www.myntra.com/search?query=Lino+Perros+Men+Cream+Suspenders",
+      "source_product_id": "25768"
+    },
+    {
+      "id": "myntra-men-19953",
+      "title": "United Colors of Benetton Men Solid Black Sweater",
+      "category": "Sweaters",
+      "description": "Men, Apparel Topwear Sweaters, Black, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-19953.jpg",
+      "url": "https://www.myntra.com/search?query=United+Colors+of+Benetton+Men+Solid+Black+Sweater",
+      "source_product_id": "19953"
+    },
+    {
+      "id": "myntra-men-22610",
+      "title": "Nike Men Black Sweatshirt",
+      "category": "Sweatshirts",
+      "description": "Men, Apparel Topwear Sweatshirts, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-22610.jpg",
+      "url": "https://www.myntra.com/search?query=Nike+Men+Black+Sweatshirt",
+      "source_product_id": "22610"
+    },
+    {
+      "id": "myntra-men-7782",
+      "title": "Urban Yoga Men's Abhayas Black Track Pant",
+      "category": "Track Pants",
+      "description": "Men, Apparel Bottomwear Track Pants, Black, Fall, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-7782.jpg",
+      "url": "https://www.myntra.com/search?query=Urban+Yoga+Men%27s+Abhayas+Black+Track+Pant",
+      "source_product_id": "7782"
+    },
+    {
+      "id": "myntra-men-26322",
+      "title": "Proline Men Charcoal Grey Tracksuit",
+      "category": "Tracksuits",
+      "description": "Men, Apparel Bottomwear Tracksuits, Charcoal, Fall, Sports",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-26322.jpg",
+      "url": "https://www.myntra.com/search?query=Proline+Men+Charcoal+Grey+Tracksuit",
+      "source_product_id": "26322"
+    },
+    {
+      "id": "myntra-men-44313",
+      "title": "Indian Terrain Men Beige Trousers",
+      "category": "Trousers",
+      "description": "Men, Apparel Bottomwear Trousers, Beige, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-44313.jpg",
+      "url": "https://www.myntra.com/search?query=Indian+Terrain+Men+Beige+Trousers",
+      "source_product_id": "44313"
+    },
+    {
+      "id": "myntra-men-50571",
+      "title": "Chromozome Men Pack of Two Blue Trunks",
+      "category": "Trunk",
+      "description": "Men, Apparel Innerwear Trunk, Navy Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-50571.jpg",
+      "url": "https://www.myntra.com/search?query=Chromozome+Men+Pack+of+Two+Blue+Trunks",
+      "source_product_id": "50571"
+    },
+    {
+      "id": "myntra-men-5167",
+      "title": "Ed Hardy Men's Skull Wave Black T-shirt",
+      "category": "Tshirts",
+      "description": "Men, Apparel Topwear Tshirts, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-5167.jpg",
+      "url": "https://www.myntra.com/search?query=Ed+Hardy+Men%27s+Skull+Wave+Black+T-shirt",
+      "source_product_id": "5167"
+    },
+    {
+      "id": "myntra-men-30737",
+      "title": "Fabindia Men Red Silk Sleeveless Waistcoat",
+      "category": "Waistcoat",
+      "description": "Men, Apparel Topwear Waistcoat, Red, Summer, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-30737.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Men+Red+Silk+Sleeveless+Waistcoat",
+      "source_product_id": "30737"
+    },
+    {
+      "id": "myntra-men-51391",
+      "title": "Myntra Men Blue Boxer",
+      "category": "Boxers",
+      "description": "Men, Apparel Innerwear Boxers, Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-51391.jpg",
+      "url": "https://www.myntra.com/search?query=Myntra+Men+Blue+Boxer",
+      "source_product_id": "51391"
+    },
+    {
+      "id": "myntra-men-54602",
+      "title": "Jockey ELANCE Men Navy Blue Briefs 1004",
+      "category": "Briefs",
+      "description": "Men, Apparel Innerwear Briefs, Navy Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-54602.jpg",
+      "url": "https://www.myntra.com/search?query=Jockey+ELANCE+Men+Navy+Blue+Briefs+1004",
+      "source_product_id": "54602"
+    },
+    {
+      "id": "myntra-men-6816",
+      "title": "Timberland Men's Desert Walnut Brown Shoe",
+      "category": "Casual Shoes",
+      "description": "Men, Footwear Shoes Casual Shoes, Brown, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-6816.jpg",
+      "url": "https://www.myntra.com/search?query=Timberland+Men%27s+Desert+Walnut+Brown+Shoe",
+      "source_product_id": "6816"
+    },
+    {
+      "id": "myntra-men-35511",
+      "title": "Bata Men Lite Black Flip Flops",
+      "category": "Flip Flops",
+      "description": "Men, Footwear Flip Flops Flip Flops, Black, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-35511.jpg",
+      "url": "https://www.myntra.com/search?query=Bata+Men+Lite+Black+Flip+Flops",
+      "source_product_id": "35511"
+    },
+    {
+      "id": "myntra-men-15060",
+      "title": "Franco Leone Men Brown Formal Shoes",
+      "category": "Formal Shoes",
+      "description": "Men, Footwear Shoes Formal Shoes, Brown, Summer, Formal",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-15060.jpg",
+      "url": "https://www.myntra.com/search?query=Franco+Leone+Men+Brown+Formal+Shoes",
+      "source_product_id": "15060"
+    },
+    {
+      "id": "myntra-men-18367",
+      "title": "Undercolors of Benetton Men Pack of 2 Vests",
+      "category": "Innerwear Vests",
+      "description": "Men, Apparel Innerwear Innerwear Vests, Grey, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-18367.jpg",
+      "url": "https://www.myntra.com/search?query=Undercolors+of+Benetton+Men+Pack+of+2+Vests",
+      "source_product_id": "18367"
+    },
+    {
+      "id": "myntra-men-59133",
+      "title": "Just Natural Men Brown Reversible Jacket",
+      "category": "Jackets",
+      "description": "Men, Apparel Topwear Jackets, Brown, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-59133.jpg",
+      "url": "https://www.myntra.com/search?query=Just+Natural+Men+Brown+Reversible+Jacket",
+      "source_product_id": "59133"
+    },
+    {
+      "id": "myntra-men-46895",
+      "title": "Locomotive Men Blue Jeans",
+      "category": "Jeans",
+      "description": "Men, Apparel Bottomwear Jeans, Blue, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-46895.jpg",
+      "url": "https://www.myntra.com/search?query=Locomotive+Men+Blue+Jeans",
+      "source_product_id": "46895"
+    },
+    {
+      "id": "myntra-men-30772",
+      "title": "Fabindia Men Printed Mustard Kurta",
+      "category": "Kurtas",
+      "description": "Men, Apparel Topwear Kurtas, Mustard, Summer, Ethnic",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-30772.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Men+Printed+Mustard+Kurta",
+      "source_product_id": "30772"
+    },
+    {
+      "id": "myntra-men-50033",
+      "title": "Hanes Men Grey Relaxed Sports Pants",
+      "category": "Lounge Pants",
+      "description": "Men, Apparel Loungewear and Nightwear Lounge Pants, Grey, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-50033.jpg",
+      "url": "https://www.myntra.com/search?query=Hanes+Men+Grey+Relaxed+Sports+Pants",
+      "source_product_id": "50033"
+    },
+    {
+      "id": "myntra-men-49949",
+      "title": "Hanes Men Grey Melange Shorts",
+      "category": "Lounge Shorts",
+      "description": "Men, Apparel Loungewear and Nightwear Lounge Shorts, Grey Melange, Summer, Casual",
+      "audience": "men",
+      "image_url": "/assets/fashion-catalog/men-49949.jpg",
+      "url": "https://www.myntra.com/search?query=Hanes+Men+Grey+Melange+Shorts",
+      "source_product_id": "49949"
+    },
+    {
+      "id": "myntra-women-52508",
+      "title": "Red Rose Red Nightdress",
+      "category": "Baby Dolls",
+      "description": "Women, Apparel Loungewear and Nightwear Baby Dolls, Red, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-52508.jpg",
+      "url": "https://www.myntra.com/search?query=Red+Rose+Red+Nightdress",
+      "source_product_id": "52508"
+    },
+    {
+      "id": "myntra-women-52495",
+      "title": "Red Rose Women Light Pink Bath Robe",
+      "category": "Bath Robe",
+      "description": "Women, Apparel Loungewear and Nightwear Bath Robe, Pink, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-52495.jpg",
+      "url": "https://www.myntra.com/search?query=Red+Rose+Women+Light+Pink+Bath+Robe",
+      "source_product_id": "52495"
+    },
+    {
+      "id": "myntra-women-27846",
+      "title": "Scullers For Her Charcoal Blazer",
+      "category": "Blazers",
+      "description": "Women, Apparel Topwear Blazers, Charcoal, Summer, Formal",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-27846.jpg",
+      "url": "https://www.myntra.com/search?query=Scullers+For+Her+Charcoal+Blazer",
+      "source_product_id": "27846"
+    },
+    {
+      "id": "myntra-women-27458",
+      "title": "Jockey Nude-Coloured Seamless Bra 1672",
+      "category": "Bra",
+      "description": "Women, Apparel Innerwear Bra, Nude, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-27458.jpg",
+      "url": "https://www.myntra.com/search?query=Jockey+Nude-Coloured+Seamless+Bra+1672",
+      "source_product_id": "27458"
+    },
+    {
+      "id": "myntra-women-57403",
+      "title": "Amante Women Taupe Briefs PGEN01",
+      "category": "Briefs",
+      "description": "Women, Apparel Innerwear Briefs, Taupe, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-57403.jpg",
+      "url": "https://www.myntra.com/search?query=Amante+Women+Taupe+Briefs+PGEN01",
+      "source_product_id": "57403"
+    },
+    {
+      "id": "myntra-women-27471",
+      "title": "Jockey White Camisole",
+      "category": "Camisoles",
+      "description": "Women, Apparel Innerwear Camisoles, White, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-27471.jpg",
+      "url": "https://www.myntra.com/search?query=Jockey+White+Camisole",
+      "source_product_id": "27471"
+    },
+    {
+      "id": "myntra-women-27405",
+      "title": "Jockey Women Black Capris",
+      "category": "Capris",
+      "description": "Women, Apparel Bottomwear Capris, Black, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-27405.jpg",
+      "url": "https://www.myntra.com/search?query=Jockey+Women+Black+Capris",
+      "source_product_id": "27405"
+    },
+    {
+      "id": "myntra-women-26666",
+      "title": "Puma Women Black & Green Shoes",
+      "category": "Casual Shoes",
+      "description": "Women, Footwear Shoes Casual Shoes, Black, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-26666.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Women+Black+%26+Green+Shoes",
+      "source_product_id": "26666"
+    },
+    {
+      "id": "myntra-women-35036",
+      "title": "Fabindia Women Magenta Churidar",
+      "category": "Churidar",
+      "description": "Women, Apparel Bottomwear Churidar, Magenta, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-35036.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Women+Magenta+Churidar",
+      "source_product_id": "35036"
+    },
+    {
+      "id": "myntra-women-40402",
+      "title": "Tonga Women Grey & Red Dress",
+      "category": "Dresses",
+      "description": "Women, Apparel Dress Dresses, Grey, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-40402.jpg",
+      "url": "https://www.myntra.com/search?query=Tonga+Women+Grey+%26+Red+Dress",
+      "source_product_id": "40402"
+    },
+    {
+      "id": "myntra-women-34918",
+      "title": "Fabindia Brown Dupatta",
+      "category": "Dupatta",
+      "description": "Women, Apparel Topwear Dupatta, Brown, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-34918.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Brown+Dupatta",
+      "source_product_id": "34918"
+    },
+    {
+      "id": "myntra-women-17009",
+      "title": "Rocia Women Black Ballerinas",
+      "category": "Flats",
+      "description": "Women, Footwear Shoes Flats, Black, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-17009.jpg",
+      "url": "https://www.myntra.com/search?query=Rocia+Women+Black+Ballerinas",
+      "source_product_id": "17009"
+    },
+    {
+      "id": "myntra-women-40757",
+      "title": "Roxy Women Multi Coloured Flip Flops",
+      "category": "Flip Flops",
+      "description": "Women, Footwear Flip Flops Flip Flops, Multi, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-40757.jpg",
+      "url": "https://www.myntra.com/search?query=Roxy+Women+Multi+Coloured+Flip+Flops",
+      "source_product_id": "40757"
+    },
+    {
+      "id": "myntra-women-56897",
+      "title": "HM Women Maroon Heels",
+      "category": "Heels",
+      "description": "Women, Footwear Shoes Heels, Maroon, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-56897.jpg",
+      "url": "https://www.myntra.com/search?query=HM+Women+Maroon+Heels",
+      "source_product_id": "56897"
+    },
+    {
+      "id": "myntra-women-13619",
+      "title": "Hanes Women Short Sleeve White Innerwear T-shirt",
+      "category": "Innerwear Vests",
+      "description": "Women, Apparel Innerwear Innerwear Vests, White, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-13619.jpg",
+      "url": "https://www.myntra.com/search?query=Hanes+Women+Short+Sleeve+White+Innerwear+T-shirt",
+      "source_product_id": "13619"
+    },
+    {
+      "id": "myntra-women-12532",
+      "title": "Puma Women Solid Black Jackets",
+      "category": "Jackets",
+      "description": "Women, Apparel Topwear Jackets, Black, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-12532.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Women+Solid+Black+Jackets",
+      "source_product_id": "12532"
+    },
+    {
+      "id": "myntra-women-11304",
+      "title": "Wrangler Women Blue Custom Jeans",
+      "category": "Jeans",
+      "description": "Women, Apparel Bottomwear Jeans, Blue, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-11304.jpg",
+      "url": "https://www.myntra.com/search?query=Wrangler+Women+Blue+Custom+Jeans",
+      "source_product_id": "11304"
+    },
+    {
+      "id": "myntra-women-57210",
+      "title": "Kraus Jeans Women Blue Jeggings",
+      "category": "Jeggings",
+      "description": "Women, Apparel Bottomwear Jeggings, Blue, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-57210.jpg",
+      "url": "https://www.myntra.com/search?query=Kraus+Jeans+Women+Blue+Jeggings",
+      "source_product_id": "57210"
+    },
+    {
+      "id": "myntra-women-43675",
+      "title": "French Connection Women Multi Coloured Playsuit",
+      "category": "Jumpsuit",
+      "description": "Women, Apparel Dress Jumpsuit, Pink, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-43675.jpg",
+      "url": "https://www.myntra.com/search?query=French+Connection+Women+Multi+Coloured+Playsuit",
+      "source_product_id": "43675"
+    },
+    {
+      "id": "myntra-women-39137",
+      "title": "Aneri Women Gypsy Rose Purple Salwar Suit",
+      "category": "Kurta Sets",
+      "description": "Women, Apparel Apparel Set Kurta Sets, Purple, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-39137.jpg",
+      "url": "https://www.myntra.com/search?query=Aneri+Women+Gypsy+Rose+Purple+Salwar+Suit",
+      "source_product_id": "39137"
+    },
+    {
+      "id": "myntra-women-58681",
+      "title": "ALayna Women Black Kurta",
+      "category": "Kurtas",
+      "description": "Women, Apparel Topwear Kurtas, Black, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-58681.jpg",
+      "url": "https://www.myntra.com/search?query=ALayna+Women+Black+Kurta",
+      "source_product_id": "58681"
+    },
+    {
+      "id": "myntra-women-15082",
+      "title": "Mother Earth Women Printed Green Kurtis",
+      "category": "Kurtis",
+      "description": "Women, Apparel Topwear Kurtis, Green, Fall, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-15082.jpg",
+      "url": "https://www.myntra.com/search?query=Mother+Earth+Women+Printed+Green+Kurtis",
+      "source_product_id": "15082"
+    },
+    {
+      "id": "myntra-women-25890",
+      "title": "Femella Women White Leggings",
+      "category": "Leggings",
+      "description": "Women, Apparel Bottomwear Leggings, White, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-25890.jpg",
+      "url": "https://www.myntra.com/search?query=Femella+Women+White+Leggings",
+      "source_product_id": "25890"
+    },
+    {
+      "id": "myntra-women-59673",
+      "title": "FNF Red Bridal Collection Lehenga Choli",
+      "category": "Lehenga Choli",
+      "description": "Women, Apparel Topwear Lehenga Choli, Red, Fall, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-59673.jpg",
+      "url": "https://www.myntra.com/search?query=FNF+Red+Bridal+Collection+Lehenga+Choli",
+      "source_product_id": "59673"
+    },
+    {
+      "id": "myntra-women-51988",
+      "title": "Inaya Women Purple Lounge Pants",
+      "category": "Lounge Pants",
+      "description": "Women, Apparel Loungewear and Nightwear Lounge Pants, Purple, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-51988.jpg",
+      "url": "https://www.myntra.com/search?query=Inaya+Women+Purple+Lounge+Pants",
+      "source_product_id": "51988"
+    },
+    {
+      "id": "myntra-women-27409",
+      "title": "Jockey Women Navy Blue Capris",
+      "category": "Lounge Shorts",
+      "description": "Women, Apparel Loungewear and Nightwear Lounge Shorts, Navy Blue, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-27409.jpg",
+      "url": "https://www.myntra.com/search?query=Jockey+Women+Navy+Blue+Capris",
+      "source_product_id": "27409"
+    },
+    {
+      "id": "myntra-women-52003",
+      "title": "Inaya Women Black Lounge Top",
+      "category": "Lounge Tshirts",
+      "description": "Women, Apparel Loungewear and Nightwear Lounge Tshirts, Black, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-52003.jpg",
+      "url": "https://www.myntra.com/search?query=Inaya+Women+Black+Lounge+Top",
+      "source_product_id": "52003"
+    },
+    {
+      "id": "myntra-women-55791",
+      "title": "SDL by Sweet Dreams Women Black & Grey Night Suit 314771",
+      "category": "Night suits",
+      "description": "Women, Apparel Loungewear and Nightwear Night suits, Black, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-55791.jpg",
+      "url": "https://www.myntra.com/search?query=SDL+by+Sweet+Dreams+Women+Black+%26+Grey+Night+Suit+314771",
+      "source_product_id": "55791"
+    },
+    {
+      "id": "myntra-women-52439",
+      "title": "Red Rose Women Blue Nightdress",
+      "category": "Nightdress",
+      "description": "Women, Apparel Loungewear and Nightwear Nightdress, Blue, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-52439.jpg",
+      "url": "https://www.myntra.com/search?query=Red+Rose+Women+Blue+Nightdress",
+      "source_product_id": "52439"
+    },
+    {
+      "id": "myntra-women-30893",
+      "title": "Fabindia Women Printed White & Blue Patiala",
+      "category": "Patiala",
+      "description": "Women, Apparel Bottomwear Patiala, White, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-30893.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Women+Printed+White+%26+Blue+Patiala",
+      "source_product_id": "30893"
+    },
+    {
+      "id": "myntra-women-57418",
+      "title": "Amante Black Robe",
+      "category": "Robe",
+      "description": "Women, Apparel Loungewear and Nightwear Robe, Black, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-57418.jpg",
+      "url": "https://www.myntra.com/search?query=Amante+Black+Robe",
+      "source_product_id": "57418"
+    },
+    {
+      "id": "myntra-women-47051",
+      "title": "Shree Women Multi Colored Jodhpuri Salwar",
+      "category": "Salwar",
+      "description": "Women, Apparel Bottomwear Salwar, Multi, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-47051.jpg",
+      "url": "https://www.myntra.com/search?query=Shree+Women+Multi+Colored+Jodhpuri+Salwar",
+      "source_product_id": "47051"
+    },
+    {
+      "id": "myntra-women-50384",
+      "title": "Vishudh Women Black Salwar and Dupatta",
+      "category": "Salwar and Dupatta",
+      "description": "Women, Apparel Bottomwear Salwar and Dupatta, Black, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-50384.jpg",
+      "url": "https://www.myntra.com/search?query=Vishudh+Women+Black+Salwar+and+Dupatta",
+      "source_product_id": "50384"
+    },
+    {
+      "id": "myntra-women-43957",
+      "title": "Puma Women Grey Techno Ind Sandals",
+      "category": "Sandals",
+      "description": "Women, Footwear Sandal Sandals, Grey, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-43957.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Women+Grey+Techno+Ind+Sandals",
+      "source_product_id": "43957"
+    },
+    {
+      "id": "myntra-women-52884",
+      "title": "FNF Orange Printed Sari",
+      "category": "Sarees",
+      "description": "Women, Apparel Saree Sarees, Orange, Fall, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-52884.jpg",
+      "url": "https://www.myntra.com/search?query=FNF+Orange+Printed+Sari",
+      "source_product_id": "52884"
+    },
+    {
+      "id": "myntra-women-59731",
+      "title": "Avirate Black & Purple Wired Corset Shapewear",
+      "category": "Shapewear",
+      "description": "Women, Apparel Innerwear Shapewear, Black, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-59731.jpg",
+      "url": "https://www.myntra.com/search?query=Avirate+Black+%26+Purple+Wired+Corset+Shapewear",
+      "source_product_id": "59731"
+    },
+    {
+      "id": "myntra-women-35262",
+      "title": "Lee Women Arona Grey Striped Shirt",
+      "category": "Shirts",
+      "description": "Women, Apparel Topwear Shirts, Grey, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-35262.jpg",
+      "url": "https://www.myntra.com/search?query=Lee+Women+Arona+Grey+Striped+Shirt",
+      "source_product_id": "35262"
+    },
+    {
+      "id": "myntra-women-28459",
+      "title": "Urban Yoga Women Purple Shorts",
+      "category": "Shorts",
+      "description": "Women, Apparel Bottomwear Shorts, Purple, Summer, Sports",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-28459.jpg",
+      "url": "https://www.myntra.com/search?query=Urban+Yoga+Women+Purple+Shorts",
+      "source_product_id": "28459"
+    },
+    {
+      "id": "myntra-women-58507",
+      "title": "Tonga Women Coffee Brown Shrug",
+      "category": "Shrug",
+      "description": "Women, Apparel Topwear Shrug, White, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-58507.jpg",
+      "url": "https://www.myntra.com/search?query=Tonga+Women+Coffee+Brown+Shrug",
+      "source_product_id": "58507"
+    },
+    {
+      "id": "myntra-women-25931",
+      "title": "Femella Women Red Skirt",
+      "category": "Skirts",
+      "description": "Women, Apparel Bottomwear Skirts, Red, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-25931.jpg",
+      "url": "https://www.myntra.com/search?query=Femella+Women+Red+Skirt",
+      "source_product_id": "25931"
+    },
+    {
+      "id": "myntra-women-6679",
+      "title": "Nike Women Rayong Black Floater",
+      "category": "Sports Sandals",
+      "description": "Women, Footwear Sandal Sports Sandals, Black, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-6679.jpg",
+      "url": "https://www.myntra.com/search?query=Nike+Women+Rayong+Black+Floater",
+      "source_product_id": "6679"
+    },
+    {
+      "id": "myntra-women-17739",
+      "title": "Puma Women Body Train White Sports Shoe",
+      "category": "Sports Shoes",
+      "description": "Women, Footwear Shoes Sports Shoes, White, Fall, Sports",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-17739.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Women+Body+Train+White+Sports+Shoe",
+      "source_product_id": "17739"
+    },
+    {
+      "id": "myntra-women-33984",
+      "title": "Femella Women Black Stockings",
+      "category": "Stockings",
+      "description": "Women, Apparel Bottomwear Stockings, Black, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-33984.jpg",
+      "url": "https://www.myntra.com/search?query=Femella+Women+Black+Stockings",
+      "source_product_id": "33984"
+    },
+    {
+      "id": "myntra-women-20225",
+      "title": "Wrangler Women Felt Red Sweater",
+      "category": "Sweaters",
+      "description": "Women, Apparel Topwear Sweaters, Red, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-20225.jpg",
+      "url": "https://www.myntra.com/search?query=Wrangler+Women+Felt+Red+Sweater",
+      "source_product_id": "20225"
+    },
+    {
+      "id": "myntra-women-18964",
+      "title": "United Colors of Benetton Women Solid Dark Grey Sweatshirt",
+      "category": "Sweatshirts",
+      "description": "Women, Apparel Topwear Sweatshirts, Grey, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-18964.jpg",
+      "url": "https://www.myntra.com/search?query=United+Colors+of+Benetton+Women+Solid+Dark+Grey+Sweatshirt",
+      "source_product_id": "18964"
+    },
+    {
+      "id": "myntra-women-1580",
+      "title": "Nabaiji Women Cross-back Swimsuit",
+      "category": "Swimwear",
+      "description": "Women, Apparel Bottomwear Swimwear, Black, Fall, Sports",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-1580.jpg",
+      "url": "https://www.myntra.com/search?query=Nabaiji+Women+Cross-back+Swimsuit",
+      "source_product_id": "1580"
+    },
+    {
+      "id": "myntra-women-37893",
+      "title": "Happy Socks Women Striped Tights",
+      "category": "Tights",
+      "description": "Women, Apparel Bottomwear Tights, Multi, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-37893.jpg",
+      "url": "https://www.myntra.com/search?query=Happy+Socks+Women+Striped+Tights",
+      "source_product_id": "37893"
+    },
+    {
+      "id": "myntra-women-21146",
+      "title": "s.Oliver Women Printed Grey Top",
+      "category": "Tops",
+      "description": "Women, Apparel Topwear Tops, Grey, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-21146.jpg",
+      "url": "https://www.myntra.com/search?query=s.Oliver+Women+Printed+Grey+Top",
+      "source_product_id": "21146"
+    },
+    {
+      "id": "myntra-women-18006",
+      "title": "Puma Women Jersey Black Track Pant",
+      "category": "Track Pants",
+      "description": "Women, Apparel Bottomwear Track Pants, Black, Summer, Sports",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-18006.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Women+Jersey+Black+Track+Pant",
+      "source_product_id": "18006"
+    },
+    {
+      "id": "myntra-women-15344",
+      "title": "Nike Women Solid Black Tracksuits",
+      "category": "Tracksuits",
+      "description": "Women, Apparel Bottomwear Tracksuits, Black, Fall, Sports",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-15344.jpg",
+      "url": "https://www.myntra.com/search?query=Nike+Women+Solid+Black+Tracksuits",
+      "source_product_id": "15344"
+    },
+    {
+      "id": "myntra-women-39761",
+      "title": "Arrow Woman Beige Trousers",
+      "category": "Trousers",
+      "description": "Women, Apparel Bottomwear Trousers, Beige, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-39761.jpg",
+      "url": "https://www.myntra.com/search?query=Arrow+Woman+Beige+Trousers",
+      "source_product_id": "39761"
+    },
+    {
+      "id": "myntra-women-5884",
+      "title": "Puma Women Classic Black Top",
+      "category": "Tshirts",
+      "description": "Women, Apparel Topwear Tshirts, Black, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-5884.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Women+Classic+Black+Top",
+      "source_product_id": "5884"
+    },
+    {
+      "id": "myntra-women-42220",
+      "title": "Sepia Women Teal Tunic",
+      "category": "Tunics",
+      "description": "Women, Apparel Topwear Tunics, Teal, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-42220.jpg",
+      "url": "https://www.myntra.com/search?query=Sepia+Women+Teal+Tunic",
+      "source_product_id": "42220"
+    },
+    {
+      "id": "myntra-women-26862",
+      "title": "Jealous 21 Women Washed Blue Waistcoat",
+      "category": "Waistcoat",
+      "description": "Women, Apparel Topwear Waistcoat, Blue, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-26862.jpg",
+      "url": "https://www.myntra.com/search?query=Jealous+21+Women+Washed+Blue+Waistcoat",
+      "source_product_id": "26862"
+    },
+    {
+      "id": "myntra-women-52479",
+      "title": "Red Rose White Nightdress",
+      "category": "Baby Dolls",
+      "description": "Women, Apparel Loungewear and Nightwear Baby Dolls, White, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-52479.jpg",
+      "url": "https://www.myntra.com/search?query=Red+Rose+White+Nightdress",
+      "source_product_id": "52479"
+    },
+    {
+      "id": "myntra-women-52502",
+      "title": "Red Rose Pink & Purple Printed Bath Robe",
+      "category": "Bath Robe",
+      "description": "Women, Apparel Loungewear and Nightwear Bath Robe, Pink, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-52502.jpg",
+      "url": "https://www.myntra.com/search?query=Red+Rose+Pink+%26+Purple+Printed+Bath+Robe",
+      "source_product_id": "52502"
+    },
+    {
+      "id": "myntra-women-27845",
+      "title": "Scullers For Her Black Blazer",
+      "category": "Blazers",
+      "description": "Women, Apparel Topwear Blazers, Black, Summer, Formal",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-27845.jpg",
+      "url": "https://www.myntra.com/search?query=Scullers+For+Her+Black+Blazer",
+      "source_product_id": "27845"
+    },
+    {
+      "id": "myntra-women-50974",
+      "title": "Enamor Golden Lift Bra",
+      "category": "Bra",
+      "description": "Women, Apparel Innerwear Bra, Gold, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-50974.jpg",
+      "url": "https://www.myntra.com/search?query=Enamor+Golden+Lift+Bra",
+      "source_product_id": "50974"
+    },
+    {
+      "id": "myntra-women-42817",
+      "title": "Little Miss Intimates Women Black Bikini Brief",
+      "category": "Briefs",
+      "description": "Women, Apparel Innerwear Briefs, Black, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-42817.jpg",
+      "url": "https://www.myntra.com/search?query=Little+Miss+Intimates+Women+Black+Bikini+Brief",
+      "source_product_id": "42817"
+    },
+    {
+      "id": "myntra-women-52491",
+      "title": "Red Rose Black Camisole",
+      "category": "Camisoles",
+      "description": "Women, Apparel Innerwear Camisoles, Black, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-52491.jpg",
+      "url": "https://www.myntra.com/search?query=Red+Rose+Black+Camisole",
+      "source_product_id": "52491"
+    },
+    {
+      "id": "myntra-women-32655",
+      "title": "Nike Women Tech Black Capris",
+      "category": "Capris",
+      "description": "Women, Apparel Bottomwear Capris, Black, Summer, Sports",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-32655.jpg",
+      "url": "https://www.myntra.com/search?query=Nike+Women+Tech+Black+Capris",
+      "source_product_id": "32655"
+    },
+    {
+      "id": "myntra-women-18490",
+      "title": "Puma Women Vogue Black Shoes",
+      "category": "Casual Shoes",
+      "description": "Women, Footwear Shoes Casual Shoes, Black, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-18490.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Women+Vogue+Black+Shoes",
+      "source_product_id": "18490"
+    },
+    {
+      "id": "myntra-women-30823",
+      "title": "Fabindia Women Blue Churidar",
+      "category": "Churidar",
+      "description": "Women, Apparel Bottomwear Churidar, Blue, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-30823.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Women+Blue+Churidar",
+      "source_product_id": "30823"
+    },
+    {
+      "id": "myntra-women-38840",
+      "title": "Latin Quarters Women Navy Blue & White Printed Dress",
+      "category": "Dresses",
+      "description": "Women, Apparel Dress Dresses, Black, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-38840.jpg",
+      "url": "https://www.myntra.com/search?query=Latin+Quarters+Women+Navy+Blue+%26+White+Printed+Dress",
+      "source_product_id": "38840"
+    },
+    {
+      "id": "myntra-women-50842",
+      "title": "Fabindia Women Lavender Dupatta",
+      "category": "Dupatta",
+      "description": "Women, Apparel Topwear Dupatta, Lavender, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-50842.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Women+Lavender+Dupatta",
+      "source_product_id": "50842"
+    },
+    {
+      "id": "myntra-women-56982",
+      "title": "HM Women Black Sandals",
+      "category": "Flats",
+      "description": "Women, Footwear Shoes Flats, Black, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-56982.jpg",
+      "url": "https://www.myntra.com/search?query=HM+Women+Black+Sandals",
+      "source_product_id": "56982"
+    },
+    {
+      "id": "myntra-women-24633",
+      "title": "ADIDAS Women Polka Pink Flip Flops",
+      "category": "Flip Flops",
+      "description": "Women, Footwear Flip Flops Flip Flops, Pink, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-24633.jpg",
+      "url": "https://www.myntra.com/search?query=ADIDAS+Women+Polka+Pink+Flip+Flops",
+      "source_product_id": "24633"
+    },
+    {
+      "id": "myntra-women-3140",
+      "title": "Catwalk Women Beack Skyline Blue Flats",
+      "category": "Heels",
+      "description": "Women, Footwear Shoes Heels, Blue, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-3140.jpg",
+      "url": "https://www.myntra.com/search?query=Catwalk+Women+Beack+Skyline+Blue+Flats",
+      "source_product_id": "3140"
+    },
+    {
+      "id": "myntra-women-43673",
+      "title": "ONLY Women Blue Jacket",
+      "category": "Jackets",
+      "description": "Women, Apparel Topwear Jackets, Blue, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-43673.jpg",
+      "url": "https://www.myntra.com/search?query=ONLY+Women+Blue+Jacket",
+      "source_product_id": "43673"
+    },
+    {
+      "id": "myntra-women-12762",
+      "title": "Spykar Women Washed Blue Jeans",
+      "category": "Jeans",
+      "description": "Women, Apparel Bottomwear Jeans, Blue, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-12762.jpg",
+      "url": "https://www.myntra.com/search?query=Spykar+Women+Washed+Blue+Jeans",
+      "source_product_id": "12762"
+    },
+    {
+      "id": "myntra-women-41134",
+      "title": "Allen Solly Woman Grey Jeggings",
+      "category": "Jeggings",
+      "description": "Women, Apparel Bottomwear Jeggings, Grey, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-41134.jpg",
+      "url": "https://www.myntra.com/search?query=Allen+Solly+Woman+Grey+Jeggings",
+      "source_product_id": "41134"
+    },
+    {
+      "id": "myntra-women-57811",
+      "title": "United Colors of Benetton Women Purple  Jumpsuit",
+      "category": "Jumpsuit",
+      "description": "Women, Apparel Dress Jumpsuit, Purple, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-57811.jpg",
+      "url": "https://www.myntra.com/search?query=United+Colors+of+Benetton+Women+Purple++Jumpsuit",
+      "source_product_id": "57811"
+    },
+    {
+      "id": "myntra-women-25602",
+      "title": "Vishudh Women Green & Purple Churidar Kurta with Dupatta",
+      "category": "Kurta Sets",
+      "description": "Women, Apparel Apparel Set Kurta Sets, Green, Fall, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-25602.jpg",
+      "url": "https://www.myntra.com/search?query=Vishudh+Women+Green+%26+Purple+Churidar+Kurta+with+Dupatta",
+      "source_product_id": "25602"
+    },
+    {
+      "id": "myntra-women-47039",
+      "title": "Shree Women Navy Blue Kurta",
+      "category": "Kurtas",
+      "description": "Women, Apparel Topwear Kurtas, Navy Blue, Fall, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-47039.jpg",
+      "url": "https://www.myntra.com/search?query=Shree+Women+Navy+Blue+Kurta",
+      "source_product_id": "47039"
+    },
+    {
+      "id": "myntra-women-28770",
+      "title": "Aurelia Women Printed Green Kurti",
+      "category": "Kurtis",
+      "description": "Women, Apparel Topwear Kurtis, Green, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-28770.jpg",
+      "url": "https://www.myntra.com/search?query=Aurelia+Women+Printed+Green+Kurti",
+      "source_product_id": "28770"
+    },
+    {
+      "id": "myntra-women-39129",
+      "title": "Aneri Women Rust Red Leggings",
+      "category": "Leggings",
+      "description": "Women, Apparel Bottomwear Leggings, Red, Fall, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-39129.jpg",
+      "url": "https://www.myntra.com/search?query=Aneri+Women+Rust+Red+Leggings",
+      "source_product_id": "39129"
+    },
+    {
+      "id": "myntra-women-59672",
+      "title": "FNF Brown & Gold Bridal Collection Lehenga Choli",
+      "category": "Lehenga Choli",
+      "description": "Women, Apparel Topwear Lehenga Choli, Brown, Fall, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-59672.jpg",
+      "url": "https://www.myntra.com/search?query=FNF+Brown+%26+Gold+Bridal+Collection+Lehenga+Choli",
+      "source_product_id": "59672"
+    },
+    {
+      "id": "myntra-women-51978",
+      "title": "Inaya Women Black Lounge Pants",
+      "category": "Lounge Pants",
+      "description": "Women, Apparel Loungewear and Nightwear Lounge Pants, Black, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-51978.jpg",
+      "url": "https://www.myntra.com/search?query=Inaya+Women+Black+Lounge+Pants",
+      "source_product_id": "51978"
+    },
+    {
+      "id": "myntra-women-27425",
+      "title": "Jockey Women Navy Blue Lounge Shorts",
+      "category": "Lounge Shorts",
+      "description": "Women, Apparel Loungewear and Nightwear Lounge Shorts, Navy Blue, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-27425.jpg",
+      "url": "https://www.myntra.com/search?query=Jockey+Women+Navy+Blue+Lounge+Shorts",
+      "source_product_id": "27425"
+    },
+    {
+      "id": "myntra-women-52021",
+      "title": "Inaya Women Lounge Top",
+      "category": "Lounge Tshirts",
+      "description": "Women, Apparel Loungewear and Nightwear Lounge Tshirts, Brown, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-52021.jpg",
+      "url": "https://www.myntra.com/search?query=Inaya+Women+Lounge+Top",
+      "source_product_id": "52021"
+    },
+    {
+      "id": "myntra-women-36283",
+      "title": "SDL by Sweet Dreams Women Grey & Blue Night suits",
+      "category": "Night suits",
+      "description": "Women, Apparel Loungewear and Nightwear Night suits, Grey, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-36283.jpg",
+      "url": "https://www.myntra.com/search?query=SDL+by+Sweet+Dreams+Women+Grey+%26+Blue+Night+suits",
+      "source_product_id": "36283"
+    },
+    {
+      "id": "myntra-women-51800",
+      "title": "Bwitch White Nightdress",
+      "category": "Nightdress",
+      "description": "Women, Apparel Loungewear and Nightwear Nightdress, White, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-51800.jpg",
+      "url": "https://www.myntra.com/search?query=Bwitch+White+Nightdress",
+      "source_product_id": "51800"
+    },
+    {
+      "id": "myntra-women-47072",
+      "title": "Shree Women Navy Blue Printed Patiala",
+      "category": "Patiala",
+      "description": "Women, Apparel Bottomwear Patiala, Navy Blue, Fall, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-47072.jpg",
+      "url": "https://www.myntra.com/search?query=Shree+Women+Navy+Blue+Printed+Patiala",
+      "source_product_id": "47072"
+    },
+    {
+      "id": "myntra-women-57419",
+      "title": "Amante Blue Robe",
+      "category": "Robe",
+      "description": "Women, Apparel Loungewear and Nightwear Robe, Blue, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-57419.jpg",
+      "url": "https://www.myntra.com/search?query=Amante+Blue+Robe",
+      "source_product_id": "57419"
+    },
+    {
+      "id": "myntra-women-47055",
+      "title": "Shree Women Brown Jodhpuri Salwar",
+      "category": "Salwar",
+      "description": "Women, Apparel Bottomwear Salwar, Brown, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-47055.jpg",
+      "url": "https://www.myntra.com/search?query=Shree+Women+Brown+Jodhpuri+Salwar",
+      "source_product_id": "47055"
+    },
+    {
+      "id": "myntra-women-50386",
+      "title": "Vishudh Women Turquoise Blue Salwar and Dupatta",
+      "category": "Salwar and Dupatta",
+      "description": "Women, Apparel Bottomwear Salwar and Dupatta, Turquoise Blue, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-50386.jpg",
+      "url": "https://www.myntra.com/search?query=Vishudh+Women+Turquoise+Blue+Salwar+and+Dupatta",
+      "source_product_id": "50386"
+    },
+    {
+      "id": "myntra-women-26180",
+      "title": "Rocia Women Gold Casual Sandals",
+      "category": "Sandals",
+      "description": "Women, Footwear Sandal Sandals, Gold, Spring, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-26180.jpg",
+      "url": "https://www.myntra.com/search?query=Rocia+Women+Gold+Casual+Sandals",
+      "source_product_id": "26180"
+    },
+    {
+      "id": "myntra-women-53030",
+      "title": "FNF Multi Coloured Printed Sari",
+      "category": "Sarees",
+      "description": "Women, Apparel Saree Sarees, Multi, Fall, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-53030.jpg",
+      "url": "https://www.myntra.com/search?query=FNF+Multi+Coloured+Printed+Sari",
+      "source_product_id": "53030"
+    },
+    {
+      "id": "myntra-women-45102",
+      "title": "Bwitch Women Black Xtra Slim Shapewear",
+      "category": "Shapewear",
+      "description": "Women, Apparel Innerwear Shapewear, Black, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-45102.jpg",
+      "url": "https://www.myntra.com/search?query=Bwitch+Women+Black+Xtra+Slim+Shapewear",
+      "source_product_id": "45102"
+    },
+    {
+      "id": "myntra-women-13458",
+      "title": "United Colors of Benetton Women Solid Black Shirts",
+      "category": "Shirts",
+      "description": "Women, Apparel Topwear Shirts, Black, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-13458.jpg",
+      "url": "https://www.myntra.com/search?query=United+Colors+of+Benetton+Women+Solid+Black+Shirts",
+      "source_product_id": "13458"
+    },
+    {
+      "id": "myntra-women-33509",
+      "title": "Doodle Kids Girl Check Pink Shorts",
+      "category": "Shorts",
+      "description": "Women, Apparel Bottomwear Shorts, Pink, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-33509.jpg",
+      "url": "https://www.myntra.com/search?query=Doodle+Kids+Girl+Check+Pink+Shorts",
+      "source_product_id": "33509"
+    },
+    {
+      "id": "myntra-women-26371",
+      "title": "Arrow Woman Check Pink Shirt",
+      "category": "Shrug",
+      "description": "Women, Apparel Topwear Shrug, Pink, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-26371.jpg",
+      "url": "https://www.myntra.com/search?query=Arrow+Woman+Check+Pink+Shirt",
+      "source_product_id": "26371"
+    },
+    {
+      "id": "myntra-women-27199",
+      "title": "Doodle Kids Girl Printed Grey Skirt",
+      "category": "Skirts",
+      "description": "Women, Apparel Bottomwear Skirts, Grey, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-27199.jpg",
+      "url": "https://www.myntra.com/search?query=Doodle+Kids+Girl+Printed+Grey+Skirt",
+      "source_product_id": "27199"
+    },
+    {
+      "id": "myntra-women-6143",
+      "title": "Puma Women Apex Grey Pink Floater",
+      "category": "Sports Sandals",
+      "description": "Women, Footwear Sandal Sports Sandals, Grey, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-6143.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Women+Apex+Grey+Pink+Floater",
+      "source_product_id": "6143"
+    },
+    {
+      "id": "myntra-women-33837",
+      "title": "Puma Women Ikonis Grey Sports Shoes",
+      "category": "Sports Shoes",
+      "description": "Women, Footwear Shoes Sports Shoes, Grey, Summer, Sports",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-33837.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Women+Ikonis+Grey+Sports+Shoes",
+      "source_product_id": "33837"
+    },
+    {
+      "id": "myntra-women-33982",
+      "title": "Femella Women Black Stockings",
+      "category": "Stockings",
+      "description": "Women, Apparel Bottomwear Stockings, Black, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-33982.jpg",
+      "url": "https://www.myntra.com/search?query=Femella+Women+Black+Stockings",
+      "source_product_id": "33982"
+    },
+    {
+      "id": "myntra-women-14091",
+      "title": "Flying Machine Women Solid Peach Sweaters",
+      "category": "Sweaters",
+      "description": "Women, Apparel Topwear Sweaters, Peach, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-14091.jpg",
+      "url": "https://www.myntra.com/search?query=Flying+Machine+Women+Solid+Peach+Sweaters",
+      "source_product_id": "14091"
+    },
+    {
+      "id": "myntra-women-12531",
+      "title": "Puma Women Solid Pink Sweatshirts",
+      "category": "Sweatshirts",
+      "description": "Women, Apparel Topwear Sweatshirts, Pink, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-12531.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Women+Solid+Pink+Sweatshirts",
+      "source_product_id": "12531"
+    },
+    {
+      "id": "myntra-women-1583",
+      "title": "Nabaiji Women Black Swimsuit",
+      "category": "Swimwear",
+      "description": "Women, Apparel Bottomwear Swimwear, Black, Fall, Sports",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-1583.jpg",
+      "url": "https://www.myntra.com/search?query=Nabaiji+Women+Black+Swimsuit",
+      "source_product_id": "1583"
+    },
+    {
+      "id": "myntra-women-40071",
+      "title": "ADIDAS Women Purple Tights",
+      "category": "Tights",
+      "description": "Women, Apparel Bottomwear Tights, Purple, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-40071.jpg",
+      "url": "https://www.myntra.com/search?query=ADIDAS+Women+Purple+Tights",
+      "source_product_id": "40071"
+    },
+    {
+      "id": "myntra-women-11017",
+      "title": "Wrangler Women Floral Print Blue Top",
+      "category": "Tops",
+      "description": "Women, Apparel Topwear Tops, Blue, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-11017.jpg",
+      "url": "https://www.myntra.com/search?query=Wrangler+Women+Floral+Print+Blue+Top",
+      "source_product_id": "11017"
+    },
+    {
+      "id": "myntra-women-53741",
+      "title": "ADIDAS Women Black Track Pant",
+      "category": "Track Pants",
+      "description": "Women, Apparel Bottomwear Track Pants, Black, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-53741.jpg",
+      "url": "https://www.myntra.com/search?query=ADIDAS+Women+Black+Track+Pant",
+      "source_product_id": "53741"
+    },
+    {
+      "id": "myntra-women-43223",
+      "title": "United Colors of Benetton Women Black Trouser",
+      "category": "Trousers",
+      "description": "Women, Apparel Bottomwear Trousers, Black, Fall, Formal",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-43223.jpg",
+      "url": "https://www.myntra.com/search?query=United+Colors+of+Benetton+Women+Black+Trouser",
+      "source_product_id": "43223"
+    },
+    {
+      "id": "myntra-women-43319",
+      "title": "United Colors of Benetton Women White T-shirt",
+      "category": "Tshirts",
+      "description": "Women, Apparel Topwear Tshirts, White, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-43319.jpg",
+      "url": "https://www.myntra.com/search?query=United+Colors+of+Benetton+Women+White+T-shirt",
+      "source_product_id": "43319"
+    },
+    {
+      "id": "myntra-women-15093",
+      "title": "Mother Earth Women Solid Brown Tunics",
+      "category": "Tunics",
+      "description": "Women, Apparel Topwear Tunics, Brown, Fall, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-15093.jpg",
+      "url": "https://www.myntra.com/search?query=Mother+Earth+Women+Solid+Brown+Tunics",
+      "source_product_id": "15093"
+    },
+    {
+      "id": "myntra-women-43671",
+      "title": "ONLY Women Pink Waistcoat",
+      "category": "Waistcoat",
+      "description": "Women, Apparel Topwear Waistcoat, Pink, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-43671.jpg",
+      "url": "https://www.myntra.com/search?query=ONLY+Women+Pink+Waistcoat",
+      "source_product_id": "43671"
+    },
+    {
+      "id": "myntra-women-52499",
+      "title": "Red Rose Women Black Nightdress",
+      "category": "Baby Dolls",
+      "description": "Women, Apparel Loungewear and Nightwear Baby Dolls, Black, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-52499.jpg",
+      "url": "https://www.myntra.com/search?query=Red+Rose+Women+Black+Nightdress",
+      "source_product_id": "52499"
+    },
+    {
+      "id": "myntra-women-52510",
+      "title": "Red Rose Women White & Pink Striped Bath Robes",
+      "category": "Bath Robe",
+      "description": "Women, Apparel Loungewear and Nightwear Bath Robe, White, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-52510.jpg",
+      "url": "https://www.myntra.com/search?query=Red+Rose+Women+White+%26+Pink+Striped+Bath+Robes",
+      "source_product_id": "52510"
+    },
+    {
+      "id": "myntra-women-30493",
+      "title": "Lovable Women Fiona Rose Pink Bra",
+      "category": "Bra",
+      "description": "Women, Apparel Innerwear Bra, Pink, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-30493.jpg",
+      "url": "https://www.myntra.com/search?query=Lovable+Women+Fiona+Rose+Pink+Bra",
+      "source_product_id": "30493"
+    },
+    {
+      "id": "myntra-women-51043",
+      "title": "Enamor Women Lupine Coloured Briefs",
+      "category": "Briefs",
+      "description": "Women, Apparel Innerwear Briefs, Lavender, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-51043.jpg",
+      "url": "https://www.myntra.com/search?query=Enamor+Women+Lupine+Coloured+Briefs",
+      "source_product_id": "51043"
+    },
+    {
+      "id": "myntra-women-40498",
+      "title": "Femella Women White Camisole",
+      "category": "Camisoles",
+      "description": "Women, Apparel Innerwear Camisoles, White, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-40498.jpg",
+      "url": "https://www.myntra.com/search?query=Femella+Women+White+Camisole",
+      "source_product_id": "40498"
+    },
+    {
+      "id": "myntra-women-5017",
+      "title": "Levis Kids Girl's Alicia Pink Kidswear",
+      "category": "Capris",
+      "description": "Women, Apparel Bottomwear Capris, Pink, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-5017.jpg",
+      "url": "https://www.myntra.com/search?query=Levis+Kids+Girl%27s+Alicia+Pink+Kidswear",
+      "source_product_id": "5017"
+    },
+    {
+      "id": "myntra-women-51752",
+      "title": "Catwalk Women Black Pumps",
+      "category": "Casual Shoes",
+      "description": "Women, Footwear Shoes Casual Shoes, Black, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-51752.jpg",
+      "url": "https://www.myntra.com/search?query=Catwalk+Women+Black+Pumps",
+      "source_product_id": "51752"
+    },
+    {
+      "id": "myntra-women-30828",
+      "title": "Fabindia Women Rust Mangalgiri Churidar",
+      "category": "Churidar",
+      "description": "Women, Apparel Bottomwear Churidar, Rust, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-30828.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Women+Rust+Mangalgiri+Churidar",
+      "source_product_id": "30828"
+    },
+    {
+      "id": "myntra-women-57044",
+      "title": "Elle Women Black Dress",
+      "category": "Dresses",
+      "description": "Women, Apparel Dress Dresses, Black, Summer, Party",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-57044.jpg",
+      "url": "https://www.myntra.com/search?query=Elle+Women+Black+Dress",
+      "source_product_id": "57044"
+    },
+    {
+      "id": "myntra-women-23336",
+      "title": "W Women Red Dupatta",
+      "category": "Dupatta",
+      "description": "Women, Apparel Topwear Dupatta, Red, Fall, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-23336.jpg",
+      "url": "https://www.myntra.com/search?query=W+Women+Red+Dupatta",
+      "source_product_id": "23336"
+    },
+    {
+      "id": "myntra-women-13475",
+      "title": "Rocia Women Brown Flats",
+      "category": "Flats",
+      "description": "Women, Footwear Shoes Flats, Brown, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-13475.jpg",
+      "url": "https://www.myntra.com/search?query=Rocia+Women+Brown+Flats",
+      "source_product_id": "13475"
+    },
+    {
+      "id": "myntra-women-49834",
+      "title": "iPanema Women Black Flip Flops",
+      "category": "Flip Flops",
+      "description": "Women, Footwear Flip Flops Flip Flops, Black, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-49834.jpg",
+      "url": "https://www.myntra.com/search?query=iPanema+Women+Black+Flip+Flops",
+      "source_product_id": "49834"
+    },
+    {
+      "id": "myntra-women-57308",
+      "title": "Rocia Women Black Flats",
+      "category": "Heels",
+      "description": "Women, Footwear Shoes Heels, Black, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-57308.jpg",
+      "url": "https://www.myntra.com/search?query=Rocia+Women+Black+Flats",
+      "source_product_id": "57308"
+    },
+    {
+      "id": "myntra-women-6882",
+      "title": "Forever New Women Long Peach Jacket",
+      "category": "Jackets",
+      "description": "Women, Apparel Topwear Jackets, Cream, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-6882.jpg",
+      "url": "https://www.myntra.com/search?query=Forever+New+Women+Long+Peach+Jacket",
+      "source_product_id": "6882"
+    },
+    {
+      "id": "myntra-women-27015",
+      "title": "Jealous 21 Women White Jeans",
+      "category": "Jeans",
+      "description": "Women, Apparel Bottomwear Jeans, White, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-27015.jpg",
+      "url": "https://www.myntra.com/search?query=Jealous+21+Women+White+Jeans",
+      "source_product_id": "27015"
+    },
+    {
+      "id": "myntra-women-51599",
+      "title": "Wrangler Women Blue Jeggings",
+      "category": "Jeggings",
+      "description": "Women, Apparel Bottomwear Jeggings, Blue, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-51599.jpg",
+      "url": "https://www.myntra.com/search?query=Wrangler+Women+Blue+Jeggings",
+      "source_product_id": "51599"
+    },
+    {
+      "id": "myntra-women-43655",
+      "title": "ONLY Women Multi Coloured Short Jumpsuit",
+      "category": "Jumpsuit",
+      "description": "Women, Apparel Dress Jumpsuit, Multi, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-43655.jpg",
+      "url": "https://www.myntra.com/search?query=ONLY+Women+Multi+Coloured+Short+Jumpsuit",
+      "source_product_id": "43655"
+    },
+    {
+      "id": "myntra-women-25596",
+      "title": "Vishudh Women Mustard Yellow & Navy Churidar Kurta with Dupatta",
+      "category": "Kurta Sets",
+      "description": "Women, Apparel Apparel Set Kurta Sets, Mustard, Fall, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-25596.jpg",
+      "url": "https://www.myntra.com/search?query=Vishudh+Women+Mustard+Yellow+%26+Navy+Churidar+Kurta+with+Dupatta",
+      "source_product_id": "25596"
+    },
+    {
+      "id": "myntra-women-28908",
+      "title": "BIBA Women Printed Red Kurta",
+      "category": "Kurtas",
+      "description": "Women, Apparel Topwear Kurtas, Red, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-28908.jpg",
+      "url": "https://www.myntra.com/search?query=BIBA+Women+Printed+Red+Kurta",
+      "source_product_id": "28908"
+    },
+    {
+      "id": "myntra-women-12106",
+      "title": "W Women Printed White Kurtis",
+      "category": "Kurtis",
+      "description": "Women, Apparel Topwear Kurtis, White, Fall, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-12106.jpg",
+      "url": "https://www.myntra.com/search?query=W+Women+Printed+White+Kurtis",
+      "source_product_id": "12106"
+    },
+    {
+      "id": "myntra-women-39122",
+      "title": "Aneri Women Blue Leggings",
+      "category": "Leggings",
+      "description": "Women, Apparel Bottomwear Leggings, Blue, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-39122.jpg",
+      "url": "https://www.myntra.com/search?query=Aneri+Women+Blue+Leggings",
+      "source_product_id": "39122"
+    },
+    {
+      "id": "myntra-women-27412",
+      "title": "Jockey Women Charcoal Grey Lounge Pants",
+      "category": "Lounge Pants",
+      "description": "Women, Apparel Loungewear and Nightwear Lounge Pants, Charcoal, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-27412.jpg",
+      "url": "https://www.myntra.com/search?query=Jockey+Women+Charcoal+Grey+Lounge+Pants",
+      "source_product_id": "27412"
+    },
+    {
+      "id": "myntra-women-51994",
+      "title": "Inaya Women Brown Lounge Shorts",
+      "category": "Lounge Shorts",
+      "description": "Women, Apparel Loungewear and Nightwear Lounge Shorts, Brown, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-51994.jpg",
+      "url": "https://www.myntra.com/search?query=Inaya+Women+Brown+Lounge+Shorts",
+      "source_product_id": "51994"
+    },
+    {
+      "id": "myntra-women-51981",
+      "title": "Inaya Women Black Lounge Top",
+      "category": "Lounge Tshirts",
+      "description": "Women, Apparel Loungewear and Nightwear Lounge Tshirts, Black, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-51981.jpg",
+      "url": "https://www.myntra.com/search?query=Inaya+Women+Black+Lounge+Top",
+      "source_product_id": "51981"
+    },
+    {
+      "id": "myntra-women-55817",
+      "title": "SDL by Sweet Dreams Women Pink Printed Night Suit S11-3229",
+      "category": "Night suits",
+      "description": "Women, Apparel Loungewear and Nightwear Night suits, Pink, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-55817.jpg",
+      "url": "https://www.myntra.com/search?query=SDL+by+Sweet+Dreams+Women+Pink+Printed+Night+Suit+S11-3229",
+      "source_product_id": "55817"
+    },
+    {
+      "id": "myntra-women-51035",
+      "title": "Enamor Women Cream Nightdress",
+      "category": "Nightdress",
+      "description": "Women, Apparel Loungewear and Nightwear Nightdress, Cream, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-51035.jpg",
+      "url": "https://www.myntra.com/search?query=Enamor+Women+Cream+Nightdress",
+      "source_product_id": "51035"
+    },
+    {
+      "id": "myntra-women-58212",
+      "title": "Shree Women White Printed Patiala",
+      "category": "Patiala",
+      "description": "Women, Apparel Bottomwear Patiala, White, Fall, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-58212.jpg",
+      "url": "https://www.myntra.com/search?query=Shree+Women+White+Printed+Patiala",
+      "source_product_id": "58212"
+    },
+    {
+      "id": "myntra-women-50982",
+      "title": "Enamor Women Maroon Robe",
+      "category": "Robe",
+      "description": "Women, Apparel Loungewear and Nightwear Robe, Maroon, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-50982.jpg",
+      "url": "https://www.myntra.com/search?query=Enamor+Women+Maroon+Robe",
+      "source_product_id": "50982"
+    },
+    {
+      "id": "myntra-women-30905",
+      "title": "Fabindia Women Maroon Salwar",
+      "category": "Salwar",
+      "description": "Women, Apparel Bottomwear Salwar, Maroon, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-30905.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Women+Maroon+Salwar",
+      "source_product_id": "30905"
+    },
+    {
+      "id": "myntra-women-50378",
+      "title": "Vishudh Women Red & White Salwar and Dupatta",
+      "category": "Salwar and Dupatta",
+      "description": "Women, Apparel Bottomwear Salwar and Dupatta, White, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-50378.jpg",
+      "url": "https://www.myntra.com/search?query=Vishudh+Women+Red+%26+White+Salwar+and+Dupatta",
+      "source_product_id": "50378"
+    },
+    {
+      "id": "myntra-women-8574",
+      "title": "Crocs Dora Boots Pink Sandals",
+      "category": "Sandals",
+      "description": "Women, Footwear Sandal Sandals, Pink, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-8574.jpg",
+      "url": "https://www.myntra.com/search?query=Crocs+Dora+Boots+Pink+Sandals",
+      "source_product_id": "8574"
+    },
+    {
+      "id": "myntra-women-46000",
+      "title": "Fabindia Red Self-Striped Saree",
+      "category": "Sarees",
+      "description": "Women, Apparel Saree Sarees, Red, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-46000.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Red+Self-Striped+Saree",
+      "source_product_id": "46000"
+    },
+    {
+      "id": "myntra-women-59730",
+      "title": "Avirate White Wired Corset Shapewear",
+      "category": "Shapewear",
+      "description": "Women, Apparel Innerwear Shapewear, White, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-59730.jpg",
+      "url": "https://www.myntra.com/search?query=Avirate+White+Wired+Corset+Shapewear",
+      "source_product_id": "59730"
+    },
+    {
+      "id": "myntra-women-26367",
+      "title": "Arrow Woman Lavender Shirt",
+      "category": "Shirts",
+      "description": "Women, Apparel Topwear Shirts, Lavender, Summer, NA",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-26367.jpg",
+      "url": "https://www.myntra.com/search?query=Arrow+Woman+Lavender+Shirt",
+      "source_product_id": "26367"
+    },
+    {
+      "id": "myntra-women-43915",
+      "title": "Femella Women Cream Shorts",
+      "category": "Shorts",
+      "description": "Women, Apparel Bottomwear Shorts, Cream, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-43915.jpg",
+      "url": "https://www.myntra.com/search?query=Femella+Women+Cream+Shorts",
+      "source_product_id": "43915"
+    },
+    {
+      "id": "myntra-women-54992",
+      "title": "Femella Women Black & Beige Shrug",
+      "category": "Shrug",
+      "description": "Women, Apparel Topwear Shrug, Beige, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-54992.jpg",
+      "url": "https://www.myntra.com/search?query=Femella+Women+Black+%26+Beige+Shrug",
+      "source_product_id": "54992"
+    },
+    {
+      "id": "myntra-women-57089",
+      "title": "Elle Women Blue Skirt",
+      "category": "Skirts",
+      "description": "Women, Apparel Bottomwear Skirts, Navy Blue, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-57089.jpg",
+      "url": "https://www.myntra.com/search?query=Elle+Women+Blue+Skirt",
+      "source_product_id": "57089"
+    },
+    {
+      "id": "myntra-women-3490",
+      "title": "ADIDAS Women Spry Dark Navy Black Sandal",
+      "category": "Sports Sandals",
+      "description": "Women, Footwear Sandal Sports Sandals, Blue, Spring, Sports",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-3490.jpg",
+      "url": "https://www.myntra.com/search?query=ADIDAS+Women+Spry+Dark+Navy+Black+Sandal",
+      "source_product_id": "3490"
+    },
+    {
+      "id": "myntra-women-3376",
+      "title": "Asics Women Gel Technology Active Black White Pink Shoe",
+      "category": "Sports Shoes",
+      "description": "Women, Footwear Shoes Sports Shoes, Black, Spring, Sports",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-3376.jpg",
+      "url": "https://www.myntra.com/search?query=Asics+Women+Gel+Technology+Active+Black+White+Pink+Shoe",
+      "source_product_id": "3376"
+    },
+    {
+      "id": "myntra-women-14597",
+      "title": "United Colors of Benetton Women Solid Black Stockings",
+      "category": "Stockings",
+      "description": "Women, Apparel Bottomwear Stockings, Black, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-14597.jpg",
+      "url": "https://www.myntra.com/search?query=United+Colors+of+Benetton+Women+Solid+Black+Stockings",
+      "source_product_id": "14597"
+    },
+    {
+      "id": "myntra-women-20223",
+      "title": "Wrangler Women Scoop Navy Blue Sleeveless Sweater",
+      "category": "Sweaters",
+      "description": "Women, Apparel Topwear Sweaters, Navy Blue, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-20223.jpg",
+      "url": "https://www.myntra.com/search?query=Wrangler+Women+Scoop+Navy+Blue+Sleeveless+Sweater",
+      "source_product_id": "20223"
+    },
+    {
+      "id": "myntra-women-11357",
+      "title": "United Colors Of Benetton Women Light Winter Black Sweatshirts",
+      "category": "Sweatshirts",
+      "description": "Women, Apparel Topwear Sweatshirts, Black, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-11357.jpg",
+      "url": "https://www.myntra.com/search?query=United+Colors+Of+Benetton+Women+Light+Winter+Black+Sweatshirts",
+      "source_product_id": "11357"
+    },
+    {
+      "id": "myntra-women-2188",
+      "title": "ADIDAS Women Stripe Black Swimming Cap",
+      "category": "Swimwear",
+      "description": "Women, Apparel Apparel Set Swimwear, Black, Summer, Sports",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-2188.jpg",
+      "url": "https://www.myntra.com/search?query=ADIDAS+Women+Stripe+Black+Swimming+Cap",
+      "source_product_id": "2188"
+    },
+    {
+      "id": "myntra-women-37892",
+      "title": "Happy Socks Women Black Tights",
+      "category": "Tights",
+      "description": "Women, Apparel Bottomwear Tights, Black, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-37892.jpg",
+      "url": "https://www.myntra.com/search?query=Happy+Socks+Women+Black+Tights",
+      "source_product_id": "37892"
+    },
+    {
+      "id": "myntra-women-11355",
+      "title": "United Colors Of Benetton Women Light Winter Black Tops",
+      "category": "Tops",
+      "description": "Women, Apparel Topwear Tops, Black, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-11355.jpg",
+      "url": "https://www.myntra.com/search?query=United+Colors+Of+Benetton+Women+Light+Winter+Black+Tops",
+      "source_product_id": "11355"
+    },
+    {
+      "id": "myntra-women-14029",
+      "title": "Nike Women Solid Grey Track Pants",
+      "category": "Track Pants",
+      "description": "Women, Apparel Bottomwear Track Pants, Grey, Fall, Sports",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-14029.jpg",
+      "url": "https://www.myntra.com/search?query=Nike+Women+Solid+Grey+Track+Pants",
+      "source_product_id": "14029"
+    },
+    {
+      "id": "myntra-women-27929",
+      "title": "Scullers For Her Brown Trousers",
+      "category": "Trousers",
+      "description": "Women, Apparel Bottomwear Trousers, Brown, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-27929.jpg",
+      "url": "https://www.myntra.com/search?query=Scullers+For+Her+Brown+Trousers",
+      "source_product_id": "27929"
+    },
+    {
+      "id": "myntra-women-15617",
+      "title": "Nike Women Trainng Lavender T-shirt",
+      "category": "Tshirts",
+      "description": "Women, Apparel Topwear Tshirts, Lavender, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-15617.jpg",
+      "url": "https://www.myntra.com/search?query=Nike+Women+Trainng+Lavender+T-shirt",
+      "source_product_id": "15617"
+    },
+    {
+      "id": "myntra-women-57987",
+      "title": "Latin Quarters Women White Printed Tunic",
+      "category": "Tunics",
+      "description": "Women, Apparel Topwear Tunics, White, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-57987.jpg",
+      "url": "https://www.myntra.com/search?query=Latin+Quarters+Women+White+Printed+Tunic",
+      "source_product_id": "57987"
+    },
+    {
+      "id": "myntra-women-57081",
+      "title": "Elle Women Blue Waistcoat",
+      "category": "Waistcoat",
+      "description": "Women, Apparel Topwear Waistcoat, Blue, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-57081.jpg",
+      "url": "https://www.myntra.com/search?query=Elle+Women+Blue+Waistcoat",
+      "source_product_id": "57081"
+    },
+    {
+      "id": "myntra-women-52507",
+      "title": "Red Rose Black Nightdress",
+      "category": "Baby Dolls",
+      "description": "Women, Apparel Loungewear and Nightwear Baby Dolls, Black, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-52507.jpg",
+      "url": "https://www.myntra.com/search?query=Red+Rose+Black+Nightdress",
+      "source_product_id": "52507"
+    },
+    {
+      "id": "myntra-women-52496",
+      "title": "Red Rose Women Navy Blue Bath Robes",
+      "category": "Bath Robe",
+      "description": "Women, Apparel Loungewear and Nightwear Bath Robe, Navy Blue, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-52496.jpg",
+      "url": "https://www.myntra.com/search?query=Red+Rose+Women+Navy+Blue+Bath+Robes",
+      "source_product_id": "52496"
+    },
+    {
+      "id": "myntra-women-51204",
+      "title": "Enamor Women Peach Bra",
+      "category": "Bra",
+      "description": "Women, Apparel Innerwear Bra, Peach, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-51204.jpg",
+      "url": "https://www.myntra.com/search?query=Enamor+Women+Peach+Bra",
+      "source_product_id": "51204"
+    },
+    {
+      "id": "myntra-women-18687",
+      "title": "Hanes Women Pack of Three 100% Cotton Plain Hipsters",
+      "category": "Briefs",
+      "description": "Women, Apparel Innerwear Briefs, Black, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-18687.jpg",
+      "url": "https://www.myntra.com/search?query=Hanes+Women+Pack+of+Three+100%25+Cotton+Plain+Hipsters",
+      "source_product_id": "18687"
+    },
+    {
+      "id": "myntra-women-52467",
+      "title": "Red Rose Lavender Camisole",
+      "category": "Camisoles",
+      "description": "Women, Apparel Innerwear Camisoles, Lavender, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-52467.jpg",
+      "url": "https://www.myntra.com/search?query=Red+Rose+Lavender+Camisole",
+      "source_product_id": "52467"
+    },
+    {
+      "id": "myntra-women-5001",
+      "title": "Gini and Jony Girl's Tamira Blue Kidswear",
+      "category": "Capris",
+      "description": "Women, Apparel Bottomwear Capris, Blue, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-5001.jpg",
+      "url": "https://www.myntra.com/search?query=Gini+and+Jony+Girl%27s+Tamira+Blue+Kidswear",
+      "source_product_id": "5001"
+    },
+    {
+      "id": "myntra-women-15260",
+      "title": "ADIDAS Originals Women Rekapi Black Casual Shoes",
+      "category": "Casual Shoes",
+      "description": "Women, Footwear Shoes Casual Shoes, Black, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-15260.jpg",
+      "url": "https://www.myntra.com/search?query=ADIDAS+Originals+Women+Rekapi+Black+Casual+Shoes",
+      "source_product_id": "15260"
+    },
+    {
+      "id": "myntra-women-30809",
+      "title": "Fabindia Women Olive Cambric Churidar",
+      "category": "Churidar",
+      "description": "Women, Apparel Bottomwear Churidar, Olive, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-30809.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Women+Olive+Cambric+Churidar",
+      "source_product_id": "30809"
+    },
+    {
+      "id": "myntra-women-43653",
+      "title": "ONLY Women Peach Dress",
+      "category": "Dresses",
+      "description": "Women, Apparel Dress Dresses, Peach, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-43653.jpg",
+      "url": "https://www.myntra.com/search?query=ONLY+Women+Peach+Dress",
+      "source_product_id": "43653"
+    },
+    {
+      "id": "myntra-women-34288",
+      "title": "Fabindia Women Off White Chanderi Dupatta",
+      "category": "Dupatta",
+      "description": "Women, Apparel Topwear Dupatta, Off White, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-34288.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Women+Off+White+Chanderi+Dupatta",
+      "source_product_id": "34288"
+    },
+    {
+      "id": "myntra-women-56893",
+      "title": "HM Women Multi Coloured Shoes",
+      "category": "Flats",
+      "description": "Women, Footwear Shoes Flats, Multi, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-56893.jpg",
+      "url": "https://www.myntra.com/search?query=HM+Women+Multi+Coloured+Shoes",
+      "source_product_id": "56893"
+    },
+    {
+      "id": "myntra-women-44192",
+      "title": "iPanema Women Pink Flip Flops",
+      "category": "Flip Flops",
+      "description": "Women, Footwear Flip Flops Flip Flops, Pink, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-44192.jpg",
+      "url": "https://www.myntra.com/search?query=iPanema+Women+Pink+Flip+Flops",
+      "source_product_id": "44192"
+    },
+    {
+      "id": "myntra-women-33128",
+      "title": "Catwalk Women Black Peep Toes",
+      "category": "Heels",
+      "description": "Women, Footwear Shoes Heels, Black, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-33128.jpg",
+      "url": "https://www.myntra.com/search?query=Catwalk+Women+Black+Peep+Toes",
+      "source_product_id": "33128"
+    },
+    {
+      "id": "myntra-women-30906",
+      "title": "Fabindia Women Reversible Jacket",
+      "category": "Jackets",
+      "description": "Women, Apparel Topwear Jackets, Maroon, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-30906.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Women+Reversible+Jacket",
+      "source_product_id": "30906"
+    },
+    {
+      "id": "myntra-women-51364",
+      "title": "Spykar Women Blue Jeans",
+      "category": "Jeans",
+      "description": "Women, Apparel Bottomwear Jeans, Blue, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-51364.jpg",
+      "url": "https://www.myntra.com/search?query=Spykar+Women+Blue+Jeans",
+      "source_product_id": "51364"
+    },
+    {
+      "id": "myntra-women-33718",
+      "title": "Pieces Women Pink Jeggings",
+      "category": "Jeggings",
+      "description": "Women, Apparel Bottomwear Jeggings, Pink, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-33718.jpg",
+      "url": "https://www.myntra.com/search?query=Pieces+Women+Pink+Jeggings",
+      "source_product_id": "33718"
+    },
+    {
+      "id": "myntra-women-43666",
+      "title": "ONLY Women Peach Short Jumpsuit",
+      "category": "Jumpsuit",
+      "description": "Women, Apparel Dress Jumpsuit, Peach, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-43666.jpg",
+      "url": "https://www.myntra.com/search?query=ONLY+Women+Peach+Short+Jumpsuit",
+      "source_product_id": "43666"
+    },
+    {
+      "id": "myntra-women-39145",
+      "title": "Aneri Women Multi Coloured Salwar Suit",
+      "category": "Kurta Sets",
+      "description": "Women, Apparel Apparel Set Kurta Sets, Multi, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-39145.jpg",
+      "url": "https://www.myntra.com/search?query=Aneri+Women+Multi+Coloured+Salwar+Suit",
+      "source_product_id": "39145"
+    },
+    {
+      "id": "myntra-women-54580",
+      "title": "Sushilas Women Printed Red Kurta",
+      "category": "Kurtas",
+      "description": "Women, Apparel Topwear Kurtas, Red, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-54580.jpg",
+      "url": "https://www.myntra.com/search?query=Sushilas+Women+Printed+Red+Kurta",
+      "source_product_id": "54580"
+    },
+    {
+      "id": "myntra-women-11554",
+      "title": "W Women Printed Pink Kurtis",
+      "category": "Kurtis",
+      "description": "Women, Apparel Topwear Kurtis, Pink, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-11554.jpg",
+      "url": "https://www.myntra.com/search?query=W+Women+Printed+Pink+Kurtis",
+      "source_product_id": "11554"
+    },
+    {
+      "id": "myntra-women-30816",
+      "title": "Fabindia Women Red Leggings",
+      "category": "Leggings",
+      "description": "Women, Apparel Bottomwear Leggings, Red, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-30816.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Women+Red+Leggings",
+      "source_product_id": "30816"
+    },
+    {
+      "id": "myntra-women-27422",
+      "title": "Jockey Women Red Relaxed Lounge Pants",
+      "category": "Lounge Pants",
+      "description": "Women, Apparel Loungewear and Nightwear Lounge Pants, Red, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-27422.jpg",
+      "url": "https://www.myntra.com/search?query=Jockey+Women+Red+Relaxed+Lounge+Pants",
+      "source_product_id": "27422"
+    },
+    {
+      "id": "myntra-women-50028",
+      "title": "Hanes Women Assorted Lounge Shorts",
+      "category": "Lounge Shorts",
+      "description": "Women, Apparel Loungewear and Nightwear Lounge Shorts, Black, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-50028.jpg",
+      "url": "https://www.myntra.com/search?query=Hanes+Women+Assorted+Lounge+Shorts",
+      "source_product_id": "50028"
+    },
+    {
+      "id": "myntra-women-49783",
+      "title": "Little Miss Intimates Grey & Black Pyjama Set",
+      "category": "Night suits",
+      "description": "Women, Apparel Loungewear and Nightwear Night suits, Grey Melange, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-49783.jpg",
+      "url": "https://www.myntra.com/search?query=Little+Miss+Intimates+Grey+%26+Black+Pyjama+Set",
+      "source_product_id": "49783"
+    },
+    {
+      "id": "myntra-women-50992",
+      "title": "Enamor Women Beige Nightdress",
+      "category": "Nightdress",
+      "description": "Women, Apparel Loungewear and Nightwear Nightdress, Beige, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-50992.jpg",
+      "url": "https://www.myntra.com/search?query=Enamor+Women+Beige+Nightdress",
+      "source_product_id": "50992"
+    },
+    {
+      "id": "myntra-women-35049",
+      "title": "Fabindia Women White Printed Patiala",
+      "category": "Patiala",
+      "description": "Women, Apparel Bottomwear Patiala, White, Fall, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-35049.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Women+White+Printed+Patiala",
+      "source_product_id": "35049"
+    },
+    {
+      "id": "myntra-women-45087",
+      "title": "Bwitch Women Pink Lily Robe",
+      "category": "Robe",
+      "description": "Women, Apparel Loungewear and Nightwear Robe, Pink, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-45087.jpg",
+      "url": "https://www.myntra.com/search?query=Bwitch+Women+Pink+Lily+Robe",
+      "source_product_id": "45087"
+    },
+    {
+      "id": "myntra-women-30903",
+      "title": "Fabindia Women White Salwar",
+      "category": "Salwar",
+      "description": "Women, Apparel Bottomwear Salwar, White, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-30903.jpg",
+      "url": "https://www.myntra.com/search?query=Fabindia+Women+White+Salwar",
+      "source_product_id": "30903"
+    },
+    {
+      "id": "myntra-women-50385",
+      "title": "Vishudh Women Pink Salwar and Dupatta",
+      "category": "Salwar and Dupatta",
+      "description": "Women, Apparel Bottomwear Salwar and Dupatta, Pink, Fall, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-50385.jpg",
+      "url": "https://www.myntra.com/search?query=Vishudh+Women+Pink+Salwar+and+Dupatta",
+      "source_product_id": "50385"
+    },
+    {
+      "id": "myntra-women-33697",
+      "title": "Cobblerz Women Brown Sandals",
+      "category": "Sandals",
+      "description": "Women, Footwear Sandal Sandals, Brown, Summer, Smart Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-33697.jpg",
+      "url": "https://www.myntra.com/search?query=Cobblerz+Women+Brown+Sandals",
+      "source_product_id": "33697"
+    },
+    {
+      "id": "myntra-women-52918",
+      "title": "FNF Purple Sari",
+      "category": "Sarees",
+      "description": "Women, Apparel Saree Sarees, Purple, Summer, Ethnic",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-52918.jpg",
+      "url": "https://www.myntra.com/search?query=FNF+Purple+Sari",
+      "source_product_id": "52918"
+    },
+    {
+      "id": "myntra-women-45103",
+      "title": "Bwitch Golden Brown Xtra Slim Shapewear",
+      "category": "Shapewear",
+      "description": "Women, Apparel Innerwear Shapewear, Brown, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-45103.jpg",
+      "url": "https://www.myntra.com/search?query=Bwitch+Golden+Brown+Xtra+Slim+Shapewear",
+      "source_product_id": "45103"
+    },
+    {
+      "id": "myntra-women-7147",
+      "title": "Scullers For Her Women Light Work Red Shirts",
+      "category": "Shirts",
+      "description": "Women, Apparel Topwear Shirts, Red, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-7147.jpg",
+      "url": "https://www.myntra.com/search?query=Scullers+For+Her+Women+Light+Work+Red+Shirts",
+      "source_product_id": "7147"
+    },
+    {
+      "id": "myntra-women-5762",
+      "title": "Jealous 21 Women's White Blue Shorts",
+      "category": "Shorts",
+      "description": "Women, Apparel Bottomwear Shorts, Blue, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-5762.jpg",
+      "url": "https://www.myntra.com/search?query=Jealous+21+Women%27s+White+Blue+Shorts",
+      "source_product_id": "5762"
+    },
+    {
+      "id": "myntra-women-58158",
+      "title": "Latin Quarters Women Maroon Shrug",
+      "category": "Shrug",
+      "description": "Women, Apparel Topwear Shrug, Maroon, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-58158.jpg",
+      "url": "https://www.myntra.com/search?query=Latin+Quarters+Women+Maroon+Shrug",
+      "source_product_id": "58158"
+    },
+    {
+      "id": "myntra-women-57090",
+      "title": "Elle Women Navy Blue Skirt",
+      "category": "Skirts",
+      "description": "Women, Apparel Bottomwear Skirts, Navy Blue, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-57090.jpg",
+      "url": "https://www.myntra.com/search?query=Elle+Women+Navy+Blue+Skirt",
+      "source_product_id": "57090"
+    },
+    {
+      "id": "myntra-women-4101",
+      "title": "Puma Women Green Navy Baby Blue Floater",
+      "category": "Sports Sandals",
+      "description": "Women, Footwear Sandal Sports Sandals, Green, Summer, Sports",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-4101.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Women+Green+Navy+Baby+Blue+Floater",
+      "source_product_id": "4101"
+    },
+    {
+      "id": "myntra-women-8965",
+      "title": "Puma Women BodyTrain Alt White Sports Shoes",
+      "category": "Sports Shoes",
+      "description": "Women, Footwear Shoes Sports Shoes, White, Fall, Sports",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-8965.jpg",
+      "url": "https://www.myntra.com/search?query=Puma+Women+BodyTrain+Alt+White+Sports+Shoes",
+      "source_product_id": "8965"
+    },
+    {
+      "id": "myntra-women-59873",
+      "title": "Femella Women Nude Stockings",
+      "category": "Stockings",
+      "description": "Women, Apparel Bottomwear Stockings, Nude, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-59873.jpg",
+      "url": "https://www.myntra.com/search?query=Femella+Women+Nude+Stockings",
+      "source_product_id": "59873"
+    },
+    {
+      "id": "myntra-women-15037",
+      "title": "ADIDAS Women Check Black Sweaters",
+      "category": "Sweaters",
+      "description": "Women, Apparel Topwear Sweaters, Black, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-15037.jpg",
+      "url": "https://www.myntra.com/search?query=ADIDAS+Women+Check+Black+Sweaters",
+      "source_product_id": "15037"
+    },
+    {
+      "id": "myntra-women-19639",
+      "title": "United Colors of Benetton Women Solid Olive Sweatshirt",
+      "category": "Sweatshirts",
+      "description": "Women, Apparel Topwear Sweatshirts, Olive, Fall, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-19639.jpg",
+      "url": "https://www.myntra.com/search?query=United+Colors+of+Benetton+Women+Solid+Olive+Sweatshirt",
+      "source_product_id": "19639"
+    },
+    {
+      "id": "myntra-women-42973",
+      "title": "Amante Magenta Swimsuit WFSD05",
+      "category": "Swimwear",
+      "description": "Women, Apparel Bottomwear Swimwear, Magenta, Winter, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-42973.jpg",
+      "url": "https://www.myntra.com/search?query=Amante+Magenta+Swimsuit+WFSD05",
+      "source_product_id": "42973"
+    },
+    {
+      "id": "myntra-women-37894",
+      "title": "Happy Socks Women Black & Grey Tights",
+      "category": "Tights",
+      "description": "Women, Apparel Bottomwear Tights, Black, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-37894.jpg",
+      "url": "https://www.myntra.com/search?query=Happy+Socks+Women+Black+%26+Grey+Tights",
+      "source_product_id": "37894"
+    },
+    {
+      "id": "myntra-women-5171",
+      "title": "Wrangler Women's Short Placket Red Tops",
+      "category": "Tops",
+      "description": "Women, Apparel Topwear Tops, Red, Summer, Casual",
+      "audience": "women",
+      "image_url": "/assets/fashion-catalog/women-5171.jpg",
+      "url": "https://www.myntra.com/search?query=Wrangler+Women%27s+Short+Placket+Red+Tops",
+      "source_product_id": "5171"
+    }
+  ]
+}
