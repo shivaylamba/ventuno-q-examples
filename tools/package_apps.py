@@ -3,12 +3,12 @@ from pathlib import Path
 import zipfile
 
 ROOT = Path(__file__).resolve().parent.parent
-APPS = ('smart-mirror-laptop', 'smart-mirror-embeddinggemma', 'ai-object-story-booth', 'ai-balance-challenge')
+APPS = ('smart-mirror-laptop', 'smart-mirror-embeddinggemma', 'ai-object-story-booth', 'ai-balance-challenge', 'ventuno-highway')
 BLOCKED = {'.bin', '.onnx', '.ort', '.pt', '.pth', '.ckpt', '.safetensors', '.gguf',
            '.ggml', '.tflite', '.pb', '.dlc', '.qnn', '.h5', '.hdf5', '.npz', '.npy',
-           '.zip', '.tar', '.tgz', '.wav', '.log', '.elf', '.hex', '.pem', '.key'}
+           '.zip', '.tar', '.tgz', '.wav', '.log', '.elf', '.hex', '.pem', '.key', '.so', '.litertlm'}
 SKIP = {'__pycache__', '.cache', '.venv', 'venv', 'node_modules', 'build',
-        'models', 'model-cache', 'model_downloads', 'captures', 'recordings', 'data'}
+        'models', 'model-cache', 'model_downloads', 'captures', 'recordings', 'data', 'runtime', 'runs'}
 
 def package():
     destination = ROOT / 'dist'

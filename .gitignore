@@ -20,6 +20,9 @@ model_downloads/
 *.npz
 *.npy
 *.litertlm
+runtime/
+runs/
+*.so
 smart-mirror-embeddinggemma/data/amazon-catalog.json
 smart-mirror-embeddinggemma/data/embedding-vectors.json
 *.tar

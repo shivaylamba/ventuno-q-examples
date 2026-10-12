@@ -1,0 +1,4 @@
+id: highway_perception
+name: Highway hand tracking
+description: Board-local camera and MediaPipe hand tracking with QNN acceleration.
+category: ai

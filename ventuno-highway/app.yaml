@@ -1,0 +1,6 @@
+name: VENTUNO Highway
+icon: 🏍️
+description: Steer a highway motorcycle with your hands. Shift gears with Modulino Knob.
+bricks:
+  - highway_perception: {}
+  - arduino:web_ui

@@ -1,6 +1,6 @@
 # VENTUNO Q Examples
 
-Four interactive Arduino App Lab applications for VENTUNO Q, using local AI and
+Five interactive Arduino App Lab applications for VENTUNO Q, using local AI and
 a laptop display/speakers. Model weights are **not included** in this repository.
 
 | App | Interaction | Hardware beyond VENTUNO Q |
@@ -9,6 +9,7 @@ a laptop display/speakers. Model weights are **not included** in this repository
 | [Smart Mirror · EmbeddingGemma 2](smart-mirror-embeddinggemma/) | Keeps the same Qwen style tip and recommends visually similar dresses with real product photos | USB webcam; 485 MB generic LiteRT-LM model download; internet access for catalog photos |
 | [AI Object Story Booth](ai-object-story-booth/) | Show an object, choose a storyteller and hear its fictional adventure | USB webcam, Modulino Knob and Buzzer |
 | [AI Balance Challenge](ai-balance-challenge/) | Tilt a dragon egg and hold it steady for five seconds to hatch it | Modulino Movement; Knob and Buzzer optional |
+| [VENTUNO Moto Circuit](ventuno-highway/) | Race 12 rival bikes on a 3D circuit using camera hand steering and experimental wrist throttle/braking | USB webcam; Modulino Knob optional |
 
 Each folder is an independent App Lab project with its own `app.yaml`, Python
 backend and HTML/CSS/JavaScript interface. The Modulino apps also include their
@@ -27,13 +28,18 @@ version with Arduino's animated intro, automatic scanning and laptop speech.
    ```
 
 3. Import the chosen ZIP from `dist/` into App Lab. Import the other ZIPs too if
-   you want all four apps listed in My Apps.
+   you want all five apps listed in My Apps.
 4. Install the models declared in that app's `app.yaml` through App Lab's model
    setup. For Smart Mirror · EmbeddingGemma 2, also follow its README to install
    the separate EmbeddingGemma 2 LiteRT-LM model file. Model weights remain outside this repository.
 5. Connect the required hardware and select **Run** in that application's App Lab
    entry. App Lab compiles and uploads the MCU sketch for the Modulino games.
 6. Open the app's Web UI. Click its welcome button once to unlock laptop speech.
+
+For **VENTUNO Moto Circuit**, follow its [setup guide](ventuno-highway/README.md)
+before the first launch. It uses a custom camera worker and pinned Arduino
+MediaPipe runner instead of the Qwen/Piper pipeline. Wrist control remains an
+experimental geometric estimate; see its [validation report](ventuno-highway/VALIDATION.md).
 
 Run **one app at a time**: all use port 7000, the camera apps share the webcam, and
 the Modulino apps replace each other's MCU sketch. Stop the current app before
@@ -70,6 +76,10 @@ The Smart Mirror also declares `yolox-qnn-object-detection` for person detection
   round facts to write a mission and reaction. Motion sensing and scoring do not
   wait for AI; this app does not open a camera.
 - **Speech:** Piper creates WAV audio on the board; the laptop browser plays it.
+- **Moto Circuit:** quantized palm detection and 21-point hand landmark models
+  use the QNN NPU delegate when available; CPU geometry derives steering and
+  wrist controls. The laptop renders the Three.js racing scene and game physics.
+  It uses no LLM or TTS model.
 
 The MCU reads Modulinos and drives the Buzzer. The board CPU handles game rules,
 camera capture, networking and orchestration; the browser renders the interface.

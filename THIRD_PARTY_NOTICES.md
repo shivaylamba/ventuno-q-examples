@@ -1,5 +1,12 @@
 # Third-party notices
 
+- **VENTUNO Moto Circuit:** its camera adapter retains Arduino MPL-2.0 notices.
+  Optional legacy hand adapters retain the OpenCV Zoo Apache-2.0 license in
+  `ventuno-highway/perception/OPENCV_ZOO_LICENSE`. Bundled Three.js modules retain
+  their MIT license at `ventuno-highway/assets/vendor/THREE-LICENSE.txt`.
+  Quantized MediaPipe models and Qualcomm runtime libraries are downloaded
+  separately through the pinned Arduino runner and are not distributed here.
+
 - **Arduino Smart Mirror:** the adapted application source and animated logo,
   bubble, arrow, scanning and footprint assets originate in the supplied Arduino
   VENTUNO Q Smart Mirror example. Its MPL-2.0 attribution is retained in the source

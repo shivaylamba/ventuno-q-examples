@@ -1,0 +1,25 @@
+const assert=require('node:assert/strict');const {Ride}=require('../assets/physics.js');
+const input={valid:true,gear:6,steer:0};
+let r=new Ride();r.start();r.update(.05,{...input,valid:false});assert.equal(r.z,0);assert.equal(r.elapsed,0);
+assert.equal(r.state,'countdown');assert.equal(r.countdown,3);for(let i=0;i<61;i++)r.update(.05,input);assert.equal(r.state,'running');assert.equal(r.z,0);
+r.traffic=[];for(let i=0;i<200;i++)r.update(.05,input);assert(r.speed>190);assert(r.z>100);
+const z=r.z;r.state='ready';r.update(.05,input);assert.equal(r.z,z);
+r=new Ride();r.state='running';r.speed=100;r.traffic=[{id:1,z:2,x:0,speed:0}];r.update(.01,input);assert.equal(r.damage,1);assert.equal(r.impactId,1);assert.equal(r.crashTime,2);r.update(.01,input);assert.equal(r.damage,1);for(let i=0;i<41;i++)r.update(.05,input);assert.equal(r.crashTime,0);
+r=new Ride();r.state='running';r.z=3001;r.update(.01,input);assert.equal(r.state,'finished');
+r=new Ride();r.state='running';r.damage=3;r.update(.01,input);assert.equal(r.state,'crashed');
+r=new Ride();r.start();assert(r.traffic.every(v=>v.speed===0));for(let i=0;i<61;i++)r.update(.05,input);assert(r.traffic.every(v=>v.speed===0));r.update(.05,input);assert(r.traffic.every(v=>v.speed>0));
+console.log('Physics: countdown, simultaneous launch, tracking pause, gears, collision/recovery, and finish checks passed');
+r=new Ride();r.state='running';r.traffic=[];for(let i=0;i<100;i++)r.update(.05,{...input,automatic:true,throttle:0});assert.equal(r.speed,0);assert.equal(r.z,0);
+for(let i=0;i<200;i++)r.update(.05,{...input,automatic:true,gear:1,throttle:1});assert(r.speed>190);assert.equal(r.gear,6);
+for(let i=0;i<500;i++)r.update(.05,{...input,automatic:true,throttle:0});assert.equal(r.speed,0);assert.equal(r.gear,1);
+r=new Ride();r.state='running';r.traffic=[];for(let i=0;i<200;i++)r.update(.05,{...input,automatic:false,gear:2,throttle:.5});assert.equal(r.speed,37.5);
+console.log('Throttle: zero input stays stopped, automatic up/down shifts, release slows, manual gear cap scales with throttle');
+const coast=new Ride(),braking=new Ride();for(const q of [coast,braking]){q.state='running';q.speed=100;q.traffic=[];}for(let i=0;i<10;i++){coast.update(.05,{...input,automatic:true,throttle:0,brake:0});braking.update(.05,{...input,automatic:true,throttle:1,brake:1});}assert(braking.speed<coast.speed-30);assert(braking.speed<60);assert(coast.speed>90);console.log('Reverse twist braking overrides throttle and slows much faster than neutral coasting');
+const {curve}=require('../assets/physics.js');
+const wrist={valid:true,gear:1,automatic:true,incremental:true,throttle:.25,brake:0};
+function stepOnTrack(ride,input){const steer=curve(ride.z)*ride.speed*.0018/(.34+ride.speed/165);ride.update(.05,{...input,steer});}
+r=new Ride();r.state='running';r.traffic=[];for(let i=0;i<250;i++)stepOnTrack(r,wrist);assert(r.speed>140,'25% wrist must exceed the old 49 km/h cap');const heldSpeed=r.speed;
+for(let i=0;i<60;i++)stepOnTrack(r,{...wrist,throttle:0});assert.equal(r.speed,heldSpeed,'neutral wrist must preserve speed');
+for(let i=0;i<150;i++)stepOnTrack(r,wrist);assert.equal(r.speed,195);assert.equal(r.gear,6);
+for(let i=0;i<40;i++)stepOnTrack(r,{...wrist,throttle:1,brake:1});assert.equal(r.speed,0,'reverse wrist must stop even with accelerator input');
+console.log('Wrist acceleration regression: partial twist exceeds 50, neutral holds speed, auto gears reach 195, reverse braking stops');

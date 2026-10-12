@@ -1,0 +1,31 @@
+services:
+  highway-perception:
+    image: local/ai-reality-perception:1.0.0
+    restart: unless-stopped
+    user: "1000:1000"
+    group_add: ["44", "125", "989"]
+    devices:
+      - /dev/video0:/dev/video0
+      - /dev/video1:/dev/video1
+      - /dev/dma_heap/system:/dev/dma_heap/system
+      - /dev/fastrpc-cdsp:/dev/fastrpc-cdsp
+      - /dev/fastrpc-cdsp-secure:/dev/fastrpc-cdsp-secure
+    volumes:
+      - /home/arduino/ArduinoApps/ventuno-highway/runtime/arduino-dsp:/lib/dsp/cdsp:ro
+      - /home/arduino/ArduinoApps/ventuno-highway/runs:/engine/runs
+      - /home/arduino/ArduinoApps/ventuno-highway/perception:/engine/perception:ro
+      - /home/arduino/ArduinoApps/ventuno-highway/gestures:/engine/gestures:ro
+      - /home/arduino/ArduinoApps/ventuno-highway/telemetry:/engine/telemetry:ro
+      - /home/arduino/ArduinoApps/ventuno-highway/config:/engine/config:ro
+    environment:
+      ADSP_LIBRARY_PATH: /lib/dsp/cdsp
+      REALITY_PROVIDER: auto
+    expose: ["7011"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:7011/health',timeout=3)"]
+      interval: 2s
+      timeout: 4s
+      retries: 90
+    logging:
+      driver: json-file
+      options: {max-size: 5m, max-file: "2"}

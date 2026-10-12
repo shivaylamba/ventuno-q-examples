@@ -1,0 +1,38 @@
+camera:
+  device: auto
+  width: 640
+  height: 480
+  fps: 30
+  retry_seconds: 2.0
+perception:
+  provider: auto
+  max_fps: 30
+  palm_confidence: 0.60
+  hand_confidence: 0.65
+  max_hands: 2
+  cpu_threads: 2
+  qnn_library: runtime/npu/lib/libQnnHtp.so
+gestures:
+  confidence: 0.65
+  summon_seconds: 0.30
+  release_seconds: 0.12
+  portal_seconds: 0.50
+  portal_duration: 4.0
+  launch_cooldown: 0.80
+  tracking_loss_seconds: 3.0
+  hand_release_seconds: 0.65
+  max_packet_age: 0.40
+  raised_y: 0.68
+  pinch_enter: 0.30
+  pinch_exit: 0.48
+graphics:
+  width: 1280
+  height: 720
+  fullscreen: true
+  quality: auto
+  background: camera
+  target_fps: 60
+  thermal_limit_c: 82
+telemetry:
+  overlay: true
+  log_hz: 2
